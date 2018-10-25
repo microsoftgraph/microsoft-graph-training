@@ -29,6 +29,14 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "training/aspnet-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-aspnetmvcapp",
+      "branch": "tutorial",
+      "branch_mapping": {
+          "tutorials": "tutorial"
+      }
     }
   ],
   "branch_target_mapping": {},
