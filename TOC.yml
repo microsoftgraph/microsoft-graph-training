@@ -1,5 +1,5 @@
 - name: Training
-  href: index.md
+  href: training\index.md
   items:
   - name: ASP.NET
     href: training\aspnet-tutorial.yml
