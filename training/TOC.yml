@@ -3,3 +3,5 @@
   items:
   - name: ASP.NET
     href: aspnet-tutorial.yml
+  - name: React
+    href: react-tutorial.yml
