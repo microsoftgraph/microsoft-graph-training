@@ -46,6 +46,14 @@
       "branch_mapping": {
           "tutorials": "master"
       }
+    },
+    {
+      "path_to_root": "training/node-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-nodeexpressapp",
+      "branch": "tutorial",
+      "branch_mapping": {
+          "tutorials": "tutorial"
+      }
     }
   ],
   "branch_target_mapping": {},
