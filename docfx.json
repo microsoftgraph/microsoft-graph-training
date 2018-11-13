@@ -18,7 +18,8 @@
           "training/aspnet-tutorial/**",
           "training/react-tutorial/**",
           "training/node-tutorial/**",
-          "training/php-tutorial/**"
+          "training/php-tutorial/**",
+          "training/python-tutorial/**"
         ]
       }
     ],

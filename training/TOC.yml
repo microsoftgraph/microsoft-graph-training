@@ -7,5 +7,7 @@
     href: node-tutorial.yml
   - name: PHP
     href: php-tutorial.yml
+  - name: Python
+    href: python-tutorial.yml
   - name: React
     href: react-tutorial.yml

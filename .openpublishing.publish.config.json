@@ -62,6 +62,14 @@
       "branch_mapping": {
           "tutorials": "tutorial"
       }
+    },
+    {
+      "path_to_root": "training/python-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-pythondjangoapp",
+      "branch": "tutorial",
+      "branch_mapping": {
+          "tutorials": "tutorial"
+      }
     }
   ],
   "branch_target_mapping": {},
