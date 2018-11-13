@@ -17,7 +17,8 @@
           "ThirdPartyNotices",
           "training/aspnet-tutorial/**",
           "training/react-tutorial/**",
-          "training/node-tutorial/**"
+          "training/node-tutorial/**",
+          "training/php-tutorial/**"
         ]
       }
     ],

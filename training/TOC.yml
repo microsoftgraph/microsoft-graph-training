@@ -5,5 +5,7 @@
     href: aspnet-tutorial.yml
   - name: Node.js
     href: node-tutorial.yml
+  - name: PHP
+    href: php-tutorial.yml
   - name: React
     href: react-tutorial.yml

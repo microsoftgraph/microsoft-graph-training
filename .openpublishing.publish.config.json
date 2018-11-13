@@ -54,6 +54,14 @@
       "branch_mapping": {
           "tutorials": "tutorial"
       }
+    },
+    {
+      "path_to_root": "training/php-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-phpapp",
+      "branch": "tutorial",
+      "branch_mapping": {
+          "tutorials": "tutorial"
+      }
     }
   ],
   "branch_target_mapping": {},
