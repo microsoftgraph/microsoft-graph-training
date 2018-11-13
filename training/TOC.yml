@@ -9,5 +9,7 @@
     href: php-tutorial.yml
   - name: Python
     href: python-tutorial.yml
+  - name: Ruby
+    href: ruby-tutorial.yml
   - name: React
     href: react-tutorial.yml

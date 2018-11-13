@@ -19,7 +19,8 @@
           "training/react-tutorial/**",
           "training/node-tutorial/**",
           "training/php-tutorial/**",
-          "training/python-tutorial/**"
+          "training/python-tutorial/**",
+          "training/ruby-tutorial/**"
         ]
       }
     ],

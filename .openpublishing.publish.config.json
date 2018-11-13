@@ -70,6 +70,14 @@
       "branch_mapping": {
           "tutorials": "tutorial"
       }
+    },
+    {
+      "path_to_root": "training/ruby-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-rubyrailsapp",
+      "branch": "tutorial",
+      "branch_mapping": {
+          "tutorials": "tutorial"
+      }
     }
   ],
   "branch_target_mapping": {},
