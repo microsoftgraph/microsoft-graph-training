@@ -16,7 +16,8 @@
           "LICENSE-CODE",
           "ThirdPartyNotices",
           "training/aspnet-tutorial/**",
-          "training/react-tutorial/**"
+          "training/react-tutorial/**",
+          "training/node-tutorial/**"
         ]
       }
     ],
