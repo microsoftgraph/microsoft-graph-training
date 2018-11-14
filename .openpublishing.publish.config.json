@@ -40,14 +40,6 @@
       }
     },
     {
-      "path_to_root": "training/react-tutorial",
-      "url": "https://github.com/microsoftgraph/msgraph-training-reactspa",
-      "branch": "master",
-      "branch_mapping": {
-          "tutorials": "master"
-      }
-    },
-    {
       "path_to_root": "training/node-tutorial",
       "url": "https://github.com/microsoftgraph/msgraph-training-nodeexpressapp",
       "branch": "tutorial",
@@ -72,8 +64,24 @@
       }
     },
     {
+      "path_to_root": "training/react-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-reactspa",
+      "branch": "master",
+      "branch_mapping": {
+          "tutorials": "master"
+      }
+    },
+    {
       "path_to_root": "training/ruby-tutorial",
       "url": "https://github.com/microsoftgraph/msgraph-training-rubyrailsapp",
+      "branch": "tutorial",
+      "branch_mapping": {
+          "tutorials": "tutorial"
+      }
+    },
+    {
+      "path_to_root": "training/uwp-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-uwp",
       "branch": "tutorial",
       "branch_mapping": {
           "tutorials": "tutorial"

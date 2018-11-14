@@ -13,3 +13,5 @@
     href: ruby-tutorial.yml
   - name: React
     href: react-tutorial.yml
+  - name: UWP
+    href: uwp-tutorial.yml
