@@ -12,11 +12,11 @@ items:
   content: |
     [!INCLUDE [](flow-tutorial/tutorial/intro.md)]
 - title: Create an Azure AD app registration
-  durationInMinutes: 7
+  durationInMinutes: 5
   content: |
     [!INCLUDE [](flow-tutorial/tutorial/register-app.md)]
 - title: Create a custom connector
-  durationInMinutes: 3
+  durationInMinutes: 5
   content: |
     [!INCLUDE [](flow-tutorial/tutorial/create-connector.md)]
 - title: Authorize the connector
