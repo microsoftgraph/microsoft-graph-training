@@ -40,6 +40,14 @@
       }
     },
     {
+      "path_to_root": "training/flow-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-microsoftflow",
+      "branch": "tutorial",
+      "branch_mapping": {
+          "tutorials": "tutorial"
+      }
+    },
+    {
       "path_to_root": "training/node-tutorial",
       "url": "https://github.com/microsoftgraph/msgraph-training-nodeexpressapp",
       "branch": "tutorial",

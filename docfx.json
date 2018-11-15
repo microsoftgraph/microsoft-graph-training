@@ -16,6 +16,7 @@
           "LICENSE-CODE",
           "ThirdPartyNotices",
           "training/aspnet-tutorial/**",
+          "training/flow-tutorial/**",
           "training/node-tutorial/**",
           "training/php-tutorial/**",
           "training/python-tutorial/**",
