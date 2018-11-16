@@ -1,0 +1,31 @@
+### YamlMime:Tutorial
+title: UWP Microsoft Graph tutorial
+metadata:
+  title: UWP Microsoft Graph tutorial
+  description: In this tutorial, you'll build a Universal Windows Platform (UWP) app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 11/13/2018
+items:
+- durationInMinutes: 1
+  content: |
+    [!INCLUDE [](uwp-tutorial/tutorial/intro.md)]
+- title: Create a Universal Windows Platform app
+  durationInMinutes: 7
+  content: |
+    [!INCLUDE [](uwp-tutorial/tutorial/create-app.md)]
+- title: Register the app in the portal
+  durationInMinutes: 3
+  content: |
+    [!INCLUDE [](uwp-tutorial/tutorial/register-app.md)]
+- title: Add Azure AD authentication
+  durationInMinutes: 15
+  content: |
+    [!INCLUDE [](uwp-tutorial/tutorial/add-aad-auth.md)]
+- title: Get calendar data
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](uwp-tutorial/tutorial/add-ms-graph.md)]
+- content: |
+    [!INCLUDE [](uwp-tutorial/tutorial/completed.md)]

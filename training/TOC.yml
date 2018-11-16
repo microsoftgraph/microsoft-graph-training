@@ -1,0 +1,19 @@
+- name: Training
+  href: index.md
+  items:
+  - name: ASP.NET
+    href: aspnet-tutorial.yml
+  - name: Microsoft Flow
+    href: flow-tutorial.yml
+  - name: Node.js
+    href: node-tutorial.yml
+  - name: PHP
+    href: php-tutorial.yml
+  - name: Python
+    href: python-tutorial.yml
+  - name: Ruby
+    href: ruby-tutorial.yml
+  - name: React
+    href: react-tutorial.yml
+  - name: UWP
+    href: uwp-tutorial.yml
