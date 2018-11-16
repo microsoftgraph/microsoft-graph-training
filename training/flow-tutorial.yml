@@ -20,19 +20,19 @@ items:
   content: |
     [!INCLUDE [](flow-tutorial/tutorial/create-connector.md)]
 - title: Authorize the connector
-  durationInMinutes: 3
+  durationInMinutes: 2
   content: |
     [!INCLUDE [](flow-tutorial/tutorial/authorize-connector.md)]
 - title: Test batching in Graph Explorer
-  durationInMinutes: 3
+  durationInMinutes: 5
   content: |
     [!INCLUDE [](flow-tutorial/tutorial/graph-explorer.md)]
 - title: Create a Flow
-  durationInMinutes: 3
+  durationInMinutes: 10
   content: |
     [!INCLUDE [](flow-tutorial/tutorial/create-flow.md)]
 - title: Extend the Flow
-  durationInMinutes: 3
+  durationInMinutes: 7
   content: |
     [!INCLUDE [](flow-tutorial/tutorial/use-batch.md)]
 - content: |
