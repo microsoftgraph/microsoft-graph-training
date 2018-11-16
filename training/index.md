@@ -1,3 +1,2 @@
-# Training
+# Microsoft Graph Training
 
-Hello world!
