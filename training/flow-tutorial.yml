@@ -19,6 +19,14 @@ items:
   durationInMinutes: 5
   content: |
     [!INCLUDE [](flow-tutorial/tutorial/create-connector.md)]
+- title: Create an Azure AD app registration (PREVIEW)
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](flow-tutorial/tutorial/register-app-preview.md)]
+- title: Create a custom connector (PREVIEW)
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](flow-tutorial/tutorial/create-connector-preview.md)]
 - title: Authorize the connector
   durationInMinutes: 2
   content: |
