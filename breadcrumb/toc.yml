@@ -1,3 +1,30 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: EXPLORE
+  items:
+  - name: Training
+    tocHref: /graph/training/
+    topicHref: /graph/training/
+    items:
+    - name: ASP.NET
+      tocHref: /graph/training/aspnet-tutorial
+      topicHref: /graph/training/aspnet-tutorial
+    - name: Microsoft Flow
+      tocHref: /graph/training/flow-tutorial
+      topicHref: /graph/training/flow-tutorial
+    - name: Node.js
+      tocHref: /graph/training/node-tutorial
+      topicHref: /graph/training/node-tutorial
+    - name: PHP
+      tocHref: /graph/training/php-tutorial
+      topicHref: /graph/training/php-tutorial
+    - name: Python
+      tocHref: /graph/training/python-tutorial
+      topicHref: /graph/training/python-tutorial
+    - name: Ruby
+      tocHref: /graph/training/ruby-tutorial
+      topicHref: /graph/training/ruby-tutorial
+    - name: React
+      tocHref: /graph/training/react-tutorial
+      topicHref: /graph/training/react-tutorial
+    - name: UWP
+      tocHref: /graph/training/uwp-tutorial
+      topicHref: /graph/training/uwp-tutorial

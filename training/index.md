@@ -1,3 +1,0 @@
-# Training
-
-Hello world!
