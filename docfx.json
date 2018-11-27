@@ -14,7 +14,15 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices",
+          "training/aspnet-tutorial/**",
+          "training/flow-tutorial/**",
+          "training/node-tutorial/**",
+          "training/php-tutorial/**",
+          "training/python-tutorial/**",
+          "training/react-tutorial/**",
+          "training/ruby-tutorial/**",
+          "training/uwp-tutorial/**"
         ]
       }
     ],

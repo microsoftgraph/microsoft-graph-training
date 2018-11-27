@@ -11,7 +11,8 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "Tutorial": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -29,6 +30,46 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "training/aspnet-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-aspnetmvcapp",
+      "branch": "tutorial"
+    },
+    {
+      "path_to_root": "training/flow-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-microsoftflow",
+      "branch": "tutorial"
+    },
+    {
+      "path_to_root": "training/node-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-nodeexpressapp",
+      "branch": "tutorial"
+    },
+    {
+      "path_to_root": "training/php-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-phpapp",
+      "branch": "tutorial"
+    },
+    {
+      "path_to_root": "training/python-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-pythondjangoapp",
+      "branch": "tutorial"
+    },
+    {
+      "path_to_root": "training/react-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-reactspa",
+      "branch": "master"
+    },
+    {
+      "path_to_root": "training/ruby-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-rubyrailsapp",
+      "branch": "tutorial"
+    },
+    {
+      "path_to_root": "training/uwp-tutorial",
+      "url": "https://github.com/microsoftgraph/msgraph-training-uwp",
+      "branch": "tutorial"
     }
   ],
   "branch_target_mapping": {},

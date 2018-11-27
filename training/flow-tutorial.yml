@@ -1,0 +1,39 @@
+### YamlMime:Tutorial
+title: Flow Microsoft Graph tutorial
+metadata:
+  title: Flow Microsoft Graph tutorial
+  description: In this tutorial, you'll build a custom connector in Microsoft Flow that uses Azure Active Directory for authentication and Microsoft Graph to create groups.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 11/13/2018
+items:
+- durationInMinutes: 3
+  content: |
+    [!INCLUDE [](flow-tutorial/tutorial/intro.md)]
+- title: Create an Azure AD app registration
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](flow-tutorial/tutorial/register-app-preview.md)]
+- title: Create a custom connector
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](flow-tutorial/tutorial/create-connector-preview.md)]
+- title: Authorize the connector
+  durationInMinutes: 2
+  content: |
+    [!INCLUDE [](flow-tutorial/tutorial/authorize-connector.md)]
+- title: Test batching in Graph Explorer
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](flow-tutorial/tutorial/graph-explorer.md)]
+- title: Create a Flow
+  durationInMinutes: 10
+  content: |
+    [!INCLUDE [](flow-tutorial/tutorial/create-flow.md)]
+- title: Extend the Flow
+  durationInMinutes: 7
+  content: |
+    [!INCLUDE [](flow-tutorial/tutorial/use-batch.md)]
+- content: |
+    [!INCLUDE [](flow-tutorial/tutorial/completed.md)]
