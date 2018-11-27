@@ -34,7 +34,7 @@
     {
       "path_to_root": "training/aspnet-tutorial",
       "url": "https://github.com/microsoftgraph/msgraph-training-aspnetmvcapp",
-      "branch": "tutorial"
+      "branch": "master"
     },
     {
       "path_to_root": "training/flow-tutorial",
@@ -69,7 +69,7 @@
     {
       "path_to_root": "training/uwp-tutorial",
       "url": "https://github.com/microsoftgraph/msgraph-training-uwp",
-      "branch": "tutorial"
+      "branch": "master"
     }
   ],
   "branch_target_mapping": {},
