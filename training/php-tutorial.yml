@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: PHP Microsoft Graph tutorial
+title: Build PHP apps with Microsoft Graph
 metadata:
-  title: PHP Microsoft Graph tutorial
+  title: Build PHP apps with Microsoft Graph
   description: In this tutorial, you'll build a PHP web app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
   audience: Developer
   level: Beginner

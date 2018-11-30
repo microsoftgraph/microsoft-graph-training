@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: ASP.NET Microsoft Graph tutorial
+title: Build ASP.NET MVC apps with the Microsoft Graph
 metadata:
-  title: ASP.NET Microsoft Graph tutorial
+  title: Build ASP.NET MVC apps with the Microsoft Graph
   description: In this tutorial, you'll build an ASP.NET web app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
   audience: Developer
   level: Beginner

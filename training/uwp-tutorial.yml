@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: UWP Microsoft Graph tutorial
+title: Build UWP apps with the Microsoft Graph
 metadata:
-  title: UWP Microsoft Graph tutorial
+  title: Build UWP apps with the Microsoft Graph
   description: In this tutorial, you'll build a Universal Windows Platform (UWP) app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
   audience: Developer
   level: Beginner

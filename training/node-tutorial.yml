@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: Node.js Microsoft Graph tutorial
+title: Build Node.js Express apps with Microsoft Graph
 metadata:
-  title: Node.js Microsoft Graph tutorial
+  title: Build Node.js Express apps with Microsoft Graph
   description: In this tutorial, you'll build a Node.js Express app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
   audience: Developer
   level: Beginner
