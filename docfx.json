@@ -45,7 +45,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/graph/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "uhfHeaderId": "MSDocsHeader-MSGraph"
     },
     "fileMetadata": {},
     "template": [],
