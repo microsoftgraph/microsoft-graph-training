@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: Flow Microsoft Graph tutorial
+title: Create a Microsoft Graph JSON Batch Custom Connector for Microsoft Flow
 metadata:
-  title: Flow Microsoft Graph tutorial
+  title: Create a Microsoft Graph JSON Batch Custom Connector for Microsoft Flow
   description: In this tutorial, you'll build a custom connector in Microsoft Flow that uses Azure Active Directory for authentication and Microsoft Graph to create groups.
   audience: Developer
   level: Beginner
