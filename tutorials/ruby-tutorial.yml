@@ -10,22 +10,22 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](ruby-tutorial/tutorial/intro.md)]
+    [!INCLUDE [](ruby/tutorial/intro.md)]
 - title: Create a Ruby on Rails web app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](ruby-tutorial/tutorial/create-app.md)]
+    [!INCLUDE [](ruby/tutorial/create-app.md)]
 - title: Register the app in the portal
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](ruby-tutorial/tutorial/register-app.md)]
+    [!INCLUDE [](ruby/tutorial/register-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](ruby-tutorial/tutorial/add-aad-auth.md)]
+    [!INCLUDE [](ruby/tutorial/add-aad-auth.md)]
 - title: Get calendar data
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](ruby-tutorial/tutorial/add-ms-graph.md)]
+    [!INCLUDE [](ruby/tutorial/add-ms-graph.md)]
 - content: |
-    [!INCLUDE [](ruby-tutorial/tutorial/completed.md)]
+    [!INCLUDE [](ruby/tutorial/completed.md)]
