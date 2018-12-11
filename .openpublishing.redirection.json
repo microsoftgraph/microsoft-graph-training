@@ -2,11 +2,11 @@
   "redirections": [
     {
       "source_path": "training/aspnet-tutorial.yml",
-      "redirect_url": "/graph/tutorials/aspnet",
+      "redirect_url": "tutorials/aspnet.yml",
       "redirect_document_id": true
     },
     {
-      "source_path": "training/flow-tutorial.yml",
+      "source_path": "training/flow-tutorial",
       "redirect_url": "/graph/tutorials/flow",
       "redirect_document_id": true
     },
