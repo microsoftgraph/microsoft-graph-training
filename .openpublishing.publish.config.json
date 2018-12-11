@@ -32,42 +32,42 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "training/aspnet-tutorial",
+      "path_to_root": "tutorials/aspnet",
       "url": "https://github.com/microsoftgraph/msgraph-training-aspnetmvcapp",
       "branch": "master"
     },
     {
-      "path_to_root": "training/flow-tutorial",
+      "path_to_root": "tutorials/flow",
       "url": "https://github.com/microsoftgraph/msgraph-training-microsoftflow",
       "branch": "master"
     },
     {
-      "path_to_root": "training/node-tutorial",
+      "path_to_root": "tutorials/node",
       "url": "https://github.com/microsoftgraph/msgraph-training-nodeexpressapp",
       "branch": "master"
     },
     {
-      "path_to_root": "training/php-tutorial",
+      "path_to_root": "tutorials/php",
       "url": "https://github.com/microsoftgraph/msgraph-training-phpapp",
       "branch": "master"
     },
     {
-      "path_to_root": "training/python-tutorial",
+      "path_to_root": "tutorials/python",
       "url": "https://github.com/microsoftgraph/msgraph-training-pythondjangoapp",
       "branch": "master"
     },
     {
-      "path_to_root": "training/react-tutorial",
+      "path_to_root": "tutorials/react",
       "url": "https://github.com/microsoftgraph/msgraph-training-reactspa",
       "branch": "master"
     },
     {
-      "path_to_root": "training/ruby-tutorial",
+      "path_to_root": "tutorials/ruby",
       "url": "https://github.com/microsoftgraph/msgraph-training-rubyrailsapp",
       "branch": "master"
     },
     {
-      "path_to_root": "training/uwp-tutorial",
+      "path_to_root": "tutorials/uwp",
       "url": "https://github.com/microsoftgraph/msgraph-training-uwp",
       "branch": "master"
     }
