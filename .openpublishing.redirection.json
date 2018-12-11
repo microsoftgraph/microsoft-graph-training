@@ -1,0 +1,44 @@
+{
+  "redirections": [
+    {
+      "source_path": "training/aspnet-tutorial.yml",
+      "redirect_url": "/graph/tutorials/aspnet",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "training/flow-tutorial.yml",
+      "redirect_url": "/graph/tutorials/flow",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "training/node-tutorial.yml",
+      "redirect_url": "/graph/tutorials/node",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "training/php-tutorial.yml",
+      "redirect_url": "/graph/tutorials/php",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "training/python-tutorial.yml",
+      "redirect_url": "/graph/tutorials/python",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "training/react-tutorial.yml",
+      "redirect_url": "/graph/tutorials/react",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "training/ruby-tutorial.yml",
+      "redirect_url": "/graph/tutorials/ruby",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "training/uwp-tutorial.yml",
+      "redirect_url": "/graph/tutorials/uwp",
+      "redirect_document_id": true
+    }
+  ]
+}
