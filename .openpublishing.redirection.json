@@ -6,7 +6,7 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "training/flow-tutorial",
+      "source_path": "training/flow-tutorial.md",
       "redirect_url": "/graph/tutorials/flow",
       "redirect_document_id": true
     },
