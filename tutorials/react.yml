@@ -10,22 +10,22 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](react-tutorial/tutorial/intro.md)]
+    [!INCLUDE [](react/tutorial/intro.md)]
 - title: Create a React single-page app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](react-tutorial/tutorial/create-app.md)]
+    [!INCLUDE [](react/tutorial/create-app.md)]
 - title: Register the app in the portal
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](react-tutorial/tutorial/register-app.md)]
+    [!INCLUDE [](react/tutorial/register-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](react-tutorial/tutorial/add-aad-auth.md)]
+    [!INCLUDE [](react/tutorial/add-aad-auth.md)]
 - title: Get calendar data
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](react-tutorial/tutorial/add-ms-graph.md)]
+    [!INCLUDE [](react/tutorial/add-ms-graph.md)]
 - content: |
-    [!INCLUDE [](react-tutorial/tutorial/completed.md)]
+    [!INCLUDE [](react/tutorial/completed.md)]

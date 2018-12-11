@@ -10,30 +10,30 @@ metadata:
 items:
 - durationInMinutes: 3
   content: |
-    [!INCLUDE [](flow-tutorial/tutorial/intro.md)]
+    [!INCLUDE [](flow/tutorial/intro.md)]
 - title: Create an Azure AD app registration
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](flow-tutorial/tutorial/register-app-preview.md)]
+    [!INCLUDE [](flow/tutorial/register-app-preview.md)]
 - title: Create a custom connector
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](flow-tutorial/tutorial/create-connector-preview.md)]
+    [!INCLUDE [](flow/tutorial/create-connector-preview.md)]
 - title: Authorize the connector
   durationInMinutes: 2
   content: |
-    [!INCLUDE [](flow-tutorial/tutorial/authorize-connector.md)]
+    [!INCLUDE [](flow/tutorial/authorize-connector.md)]
 - title: Test batching in Graph Explorer
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](flow-tutorial/tutorial/graph-explorer.md)]
+    [!INCLUDE [](flow/tutorial/graph-explorer.md)]
 - title: Create a Flow
   durationInMinutes: 10
   content: |
-    [!INCLUDE [](flow-tutorial/tutorial/create-flow.md)]
+    [!INCLUDE [](flow/tutorial/create-flow.md)]
 - title: Extend the Flow
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](flow-tutorial/tutorial/use-batch.md)]
+    [!INCLUDE [](flow/tutorial/use-batch.md)]
 - content: |
-    [!INCLUDE [](flow-tutorial/tutorial/completed.md)]
+    [!INCLUDE [](flow/tutorial/completed.md)]

@@ -10,22 +10,22 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](python-tutorial/tutorial/intro.md)]
+    [!INCLUDE [](python/tutorial/intro.md)]
 - title: Create a Python Django web app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](python-tutorial/tutorial/create-app.md)]
+    [!INCLUDE [](python/tutorial/create-app.md)]
 - title: Register the app in the portal
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](python-tutorial/tutorial/register-app.md)]
+    [!INCLUDE [](python/tutorial/register-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](python-tutorial/tutorial/add-aad-auth.md)]
+    [!INCLUDE [](python/tutorial/add-aad-auth.md)]
 - title: Get calendar data
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](python-tutorial/tutorial/add-ms-graph.md)]
+    [!INCLUDE [](python/tutorial/add-ms-graph.md)]
 - content: |
-    [!INCLUDE [](python-tutorial/tutorial/completed.md)]
+    [!INCLUDE [](python/tutorial/completed.md)]

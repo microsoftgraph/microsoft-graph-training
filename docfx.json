@@ -15,14 +15,14 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "training/aspnet-tutorial/**",
-          "training/flow-tutorial/**",
-          "training/node-tutorial/**",
-          "training/php-tutorial/**",
-          "training/python-tutorial/**",
-          "training/react-tutorial/**",
-          "training/ruby-tutorial/**",
-          "training/uwp-tutorial/**"
+          "tutorials/aspnet/**",
+          "tutorials/flow/**",
+          "tutorials/node/**",
+          "tutorials/php/**",
+          "tutorials/python/**",
+          "tutorials/react/**",
+          "tutorials/ruby/**",
+          "tutorials/uwp/**"
         ]
       }
     ],

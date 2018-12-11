@@ -10,22 +10,22 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](php-tutorial/tutorial/intro.md)]
+    [!INCLUDE [](php/tutorial/intro.md)]
 - title: Create a PHP web app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](php-tutorial/tutorial/create-app.md)]
+    [!INCLUDE [](php/tutorial/create-app.md)]
 - title: Register the app in the portal
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](php-tutorial/tutorial/register-app.md)]
+    [!INCLUDE [](php/tutorial/register-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](php-tutorial/tutorial/add-aad-auth.md)]
+    [!INCLUDE [](php/tutorial/add-aad-auth.md)]
 - title: Get calendar data
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](php-tutorial/tutorial/add-ms-graph.md)]
+    [!INCLUDE [](php/tutorial/add-ms-graph.md)]
 - content: |
-    [!INCLUDE [](php-tutorial/tutorial/completed.md)]
+    [!INCLUDE [](php/tutorial/completed.md)]

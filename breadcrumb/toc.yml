@@ -4,31 +4,31 @@
   items:
   - name: Explore
     items:
-    - name: Training
-      tocHref: /graph/training/
-      topicHref: /graph/training/
+    - name: Tutorials
+      tocHref: /graph/tutorials/
+      topicHref: /graph/tutorials/
       items:
       - name: ASP.NET
-        tocHref: /graph/training/aspnet-tutorial
-        topicHref: /graph/training/aspnet-tutorial
+        tocHref: /graph/tutorials/aspnet
+        topicHref: /graph/tutorials/aspnet
       - name: Microsoft Flow
-        tocHref: /graph/training/flow-tutorial
-        topicHref: /graph/training/flow-tutorial
+        tocHref: /graph/tutorials/flow
+        topicHref: /graph/tutorials/flow
       - name: Node.js
-        tocHref: /graph/training/node-tutorial
-        topicHref: /graph/training/node-tutorial
+        tocHref: /graph/tutorials/node
+        topicHref: /graph/tutorials/node
       - name: PHP
-        tocHref: /graph/training/php-tutorial
-        topicHref: /graph/training/php-tutorial
+        tocHref: /graph/tutorials/php
+        topicHref: /graph/tutorials/php
       - name: Python
-        tocHref: /graph/training/python-tutorial
-        topicHref: /graph/training/python-tutorial
+        tocHref: /graph/tutorials/python
+        topicHref: /graph/tutorials/python
       - name: Ruby
-        tocHref: /graph/training/ruby-tutorial
-        topicHref: /graph/training/ruby-tutorial
+        tocHref: /graph/tutorials/ruby
+        topicHref: /graph/tutorials/ruby
       - name: React
-        tocHref: /graph/training/react-tutorial
-        topicHref: /graph/training/react-tutorial
+        tocHref: /graph/tutorials/react
+        topicHref: /graph/tutorials/react
       - name: UWP
-        tocHref: /graph/training/uwp-tutorial
-        topicHref: /graph/training/uwp-tutorial
+        tocHref: /graph/tutorials/uwp
+        topicHref: /graph/tutorials/uwp
