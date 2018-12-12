@@ -1,0 +1,34 @@
+### YamlMime:Tutorial
+title: Build Angular single-page apps with Microsoft Graph
+metadata:
+  title: Build Angular single-page apps with Microsoft Graph
+  description: In this tutorial, you'll build an Angular single-page app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 12/12/2018
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: tutorial
+items:
+- durationInMinutes: 1
+  content: |
+    [!INCLUDE [](angular/tutorial/intro.md)]
+- title: Create a Angular single-page app
+  durationInMinutes: 7
+  content: |
+    [!INCLUDE [](angular/tutorial/create-app.md)]
+- title: Register the app in the portal
+  durationInMinutes: 3
+  content: |
+    [!INCLUDE [](angular/tutorial/register-app.md)]
+- title: Add Azure AD authentication
+  durationInMinutes: 15
+  content: |
+    [!INCLUDE [](angular/tutorial/add-aad-auth.md)]
+- title: Get calendar data
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](angular/tutorial/add-ms-graph.md)]
+- content: |
+    [!INCLUDE [](angular/tutorial/completed.md)]
