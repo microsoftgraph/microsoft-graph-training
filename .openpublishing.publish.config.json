@@ -32,6 +32,11 @@
       "branch_mapping": {}
     },
     {
+      "path_to_root": "tutorials/angular",
+      "url": "https://github.com/microsoftgraph/msgraph-training-angularspa",
+      "branch": "master"
+    },
+    {
       "path_to_root": "tutorials/aspnet",
       "url": "https://github.com/microsoftgraph/msgraph-training-aspnetmvcapp",
       "branch": "master"

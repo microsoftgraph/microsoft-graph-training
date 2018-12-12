@@ -15,6 +15,7 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
+          "tutorials/angular/**",
           "tutorials/aspnet/**",
           "tutorials/flow/**",
           "tutorials/node/**",
@@ -48,7 +49,11 @@
       "feedback_system": "None",
       "uhfHeaderId": "MSDocsHeader-MSGraph"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "titleSuffix": {
+        "**/*.yml": "Microsoft Graph"
+      }
+    },
     "template": [],
     "dest": "graph-training",
     "markdownEngineName": "markdig"
