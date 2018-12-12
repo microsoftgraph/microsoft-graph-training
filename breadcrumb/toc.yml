@@ -8,6 +8,9 @@
       tocHref: /graph/tutorials/
       topicHref: /graph/tutorials/
       items:
+      - name: Angular
+        tocHref: /graph/tutorials/angular
+        topicHref: /graph/tutorials/angular
       - name: ASP.NET
         tocHref: /graph/tutorials/aspnet
         topicHref: /graph/tutorials/aspnet
