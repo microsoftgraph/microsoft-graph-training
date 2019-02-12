@@ -35,3 +35,6 @@
       - name: UWP
         tocHref: /graph/tutorials/uwp
         topicHref: /graph/tutorials/uwp
+      - name: Xamarin
+        tocHref: /graph/tutorials/xamarin
+        topicHref: /graph/tutorials/xamarin

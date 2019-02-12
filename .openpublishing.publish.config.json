@@ -111,6 +111,15 @@
         "master": "master",
         "live": "live"
       }
+    },
+    {
+      "path_to_root": "tutorials/xamarin",
+      "url": "https://github.com/microsoftgraph/msgraph-training-xamarin",
+      "branch": "master",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      }
     }
   ],
   "branch_target_mapping": {},
