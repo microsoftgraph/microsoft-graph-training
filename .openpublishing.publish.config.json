@@ -32,6 +32,15 @@
       "branch_mapping": {}
     },
     {
+      "path_to_root": "tutorials/android",
+      "url": "https://github.com/microsoftgraph/msgraph-training-android",
+      "branch": "master",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      }
+    },
+    {
       "path_to_root": "tutorials/angular",
       "url": "https://github.com/microsoftgraph/msgraph-training-angularspa",
       "branch": "master",
