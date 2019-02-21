@@ -23,7 +23,8 @@
           "tutorials/python/**",
           "tutorials/react/**",
           "tutorials/ruby/**",
-          "tutorials/uwp/**"
+          "tutorials/uwp/**",
+          "tutorials/xamarin/**"
         ]
       }
     ],
