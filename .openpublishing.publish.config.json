@@ -34,7 +34,7 @@
     {
       "path_to_root": "tutorials/android",
       "url": "https://github.com/microsoftgraph/msgraph-training-android",
-      "branch": "docs-tutorial",
+      "branch": "master",
       "branch_mapping": {
         "master": "master",
         "live": "live"
