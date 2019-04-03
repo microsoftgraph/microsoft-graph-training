@@ -8,6 +8,9 @@
       tocHref: /graph/tutorials/
       topicHref: /graph/tutorials/
       items:
+      - name: Android
+        tocHref: /graph/tutorials/android
+        topicHref: /graph/tutorials/android
       - name: Angular
         tocHref: /graph/tutorials/angular
         topicHref: /graph/tutorials/angular

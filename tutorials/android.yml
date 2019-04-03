@@ -1,0 +1,34 @@
+### YamlMime:Tutorial
+title: Build Android apps with Microsoft Graph
+metadata:
+  title: Build Android apps with Microsoft Graph
+  description: In this tutorial, you'll build an Android app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 02/21/2019
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: tutorial
+items:
+- durationInMinutes: 1
+  content: |
+    [!INCLUDE [](android/tutorial/intro.md)]
+- title: Create an Android app
+  durationInMinutes: 7
+  content: |
+    [!INCLUDE [](android/tutorial/create-app.md)]
+- title: Register the app in the portal
+  durationInMinutes: 3
+  content: |
+    [!INCLUDE [](android/tutorial/register-app.md)]
+- title: Add Azure AD authentication
+  durationInMinutes: 15
+  content: |
+    [!INCLUDE [](android/tutorial/add-aad-auth.md)]
+- title: Get calendar data
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](android/tutorial/add-ms-graph.md)]
+- content: |
+    [!INCLUDE [](android/tutorial/completed.md)]
