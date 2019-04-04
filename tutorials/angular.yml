@@ -14,7 +14,7 @@ items:
 - durationInMinutes: 1
   content: |
     [!INCLUDE [](angular/tutorial/intro.md)]
-- title: Create a Angular single-page app
+- title: Create an Angular single-page app
   durationInMinutes: 7
   content: |
     [!INCLUDE [](angular/tutorial/create-app.md)]

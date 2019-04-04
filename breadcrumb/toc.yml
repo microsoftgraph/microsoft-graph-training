@@ -8,6 +8,9 @@
       tocHref: /graph/tutorials/
       topicHref: /graph/tutorials/
       items:
+      - name: Android
+        tocHref: /graph/tutorials/android
+        topicHref: /graph/tutorials/android
       - name: Angular
         tocHref: /graph/tutorials/angular
         topicHref: /graph/tutorials/angular
@@ -35,3 +38,6 @@
       - name: UWP
         tocHref: /graph/tutorials/uwp
         topicHref: /graph/tutorials/uwp
+      - name: Xamarin
+        tocHref: /graph/tutorials/xamarin
+        topicHref: /graph/tutorials/xamarin

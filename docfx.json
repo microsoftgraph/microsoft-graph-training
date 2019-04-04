@@ -15,6 +15,7 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
+          "tutorials/android/**",
           "tutorials/angular/**",
           "tutorials/aspnet/**",
           "tutorials/flow/**",
@@ -23,7 +24,8 @@
           "tutorials/python/**",
           "tutorials/react/**",
           "tutorials/ruby/**",
-          "tutorials/uwp/**"
+          "tutorials/uwp/**",
+          "tutorials/xamarin/**"
         ]
       }
     ],
