@@ -59,6 +59,16 @@
       }
     },
     {
+      "path_to_root": "tutorials/change-notifications",
+      "url": "https://github.com/microsoftgraph/msgraph-training-changenotifications",
+      "branch": "master",
+      "branch_mapping": {
+        "master": "master",
+        "jasonjoh-linked-tutorial": "jasonjoh-linked-tutorial",
+        "live": "live"
+      }
+    },
+    {
       "path_to_root": "tutorials/flow",
       "url": "https://github.com/microsoftgraph/msgraph-training-microsoftflow",
       "branch": "master",
