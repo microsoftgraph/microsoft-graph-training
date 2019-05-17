@@ -18,6 +18,7 @@
           "tutorials/android/**",
           "tutorials/angular/**",
           "tutorials/aspnet/**",
+          "tutorials/change-notifications/**",
           "tutorials/flow/**",
           "tutorials/node/**",
           "tutorials/php/**",
