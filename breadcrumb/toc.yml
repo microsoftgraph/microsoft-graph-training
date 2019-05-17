@@ -41,3 +41,16 @@
       - name: Xamarin
         tocHref: /graph/tutorials/xamarin
         topicHref: /graph/tutorials/xamarin
+  - name: Develop
+    items:
+    - name: Use the API
+      tocHref: /graph/use-the-api
+      topicHref: /graph/use-the-api
+      items:
+      - name: Change notifications
+        tocHref: /graph/webhooks
+        topicHref: /graph/webhooks
+        items:
+        - name: Tutorial
+          tocHref: /graph/tutorials/change-notifications
+          topicHref: /graph/tutorials/change-notifications
