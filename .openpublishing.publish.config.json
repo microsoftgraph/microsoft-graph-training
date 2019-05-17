@@ -64,7 +64,6 @@
       "branch": "master",
       "branch_mapping": {
         "master": "master",
-        "jasonjoh-linked-tutorial": "jasonjoh-linked-tutorial",
         "live": "live"
       }
     },
