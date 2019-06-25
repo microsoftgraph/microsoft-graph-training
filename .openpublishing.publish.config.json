@@ -37,7 +37,6 @@
       "branch": "master",
       "branch_mapping": {
         "master": "master",
-        "videos": "as-update",
         "live": "live"
       }
     },
