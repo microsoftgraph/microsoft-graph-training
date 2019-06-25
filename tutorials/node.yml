@@ -13,22 +13,22 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](node/tutorial/intro.md)]
+    [!INCLUDE [](node/tutorial/01-intro.md)]
 - title: Create a Node.js Express web app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](node/tutorial/create-app.md)]
+    [!INCLUDE [](node/tutorial/02-create-app.md)]
 - title: Register the app in the portal
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](node/tutorial/register-app.md)]
+    [!INCLUDE [](node/tutorial/03-register-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](node/tutorial/add-aad-auth.md)]
+    [!INCLUDE [](node/tutorial/04-add-aad-auth.md)]
 - title: Get calendar data
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](node/tutorial/add-ms-graph.md)]
+    [!INCLUDE [](node/tutorial/05-add-ms-graph.md)]
 - content: |
-    [!INCLUDE [](node/tutorial/completed.md)]
+    [!INCLUDE [](node/tutorial/06-completed.md)]
