@@ -13,22 +13,22 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](angular/tutorial/intro.md)]
+    [!INCLUDE [](angular/tutorial/01-intro.md)]
 - title: Create an Angular single-page app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](angular/tutorial/create-app.md)]
+    [!INCLUDE [](angular/tutorial/02-create-app.md)]
 - title: Register the app in the portal
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](angular/tutorial/register-app.md)]
+    [!INCLUDE [](angular/tutorial/03-register-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](angular/tutorial/add-aad-auth.md)]
+    [!INCLUDE [](angular/tutorial/04-add-aad-auth.md)]
 - title: Get calendar data
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](angular/tutorial/add-ms-graph.md)]
+    [!INCLUDE [](angular/tutorial/05-add-ms-graph.md)]
 - content: |
-    [!INCLUDE [](angular/tutorial/completed.md)]
+    [!INCLUDE [](angular/tutorial/06-completed.md)]

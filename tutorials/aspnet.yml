@@ -13,22 +13,22 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](aspnet/tutorial/intro.md)]
+    [!INCLUDE [](aspnet/tutorial/01-intro.md)]
 - title: Create an ASP.NET MVC web app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](aspnet/tutorial/create-app.md)]
+    [!INCLUDE [](aspnet/tutorial/02-create-app.md)]
 - title: Register the app in the portal
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](aspnet/tutorial/register-app.md)]
+    [!INCLUDE [](aspnet/tutorial/03-register-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](aspnet/tutorial/add-aad-auth.md)]
+    [!INCLUDE [](aspnet/tutorial/04-add-aad-auth.md)]
 - title: Get calendar data
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](aspnet/tutorial/add-ms-graph.md)]
+    [!INCLUDE [](aspnet/tutorial/05-add-ms-graph.md)]
 - content: |
-    [!INCLUDE [](aspnet/tutorial/completed.md)]
+    [!INCLUDE [](aspnet/tutorial/06-completed.md)]

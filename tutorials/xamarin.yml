@@ -13,22 +13,22 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](xamarin/tutorial/intro.md)]
+    [!INCLUDE [](xamarin/tutorial/01-intro.md)]
 - title: Create a Xamarin app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](xamarin/tutorial/create-app.md)]
+    [!INCLUDE [](xamarin/tutorial/02-create-app.md)]
 - title: Register the app in the portal
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](xamarin/tutorial/register-app.md)]
+    [!INCLUDE [](xamarin/tutorial/03-register-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](xamarin/tutorial/add-aad-auth.md)]
+    [!INCLUDE [](xamarin/tutorial/04-add-aad-auth.md)]
 - title: Get calendar data
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](xamarin/tutorial/add-ms-graph.md)]
+    [!INCLUDE [](xamarin/tutorial/05-add-ms-graph.md)]
 - content: |
-    [!INCLUDE [](xamarin/tutorial/completed.md)]
+    [!INCLUDE [](xamarin/tutorial/06-completed.md)]

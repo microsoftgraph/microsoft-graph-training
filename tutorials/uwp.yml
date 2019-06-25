@@ -13,22 +13,22 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](uwp/tutorial/intro.md)]
+    [!INCLUDE [](uwp/tutorial/01-intro.md)]
 - title: Create a Universal Windows Platform app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](uwp/tutorial/create-app.md)]
+    [!INCLUDE [](uwp/tutorial/02-create-app.md)]
 - title: Register the app in the portal
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](uwp/tutorial/register-app.md)]
+    [!INCLUDE [](uwp/tutorial/03-register-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](uwp/tutorial/add-aad-auth.md)]
+    [!INCLUDE [](uwp/tutorial/04-add-aad-auth.md)]
 - title: Get calendar data
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](uwp/tutorial/add-ms-graph.md)]
+    [!INCLUDE [](uwp/tutorial/05-add-ms-graph.md)]
 - content: |
-    [!INCLUDE [](uwp/tutorial/completed.md)]
+    [!INCLUDE [](uwp/tutorial/06-completed.md)]
