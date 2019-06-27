@@ -17,6 +17,9 @@
       - name: ASP.NET
         tocHref: /graph/tutorials/aspnet
         topicHref: /graph/tutorials/aspnet
+      - name: Java
+        tocHref: /graph/tutorials/java
+        topicHref: /graph/tutorials/java
       - name: Microsoft Flow
         tocHref: /graph/tutorials/flow
         topicHref: /graph/tutorials/flow
