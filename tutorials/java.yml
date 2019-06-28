@@ -1,0 +1,34 @@
+### YamlMime:Tutorial
+title: Build Java apps with Microsoft Graph
+metadata:
+  title: Build Java apps with Microsoft Graph
+  description: In this tutorial, you'll build a Java app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 06/10/2019
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: tutorial
+items:
+- durationInMinutes: 1
+  content: |
+    [!INCLUDE [](java/tutorial/intro.md)]
+- title: Create a Java console app
+  durationInMinutes: 7
+  content: |
+    [!INCLUDE [](java/tutorial/create-app.md)]
+- title: Register the app in the portal
+  durationInMinutes: 3
+  content: |
+    [!INCLUDE [](java/tutorial/register-app.md)]
+- title: Add Azure AD authentication
+  durationInMinutes: 15
+  content: |
+    [!INCLUDE [](java/tutorial/add-aad-auth.md)]
+- title: Get calendar data
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](java/tutorial/add-ms-graph.md)]
+- content: |
+    [!INCLUDE [](java/tutorial/completed.md)]

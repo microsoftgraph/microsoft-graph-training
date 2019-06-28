@@ -20,6 +20,7 @@
           "tutorials/aspnet/**",
           "tutorials/change-notifications/**",
           "tutorials/flow/**",
+          "tutorials/java/**",
           "tutorials/node/**",
           "tutorials/php/**",
           "tutorials/python/**",
