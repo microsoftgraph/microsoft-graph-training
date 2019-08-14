@@ -38,6 +38,9 @@
       - name: React
         tocHref: /graph/tutorials/react
         topicHref: /graph/tutorials/react
+      - name: React Native
+        tocHref: /graph/tutorials/react-native
+        topicHref: /graph/tutorials/react-native
       - name: UWP
         tocHref: /graph/tutorials/uwp
         topicHref: /graph/tutorials/uwp

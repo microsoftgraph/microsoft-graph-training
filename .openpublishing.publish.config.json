@@ -122,6 +122,15 @@
       }
     },
     {
+      "path_to_root": "tutorials/react-native",
+      "url": "https://github.com/microsoftgraph/msgraph-training-react-native",
+      "branch": "master",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      }
+    },
+    {
       "path_to_root": "tutorials/ruby",
       "url": "https://github.com/microsoftgraph/msgraph-training-rubyrailsapp",
       "branch": "master",

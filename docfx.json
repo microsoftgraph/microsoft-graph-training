@@ -25,6 +25,7 @@
           "tutorials/php/**",
           "tutorials/python/**",
           "tutorials/react/**",
+          "tutorials/react-native/**",
           "tutorials/ruby/**",
           "tutorials/uwp/**",
           "tutorials/xamarin/**"
