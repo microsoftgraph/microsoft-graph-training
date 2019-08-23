@@ -17,6 +17,12 @@
       - name: ASP.NET
         tocHref: /graph/tutorials/aspnet
         topicHref: /graph/tutorials/aspnet
+      - name: iOS Objective-C
+        tocHref: /graph/tutorials/ios-objectivec
+        topicHref: /graph/tutorials/ios-objectivec
+      - name: iOS Swift
+        tocHref: /graph/tutorials/ios-swift
+        topicHref: /graph/tutorials/ios-swift
       - name: Java
         tocHref: /graph/tutorials/java
         topicHref: /graph/tutorials/java

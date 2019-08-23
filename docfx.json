@@ -20,6 +20,8 @@
           "tutorials/aspnet/**",
           "tutorials/change-notifications/**",
           "tutorials/flow/**",
+          "tutorials/ios-objectivec/**",
+          "tutorials/ios-swift/**",
           "tutorials/java/**",
           "tutorials/node/**",
           "tutorials/php/**",
