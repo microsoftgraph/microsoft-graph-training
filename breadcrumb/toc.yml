@@ -8,6 +8,9 @@
       tocHref: /graph/tutorials/
       topicHref: /graph/tutorials/
       items:
+      - name: .NET Core
+        tocHref: /graph/tutorials/dotnet-core
+        topicHref: /graph/tutorials/dotnet-core
       - name: Android
         tocHref: /graph/tutorials/android
         topicHref: /graph/tutorials/android
