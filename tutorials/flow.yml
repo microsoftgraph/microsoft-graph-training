@@ -10,6 +10,8 @@ metadata:
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
+  ms.prod: Flow
+  scenarios: getting-started
 items:
 - durationInMinutes: 3
   content: |
