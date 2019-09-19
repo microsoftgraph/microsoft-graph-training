@@ -68,8 +68,35 @@
       }
     },
     {
+      "path_to_root": "tutorials/dotnet-core",
+      "url": "https://github.com/microsoftgraph/msgraph-training-dotnet-core",
+      "branch": "master",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      }
+    },
+    {
       "path_to_root": "tutorials/flow",
       "url": "https://github.com/microsoftgraph/msgraph-training-microsoftflow",
+      "branch": "master",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/ios-objectivec",
+      "url": "https://github.com/microsoftgraph/msgraph-training-ios-objectivec",
+      "branch": "tutorial",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/ios-swift",
+      "url": "https://github.com/microsoftgraph/msgraph-training-ios-swift",
       "branch": "master",
       "branch_mapping": {
         "master": "master",
@@ -115,6 +142,15 @@
     {
       "path_to_root": "tutorials/react",
       "url": "https://github.com/microsoftgraph/msgraph-training-reactspa",
+      "branch": "master",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/react-native",
+      "url": "https://github.com/microsoftgraph/msgraph-training-react-native",
       "branch": "master",
       "branch_mapping": {
         "master": "master",
