@@ -1,0 +1,36 @@
+### YamlMime:Tutorial
+title: Build React Native apps with Microsoft Graph
+metadata:
+  title: Build React Native apps with Microsoft Graph
+  description: In this tutorial, you'll build a React Native app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 08/14/2019
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: tutorial
+  scenarios: getting-started
+  languages: React
+items:
+- durationInMinutes: 1
+  content: |
+    [!INCLUDE [](react-native/tutorial/01-intro.md)]
+- title: Create a React Native app
+  durationInMinutes: 7
+  content: |
+    [!INCLUDE [](react-native/tutorial/02-create-app.md)]
+- title: Register the app in the portal
+  durationInMinutes: 3
+  content: |
+    [!INCLUDE [](react-native/tutorial/03-register-app.md)]
+- title: Add Azure AD authentication
+  durationInMinutes: 15
+  content: |
+    [!INCLUDE [](react-native/tutorial/04-add-aad-auth.md)]
+- title: Get calendar data
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](react-native/tutorial/05-add-ms-graph.md)]
+- content: |
+    [!INCLUDE [](react-native/tutorial/06-completed.md)]
