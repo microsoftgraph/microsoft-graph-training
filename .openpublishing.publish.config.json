@@ -90,7 +90,7 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-ios-objectivec",
       "branch": "tutorial",
       "branch_mapping": {
-        "master": "tutorial",
+        "master": "master",
         "live": "live"
       }
     },
