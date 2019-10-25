@@ -10,8 +10,7 @@ metadata:
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
-  scenarios: getting-started
-  languages: Xamarin
+  ms.custom: scenarios:getting-started, languages:Xamarin
 items:
 - durationInMinutes: 1
   content: |
