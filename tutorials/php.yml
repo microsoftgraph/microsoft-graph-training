@@ -10,8 +10,7 @@ metadata:
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
-  scenarios: getting-started
-  languages: PHP
+  ms.custom: scenarios:getting-started, languages:PHP
 items:
 - durationInMinutes: 1
   content: |
