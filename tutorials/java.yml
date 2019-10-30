@@ -10,8 +10,7 @@ metadata:
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
-  scenarios: getting-started
-  languages: Java
+  ms.custom: scenarios:getting-started, languages:Java
 items:
 - durationInMinutes: 1
   content: |
