@@ -10,8 +10,7 @@ metadata:
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
-  scenarios: getting-started
-  languages: ASP.NET
+  ms.custom: scenarios:getting-started, languages:ASP.NET
 items:
 - durationInMinutes: 1
   content: |
