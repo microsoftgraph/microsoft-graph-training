@@ -38,7 +38,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/angular",
@@ -47,7 +48,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/aspnet",
@@ -56,7 +58,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/change-notifications",
@@ -65,7 +68,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/dotnet-core",
@@ -74,7 +78,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/flow",
@@ -83,16 +88,18 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/ios-objectivec",
       "url": "https://github.com/microsoftgraph/msgraph-training-ios-objectivec",
-      "branch": "tutorial",
+      "branch": "master",
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/ios-swift",
@@ -101,7 +108,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/java",
@@ -110,7 +118,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/node",
@@ -119,7 +128,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/php",
@@ -128,7 +138,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/python",
@@ -137,7 +148,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/react",
@@ -146,7 +158,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/react-native",
@@ -155,7 +168,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/ruby",
@@ -164,7 +178,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/uwp",
@@ -173,7 +188,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/xamarin",
@@ -182,7 +198,8 @@
       "branch_mapping": {
         "master": "master",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     }
   ],
   "branch_target_mapping": {},
