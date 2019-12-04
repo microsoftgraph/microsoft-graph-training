@@ -58,6 +58,11 @@
       "uhfHeaderId": "MSDocsHeader-MSGraph"
     },
     "fileMetadata": {
+      "featureFlags": {
+        "tutorials/*.yml": [
+          "enable_tutorial_feedback"
+        ]
+      },
       "titleSuffix": {
         "**/*.yml": "Microsoft Graph"
       }
