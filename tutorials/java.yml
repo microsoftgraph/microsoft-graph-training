@@ -14,22 +14,22 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](java/tutorial/01-intro.md)]
+    [!INCLUDE [](~/tutorials/java/tutorial/01-intro.md)]
 - title: Create a Java console app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](java/tutorial/02-create-app.md)]
+    [!INCLUDE [](~/tutorials/java/tutorial/02-create-app.md)]
 - title: Register the app in the portal
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](java/tutorial/03-register-app.md)]
+    [!INCLUDE [](~/tutorials/java/tutorial/03-register-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](java/tutorial/04-add-aad-auth.md)]
+    [!INCLUDE [](~/tutorials/java/tutorial/04-add-aad-auth.md)]
 - title: Get calendar data
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](java/tutorial/05-add-ms-graph.md)]
+    [!INCLUDE [](~/tutorials/java/tutorial/05-add-ms-graph.md)]
 - content: |
-    [!INCLUDE [](java/tutorial/06-completed.md)]
+    [!INCLUDE [](~/tutorials/java/tutorial/06-completed.md)]
