@@ -1,3 +1,4 @@
+items:
 - name: Overview of Microsoft Graph
   tocHref: /graph/overview/
   topicHref: /graph/overview/
@@ -29,6 +30,9 @@
       - name: Java
         tocHref: /graph/tutorials/java
         topicHref: /graph/tutorials/java
+      - name: JavaScript
+        tocHref: /graph/tutorials/javascript
+        topicHref: /graph/tutorials/javascript
       - name: Microsoft Flow
         tocHref: /graph/tutorials/flow
         topicHref: /graph/tutorials/flow
