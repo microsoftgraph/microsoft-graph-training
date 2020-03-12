@@ -24,6 +24,7 @@
           "tutorials/ios-objectivec/**",
           "tutorials/ios-swift/**",
           "tutorials/java/**",
+          "tutorials/javascript/**",
           "tutorials/node/**",
           "tutorials/php/**",
           "tutorials/python/**",
