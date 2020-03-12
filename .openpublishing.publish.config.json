@@ -122,6 +122,16 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/javascript",
+      "url": "https://github.com/microsoftgraph/msgraph-training-javascriptspa",
+      "branch": "master",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/node",
       "url": "https://github.com/microsoftgraph/msgraph-training-nodeexpressapp",
       "branch": "master",
