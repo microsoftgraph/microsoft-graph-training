@@ -110,7 +110,8 @@
       "branch": "master",
       "branch_mapping": {
         "master": "master",
-        "live": "live"
+        "live": "live",
+        "refresh-tutorial": "refresh-tutorial"
       },
       "include_in_build": true
     },
