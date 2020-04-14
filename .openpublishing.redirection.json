@@ -41,7 +41,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "graph/tutorials/aspnet",
+      "source_path": "graph/tutorials/aspnet.yml",
       "redirect_url": "/learn/modules/msgraph-build-aspnetmvc-apps/",
       "redirect_document_id": false
     }
