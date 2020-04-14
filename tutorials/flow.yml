@@ -11,7 +11,7 @@ metadata:
   ms.author: jasonjoh
   ms.topic: tutorial
   ms.prod: Flow
-  ms.custom: scenarios:getting-started
+  ms.custom: "scenarios:getting-started"
 items:
 - durationInMinutes: 3
   content: |
