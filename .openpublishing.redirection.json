@@ -39,6 +39,11 @@
       "source_path": "training/uwp-tutorial.md",
       "redirect_url": "/graph/tutorials/uwp",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/aspnet.yml",
+      "redirect_url": "/learn/modules/msgraph-build-aspnetmvc-apps/",
+      "redirect_document_id": false
     }
   ]
 }
