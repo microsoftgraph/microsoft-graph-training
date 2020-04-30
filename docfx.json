@@ -15,7 +15,7 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "retired",
+          "retired/**",
           "tutorials/android/**",
           "tutorials/angular/**",
           "tutorials/aspnet/**",
