@@ -62,6 +62,16 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/aspnet-core",
+      "url": "https://github.com/microsoftgraph/msgraph-training-aspnet-core",
+      "branch": "master",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/change-notifications",
       "url": "https://github.com/microsoftgraph/msgraph-training-changenotifications",
       "branch": "master",
