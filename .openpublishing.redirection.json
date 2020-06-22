@@ -44,6 +44,11 @@
       "source_path": "tutorials/aspnet.yml",
       "redirect_url": "/learn/modules/msgraph-build-aspnetmvc-apps/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/change-notifications.yml",
+      "redirect_url": "/learn/modules/msgraph-changenotifications-trackchanges/",
+      "redirect_document_id": false
     }
   ]
 }
