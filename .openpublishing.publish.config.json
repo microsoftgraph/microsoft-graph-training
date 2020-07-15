@@ -176,7 +176,7 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-reactspa",
       "branch": "master",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
