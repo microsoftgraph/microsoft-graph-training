@@ -134,9 +134,9 @@
     {
       "path_to_root": "tutorials/javascript",
       "url": "https://github.com/microsoftgraph/msgraph-training-javascriptspa",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live",
         "javascript-update": "refresh-tutorial"
       },
@@ -175,9 +175,9 @@
     {
       "path_to_root": "tutorials/react",
       "url": "https://github.com/microsoftgraph/msgraph-training-reactspa",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
