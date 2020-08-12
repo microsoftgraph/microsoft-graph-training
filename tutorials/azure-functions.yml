@@ -31,5 +31,9 @@ items:
   durationInMinutes: 15
   content: |
     [!INCLUDE [](azure-functions/tutorial/05-implement-webhook.md)]
+- title: Prepare to publish to Azure
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](azure-functions/tutorial/06-prepare-for-publish.md)]
 - content: |
-    [!INCLUDE [](azure-functions/tutorial/06-completed.md)]
+    [!INCLUDE [](azure-functions/tutorial/07-completed.md)]
