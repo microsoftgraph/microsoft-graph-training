@@ -26,7 +26,7 @@ items:
 - title: Implement the Web API with on-behalf-of authentication
   durationInMinutes: 20
   content: |
-    [!INCLUDE [](azure-functions/tutorial/04-implement-web-api.md)]
+    [!INCLUDE [](azure-functions/tutorial/04-implement-azure-function.md)]
 - title: Implement the webhook with client credentials authentication
   durationInMinutes: 15
   content: |
