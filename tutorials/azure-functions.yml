@@ -23,7 +23,7 @@ items:
   durationInMinutes: 10
   content: |
     [!INCLUDE [](azure-functions/tutorial/03-register-app.md)]
-- title: Implement the Web API with on-behalf-of authentication
+- title: Implement the API with on-behalf-of authentication
   durationInMinutes: 20
   content: |
     [!INCLUDE [](azure-functions/tutorial/04-implement-azure-function.md)]
