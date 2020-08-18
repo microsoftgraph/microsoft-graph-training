@@ -1,0 +1,39 @@
+### YamlMime:Tutorial
+title: Build Azure Functions with Microsoft Graph
+metadata:
+  title: Build Azure Functions with Microsoft Graph
+  description: In this tutorial, you'll build an Azure Functions project that uses Microsoft identity platform for authentication and Microsoft Graph for retrieving mailbox data.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 08/18/2020
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: tutorial
+  ms.custom: scenarios:getting-started, languages:C#
+items:
+- durationInMinutes: 1
+  content: |
+    [!INCLUDE [](azure-functions/tutorial/01-intro.md)]
+- title: Create an Azure Functions project
+  durationInMinutes: 7
+  content: |
+    [!INCLUDE [](azure-functions/tutorial/02-create-app.md)]
+- title: Register the apps in the portal
+  durationInMinutes: 10
+  content: |
+    [!INCLUDE [](azure-functions/tutorial/03-register-app.md)]
+- title: Implement the API with on-behalf-of authentication
+  durationInMinutes: 20
+  content: |
+    [!INCLUDE [](azure-functions/tutorial/04-implement-azure-function.md)]
+- title: Implement the webhook with client credentials authentication
+  durationInMinutes: 15
+  content: |
+    [!INCLUDE [](azure-functions/tutorial/05-implement-webhook.md)]
+- title: Prepare to publish to Azure
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](azure-functions/tutorial/06-prepare-for-publish.md)]
+- content: |
+    [!INCLUDE [](azure-functions/tutorial/07-completed.md)]
