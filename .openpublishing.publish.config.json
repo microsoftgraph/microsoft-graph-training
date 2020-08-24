@@ -82,16 +82,6 @@
       "include_in_build": true
     },
     {
-      "path_to_root": "tutorials/flow",
-      "url": "https://github.com/microsoftgraph/msgraph-training-microsoftflow",
-      "branch": "master",
-      "branch_mapping": {
-        "master": "master",
-        "live": "live"
-      },
-      "include_in_build": true
-    },
-    {
       "path_to_root": "tutorials/ios-objectivec",
       "url": "https://github.com/microsoftgraph/msgraph-training-ios-objectivec",
       "branch": "master",
@@ -144,6 +134,16 @@
     {
       "path_to_root": "tutorials/php",
       "url": "https://github.com/microsoftgraph/msgraph-training-phpapp",
+      "branch": "master",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
+      "path_to_root": "tutorials/flow",
+      "url": "https://github.com/microsoftgraph/msgraph-training-powerautomate",
       "branch": "master",
       "branch_mapping": {
         "master": "master",
