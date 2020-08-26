@@ -15,30 +15,30 @@ metadata:
 items:
 - durationInMinutes: 3
   content: |
-    [!INCLUDE [](flow/tutorial/01-intro.md)]
+    [!INCLUDE [](power-automate/tutorial/01-intro.md)]
 - title: Create an Azure AD app registration
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](flow/tutorial/02-register-app.md)]
+    [!INCLUDE [](power-automate/tutorial/02-register-app.md)]
 - title: Create a custom connector
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](flow/tutorial/03-create-connector.md)]
+    [!INCLUDE [](power-automate/tutorial/03-create-connector.md)]
 - title: Authorize the connector
   durationInMinutes: 2
   content: |
-    [!INCLUDE [](flow/tutorial/04-authorize-connector.md)]
+    [!INCLUDE [](power-automate/tutorial/04-authorize-connector.md)]
 - title: Test batching in Graph Explorer
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](flow/tutorial/05-graph-explorer.md)]
-- title: Create a Flow
+    [!INCLUDE [](power-automate/tutorial/05-graph-explorer.md)]
+- title: Create a flow
   durationInMinutes: 10
   content: |
-    [!INCLUDE [](flow/tutorial/06-create-flow.md)]
-- title: Extend the Flow
+    [!INCLUDE [](power-automate/tutorial/06-create-flow.md)]
+- title: Extend the flow
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](flow/tutorial/07-use-batch.md)]
+    [!INCLUDE [](power-automate/tutorial/07-use-batch.md)]
 - content: |
-    [!INCLUDE [](flow/tutorial/08-completed.md)]
+    [!INCLUDE [](power-automate/tutorial/08-completed.md)]
