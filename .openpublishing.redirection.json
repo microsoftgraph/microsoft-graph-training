@@ -49,6 +49,11 @@
       "source_path": "tutorials/change-notifications.yml",
       "redirect_url": "/learn/modules/msgraph-changenotifications-trackchanges/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/flow.yml",
+      "redirect_url": "/graph/tutorials/power-automate",
+      "redirect_document_id": false
     }
   ]
 }

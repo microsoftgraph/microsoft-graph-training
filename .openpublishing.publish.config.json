@@ -142,11 +142,11 @@
       "include_in_build": true
     },
     {
-      "path_to_root": "tutorials/flow",
+      "path_to_root": "tutorials/powerautomate",
       "url": "https://github.com/microsoftgraph/msgraph-training-powerautomate",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
