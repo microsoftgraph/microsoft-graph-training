@@ -1,0 +1,39 @@
+### YamlMime:Tutorial
+title: Build ASP.NET Core MVC apps with Microsoft Graph
+metadata:
+  title: Build SharePoint Framework apps with Microsoft Graph
+  description: In this tutorial, you'll build an SharePoint Framework client-side web part that uses Microsoft Graph for retrieving calendar data.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 08/26/2020
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: tutorial
+  ms.custom: scenarios:getting-started, languages:TypeScript
+items:
+- durationInMinutes: 1
+  content: |
+    [!INCLUDE [](spfx/tutorial/01-intro.md)]
+- title: Create an SPFX web part
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](spfx/tutorial/02-create-app.md)]
+- title: Configure permissions
+  durationInMinutes: 10
+  content: |
+    [!INCLUDE [](spfx/tutorial/03-configure-permissions.md)]
+- title: Get a calendar view
+  durationInMinutes: 10
+  content: |
+    [!INCLUDE [](spfx/tutorial/04-get-calendar-view.md)]
+- title: Add Microsoft Graph toolkit
+  durationInMinutes: 10
+  content: |
+    [!INCLUDE [](spfx/tutorial/05-add-mgt.md)]
+- title: Create a new event
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](spfx/tutorial/06-create-event.md)]
+- content: |
+    [!INCLUDE [](spfx/tutorial/07-completed.md)]
