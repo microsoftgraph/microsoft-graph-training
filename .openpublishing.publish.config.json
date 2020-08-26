@@ -192,6 +192,16 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/spfx",
+      "url": "https://github.com/microsoftgraph/msgraph-training-spfx",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/uwp",
       "url": "https://github.com/microsoftgraph/msgraph-training-uwp",
       "branch": "master",
