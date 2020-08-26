@@ -10,7 +10,7 @@ metadata:
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
-  ms.prod: power-automate
+  ms.prod: Flow
   ms.custom: "scenarios:getting-started"
 items:
 - durationInMinutes: 3
@@ -32,11 +32,11 @@ items:
   durationInMinutes: 5
   content: |
     [!INCLUDE [](power-automate/tutorial/05-graph-explorer.md)]
-- title: Create a power-automate
+- title: Create a flow
   durationInMinutes: 10
   content: |
-    [!INCLUDE [](power-automate/tutorial/06-create-power-automate.md)]
-- title: Extend the power-automate
+    [!INCLUDE [](power-automate/tutorial/06-create-flow.md)]
+- title: Extend the flow
   durationInMinutes: 7
   content: |
     [!INCLUDE [](power-automate/tutorial/07-use-batch.md)]
