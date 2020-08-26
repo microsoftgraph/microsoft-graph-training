@@ -194,9 +194,9 @@
     {
       "path_to_root": "tutorials/spfx",
       "url": "https://github.com/microsoftgraph/msgraph-training-spfx",
-      "branch": "main",
+      "branch": "refresh-tutorial",
       "branch_mapping": {
-        "master": "main",
+        "master": "refresh-tutorial",
         "live": "live"
       },
       "include_in_build": true
