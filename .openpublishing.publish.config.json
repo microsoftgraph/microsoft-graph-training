@@ -82,16 +82,6 @@
       "include_in_build": true
     },
     {
-      "path_to_root": "tutorials/flow",
-      "url": "https://github.com/microsoftgraph/msgraph-training-microsoftflow",
-      "branch": "master",
-      "branch_mapping": {
-        "master": "master",
-        "live": "live"
-      },
-      "include_in_build": true
-    },
-    {
       "path_to_root": "tutorials/ios-objectivec",
       "url": "https://github.com/microsoftgraph/msgraph-training-ios-objectivec",
       "branch": "master",
@@ -152,6 +142,16 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/power-automate",
+      "url": "https://github.com/microsoftgraph/msgraph-training-powerautomate",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/python",
       "url": "https://github.com/microsoftgraph/msgraph-training-pythondjangoapp",
       "branch": "master",
@@ -187,6 +187,16 @@
       "branch": "master",
       "branch_mapping": {
         "master": "master",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
+      "path_to_root": "tutorials/spfx",
+      "url": "https://github.com/microsoftgraph/msgraph-training-spfx",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
