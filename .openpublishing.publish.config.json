@@ -117,8 +117,7 @@
       "branch": "main",
       "branch_mapping": {
         "master": "main",
-        "live": "live",
-        "javascript-update": "refresh-tutorial"
+        "live": "live"
       },
       "include_in_build": true
     },
