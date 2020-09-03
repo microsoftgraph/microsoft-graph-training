@@ -167,8 +167,7 @@
       "branch": "main",
       "branch_mapping": {
         "master": "main",
-        "live": "live",
-        "react-update": "create-event"
+        "live": "live"
       },
       "include_in_build": true
     },
