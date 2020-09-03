@@ -34,6 +34,6 @@ items:
 - title: Create a new event
   durationInMinutes: 10
   content: |
-    [!INCLUDE] [](php/tutorial/06-create-event.md)]
+    [!INCLUDE [](php/tutorial/06-create-event.md)]
 - content: |
     [!INCLUDE [](php/tutorial/07-completed.md)]
