@@ -27,9 +27,13 @@ items:
   durationInMinutes: 15
   content: |
     [!INCLUDE [](php/tutorial/04-add-aad-auth.md)]
-- title: Get calendar data
-  durationInMinutes: 5
+- title: Get a calendar view
+  durationInMinutes: 10
   content: |
     [!INCLUDE [](php/tutorial/05-add-ms-graph.md)]
+- title: Create a new event
+  durationInMinutes: 10
+  content: |
+    [!INCLUDE [](php/tutorial/06-create-event.md)]
 - content: |
-    [!INCLUDE [](php/tutorial/06-completed.md)]
+    [!INCLUDE [](php/tutorial/07-completed.md)]

@@ -52,16 +52,6 @@
       "include_in_build": true
     },
     {
-      "path_to_root": "tutorials/aspnet",
-      "url": "https://github.com/microsoftgraph/msgraph-training-aspnetmvcapp",
-      "branch": "master",
-      "branch_mapping": {
-        "master": "master",
-        "live": "live"
-      },
-      "include_in_build": true
-    },
-    {
       "path_to_root": "tutorials/aspnet-core",
       "url": "https://github.com/microsoftgraph/msgraph-training-aspnet-core",
       "branch": "master",
@@ -72,11 +62,11 @@
       "include_in_build": true
     },
     {
-      "path_to_root": "tutorials/change-notifications",
-      "url": "https://github.com/microsoftgraph/msgraph-training-changenotifications",
-      "branch": "master",
+      "path_to_root": "tutorials/azure-functions",
+      "url": "https://github.com/microsoftgraph/msgraph-training-azurefunction-csharp",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -84,16 +74,6 @@
     {
       "path_to_root": "tutorials/dotnet-core",
       "url": "https://github.com/microsoftgraph/msgraph-training-dotnet-core",
-      "branch": "master",
-      "branch_mapping": {
-        "master": "master",
-        "live": "live"
-      },
-      "include_in_build": true
-    },
-    {
-      "path_to_root": "tutorials/flow",
-      "url": "https://github.com/microsoftgraph/msgraph-training-microsoftflow",
       "branch": "master",
       "branch_mapping": {
         "master": "master",
@@ -134,9 +114,9 @@
     {
       "path_to_root": "tutorials/javascript",
       "url": "https://github.com/microsoftgraph/msgraph-training-javascriptspa",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -154,9 +134,19 @@
     {
       "path_to_root": "tutorials/php",
       "url": "https://github.com/microsoftgraph/msgraph-training-phpapp",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
+      "path_to_root": "tutorials/power-automate",
+      "url": "https://github.com/microsoftgraph/msgraph-training-powerautomate",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -174,7 +164,7 @@
     {
       "path_to_root": "tutorials/react",
       "url": "https://github.com/microsoftgraph/msgraph-training-reactspa",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
         "master": "main",
         "live": "live",
@@ -198,6 +188,16 @@
       "branch": "master",
       "branch_mapping": {
         "master": "master",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
+      "path_to_root": "tutorials/spfx",
+      "url": "https://github.com/microsoftgraph/msgraph-training-spfx",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true

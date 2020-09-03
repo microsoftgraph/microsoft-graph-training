@@ -1,0 +1,44 @@
+### YamlMime:Tutorial
+title: Create a Microsoft Graph JSON Batch Custom Connector for Power Automate
+metadata:
+  title: Create a Microsoft Graph JSON Batch Custom Connector for Power Automate
+  description: In this tutorial, you'll build a custom connector in Power Automate that uses Azure Active Directory for authentication and Microsoft Graph to create groups.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 08/24/2020
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: tutorial
+  ms.prod: Flow
+  ms.custom: "scenarios:getting-started"
+items:
+- durationInMinutes: 3
+  content: |
+    [!INCLUDE [](power-automate/tutorial/01-intro.md)]
+- title: Create an Azure AD app registration
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](power-automate/tutorial/02-register-app.md)]
+- title: Create a custom connector
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](power-automate/tutorial/03-create-connector.md)]
+- title: Authorize the connector
+  durationInMinutes: 2
+  content: |
+    [!INCLUDE [](power-automate/tutorial/04-authorize-connector.md)]
+- title: Test batching in Graph Explorer
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](power-automate/tutorial/05-graph-explorer.md)]
+- title: Create a flow
+  durationInMinutes: 10
+  content: |
+    [!INCLUDE [](power-automate/tutorial/06-create-flow.md)]
+- title: Extend the flow
+  durationInMinutes: 7
+  content: |
+    [!INCLUDE [](power-automate/tutorial/07-use-batch.md)]
+- content: |
+    [!INCLUDE [](power-automate/tutorial/08-completed.md)]
