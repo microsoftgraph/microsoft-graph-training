@@ -27,9 +27,13 @@ items:
   durationInMinutes: 15
   content: |
     [!INCLUDE [](javascript/tutorial/04-add-aad-auth.md)]
-- title: Get calendar data
+- title: Get a calendar view
   durationInMinutes: 5
   content: |
     [!INCLUDE [](javascript/tutorial/05-add-ms-graph.md)]
+- title: Create a new event
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](javascript/tutorial/06-create-event.md)]
 - content: |
-    [!INCLUDE [](javascript/tutorial/06-completed.md)]
+    [!INCLUDE [](javascript/tutorial/07-completed.md)]
