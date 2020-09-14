@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
 title: Build ASP.NET Core MVC apps with Microsoft Graph
 metadata:
-  title: Build ASP.NET MVC apps with Microsoft Graph
+  title: Build ASP.NET Core MVC apps with Microsoft Graph
   description: In this tutorial, you'll build an ASP.NET Core web app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
   audience: Developer
   level: Beginner
@@ -15,7 +15,7 @@ items:
 - durationInMinutes: 1
   content: |
     [!INCLUDE [](aspnet-core/tutorial/01-intro.md)]
-- title: Create an ASP.NET MVC web app
+- title: Create an ASP.NET Core MVC web app
   durationInMinutes: 7
   content: |
     [!INCLUDE [](aspnet-core/tutorial/02-create-app.md)]
