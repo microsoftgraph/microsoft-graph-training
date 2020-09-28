@@ -72,6 +72,16 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/blazor",
+      "url": "https://github.com/microsoftgraph/msgraph-training-blazor-clientside",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/dotnet-core",
       "url": "https://github.com/microsoftgraph/msgraph-training-dotnet-core",
       "branch": "master",
