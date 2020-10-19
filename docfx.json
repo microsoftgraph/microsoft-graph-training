@@ -33,6 +33,7 @@
           "tutorials/react-native/**",
           "tutorials/ruby/**",
           "tutorials/spfx/**",
+          "tutorials/teams/**",
           "tutorials/uwp/**",
           "tutorials/xamarin/**"
         ]
