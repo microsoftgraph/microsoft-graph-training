@@ -20,6 +20,7 @@
           "tutorials/angular/**",
           "tutorials/aspnet-core/**",
           "tutorials/azure-functions/**",
+          "tutorials/blazor/**",
           "tutorials/bot-framework/**",
           "tutorials/dotnet-core/**",
           "tutorials/ios-objectivec/**",
