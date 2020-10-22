@@ -44,11 +44,10 @@
     {
       "path_to_root": "tutorials/angular",
       "url": "https://github.com/microsoftgraph/msgraph-training-angularspa",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
-        "live": "live",
-        "angular-refresh": "refresh"
+        "master": "main",
+        "live": "live"
       },
       "include_in_build": true
     },
