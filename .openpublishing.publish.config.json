@@ -197,8 +197,7 @@
       "branch": "main",
       "branch_mapping": {
         "master": "main",
-        "live": "live",
-        "react-native-refresh": "refresh"
+        "live": "live"
       },
       "include_in_build": true
     },
