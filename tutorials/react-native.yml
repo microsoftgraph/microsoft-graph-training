@@ -31,10 +31,10 @@ items:
 - title: Get a calendar view
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](react-native/tutorial/06-create-event.md)]
+    [!INCLUDE [](react-native/tutorial/05-add-ms-graph.md)]
 - title: Create a new event
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](react-native/tutorial/05-add-ms-graph.md)]
+    [!INCLUDE [](react-native/tutorial/06-create-event.md)]
 - content: |
     [!INCLUDE [](react-native/tutorial/07-completed.md)]
