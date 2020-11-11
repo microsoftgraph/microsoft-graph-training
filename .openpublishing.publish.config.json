@@ -147,8 +147,7 @@
       "branch": "master",
       "branch_mapping": {
         "master": "master",
-        "live": "live",
-        "node-refresh": "msal"
+        "live": "live"
       },
       "include_in_build": true
     },
