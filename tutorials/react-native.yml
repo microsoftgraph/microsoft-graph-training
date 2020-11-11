@@ -6,7 +6,7 @@ metadata:
   audience: Developer
   level: Beginner
   displayType: one-column
-  ms.date: 08/14/2019
+  ms.date: 11/10/2020
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
@@ -28,9 +28,13 @@ items:
   durationInMinutes: 15
   content: |
     [!INCLUDE [](react-native/tutorial/04-add-aad-auth.md)]
-- title: Get calendar data
+- title: Get a calendar view
   durationInMinutes: 5
   content: |
     [!INCLUDE [](react-native/tutorial/05-add-ms-graph.md)]
+- title: Create a new event
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](react-native/tutorial/06-create-event.md)]
 - content: |
-    [!INCLUDE [](react-native/tutorial/06-completed.md)]
+    [!INCLUDE [](react-native/tutorial/07-completed.md)]

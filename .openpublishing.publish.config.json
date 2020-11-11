@@ -44,9 +44,9 @@
     {
       "path_to_root": "tutorials/angular",
       "url": "https://github.com/microsoftgraph/msgraph-training-angularspa",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -54,9 +54,9 @@
     {
       "path_to_root": "tutorials/aspnet-core",
       "url": "https://github.com/microsoftgraph/msgraph-training-aspnet-core",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -72,11 +72,31 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/blazor",
+      "url": "https://github.com/microsoftgraph/msgraph-training-blazor-clientside",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
+      "path_to_root": "tutorials/bot-framework",
+      "url": "https://github.com/microsoftgraph/msgraph-training-botframework",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/dotnet-core",
       "url": "https://github.com/microsoftgraph/msgraph-training-dotnet-core",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -175,9 +195,9 @@
     {
       "path_to_root": "tutorials/react-native",
       "url": "https://github.com/microsoftgraph/msgraph-training-react-native",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
