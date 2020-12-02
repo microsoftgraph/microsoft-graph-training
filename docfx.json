@@ -28,6 +28,7 @@
           "tutorials/java/**",
           "tutorials/javascript/**",
           "tutorials/node/**",
+          "tutorials/office-addin/**",
           "tutorials/php/**",
           "tutorials/power-automate/**",
           "tutorials/python/**",
