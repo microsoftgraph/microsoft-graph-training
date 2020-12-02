@@ -30,7 +30,7 @@ items:
 - title: Get a calendar view
   durationInMinutes: 10
   content: |
-    [!INCLUDE [](office-addin/tutorial/05-add-ms-graph.md)]
+    [!INCLUDE [](office-addin/tutorial/05-calendar-view.md)]
 - title: Create a new event
   durationInMinutes: 10
   content: |
