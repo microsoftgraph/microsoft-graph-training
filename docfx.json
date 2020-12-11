@@ -28,6 +28,7 @@
           "tutorials/java/**",
           "tutorials/javascript/**",
           "tutorials/node/**",
+          "tutorials/office-addin/**",
           "tutorials/php/**",
           "tutorials/power-automate/**",
           "tutorials/python/**",
@@ -35,6 +36,7 @@
           "tutorials/react-native/**",
           "tutorials/ruby/**",
           "tutorials/spfx/**",
+          "tutorials/teams/**",
           "tutorials/uwp/**",
           "tutorials/xamarin/**"
         ]

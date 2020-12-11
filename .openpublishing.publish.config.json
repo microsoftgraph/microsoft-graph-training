@@ -124,9 +124,9 @@
     {
       "path_to_root": "tutorials/java",
       "url": "https://github.com/microsoftgraph/msgraph-training-java",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -144,6 +144,16 @@
     {
       "path_to_root": "tutorials/node",
       "url": "https://github.com/microsoftgraph/msgraph-training-nodeexpressapp",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
+      "path_to_root": "tutorials/office-addin",
+      "url": "https://github.com/microsoftgraph/msgraph-training-office-addin",
       "branch": "main",
       "branch_mapping": {
         "master": "main",
@@ -174,9 +184,9 @@
     {
       "path_to_root": "tutorials/python",
       "url": "https://github.com/microsoftgraph/msgraph-training-pythondjangoapp",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -204,9 +214,9 @@
     {
       "path_to_root": "tutorials/ruby",
       "url": "https://github.com/microsoftgraph/msgraph-training-rubyrailsapp",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -222,11 +232,21 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/teams",
+      "url": "https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/uwp",
       "url": "https://github.com/microsoftgraph/msgraph-training-uwp",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
