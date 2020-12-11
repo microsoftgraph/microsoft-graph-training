@@ -232,6 +232,16 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/teams",
+      "url": "https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/uwp",
       "url": "https://github.com/microsoftgraph/msgraph-training-uwp",
       "branch": "main",
