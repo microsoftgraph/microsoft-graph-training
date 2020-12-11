@@ -152,6 +152,16 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/office-addin",
+      "url": "https://github.com/microsoftgraph/msgraph-training-office-addin",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/php",
       "url": "https://github.com/microsoftgraph/msgraph-training-phpapp",
       "branch": "main",
