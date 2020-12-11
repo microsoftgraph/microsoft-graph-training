@@ -36,4 +36,4 @@ items:
   content: |
     [!INCLUDE [](uwp/tutorial/06-create-event.md)]
 - content: |
-    [!INCLUDE [](uwp/tutorial/06-completed.md)]
+    [!INCLUDE [](uwp/tutorial/07-completed.md)]
