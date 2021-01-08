@@ -254,9 +254,9 @@
     {
       "path_to_root": "tutorials/xamarin",
       "url": "https://github.com/microsoftgraph/msgraph-training-xamarin",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
