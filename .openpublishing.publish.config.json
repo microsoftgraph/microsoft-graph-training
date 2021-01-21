@@ -34,9 +34,9 @@
     {
       "path_to_root": "tutorials/android",
       "url": "https://github.com/microsoftgraph/msgraph-training-android",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -104,9 +104,9 @@
     {
       "path_to_root": "tutorials/ios-objectivec",
       "url": "https://github.com/microsoftgraph/msgraph-training-ios-objectivec",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -114,9 +114,9 @@
     {
       "path_to_root": "tutorials/ios-swift",
       "url": "https://github.com/microsoftgraph/msgraph-training-ios-swift",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
@@ -254,9 +254,9 @@
     {
       "path_to_root": "tutorials/xamarin",
       "url": "https://github.com/microsoftgraph/msgraph-training-xamarin",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
-        "master": "master",
+        "master": "main",
         "live": "live"
       },
       "include_in_build": true
