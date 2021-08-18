@@ -10,6 +10,7 @@ metadata:
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
+  ms.prod: flow
   ms.custom: scenarios:getting-started, languages:NodeJS
 items:
 - durationInMinutes: 1

@@ -10,6 +10,7 @@ metadata:
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
+  ms.prod: flow
   scenarios: getting-started
   languages: C#
 items:
