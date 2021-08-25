@@ -62,7 +62,9 @@
       "breadcrumb_path": "/graph/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None",
-      "uhfHeaderId": "MSDocsHeader-MSGraph"
+      "uhfHeaderId": "MSDocsHeader-MSGraph",
+      "ms.prod": "non-product-specific",
+      "ms.technology": "ms-graph"
     },
     "fileMetadata": {
       "featureFlags": {
