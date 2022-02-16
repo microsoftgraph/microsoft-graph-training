@@ -97,6 +97,7 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-dotnet-core",
       "branch": "main",
       "branch_mapping": {
+        "v2": "v2",
         "master": "main",
         "live": "live"
       },

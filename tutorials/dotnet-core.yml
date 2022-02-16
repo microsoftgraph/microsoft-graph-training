@@ -16,14 +16,14 @@ items:
 - durationInMinutes: 1
   content: |
     [!INCLUDE [](dotnet-core/tutorial/01-intro.md)]
+- title: Register the app in the portal
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](dotnet-core/tutorial/02-register-app.md)]
 - title: Create a .NET Core console app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/02-create-app.md)]
-- title: Register the app in the portal
-  durationInMinutes: 3
-  content: |
-    [!INCLUDE [](dotnet-core/tutorial/03-register-app.md)]
+    [!INCLUDE [](dotnet-core/tutorial/03-create-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
