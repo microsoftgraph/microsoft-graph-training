@@ -20,6 +20,10 @@ items:
   durationInMinutes: 5
   content: |
     [!INCLUDE [](dotnet-core/tutorial/02-register-app.md)]
+- title: "Optional: configure app-only authentication"
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](dotnet-core/tutorial/03-configure-app-only.md)]
 - title: Create a .NET Core console app
   durationInMinutes: 7
   content: |
