@@ -27,7 +27,7 @@ items:
 - title: Create a .NET Core console app
   durationInMinutes: 7
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/03-create-app.md)]
+    [!INCLUDE [](dotnet-core/tutorial/04-create-app.md)]
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
