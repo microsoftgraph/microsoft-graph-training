@@ -25,11 +25,11 @@ items:
   content: |
     [!INCLUDE [](dotnet-core/tutorial/03-configure-app-only.md)]
 - title: Create a .NET Core console app
-  durationInMinutes: 7
+  durationInMinutes: 5
   content: |
     [!INCLUDE [](dotnet-core/tutorial/04-create-app.md)]
 - title: Add user authentication
-  durationInMinutes: 15
+  durationInMinutes: 5
   content: |
     [!INCLUDE [](dotnet-core/tutorial/05-add-user-auth.md)]
 - title: Get user
@@ -44,5 +44,9 @@ items:
   durationInMinutes: 5
   content: |
     [!INCLUDE [](dotnet-core/tutorial/08-send-mail.md)]
+- title: "Optional: add app-only authentication"
+  durationInMinutes: 2
+  content: |
+    [!INCLUDE [](dotnet-core/tutorial/09-add-app-only-auth.md)]
 - content: |
     [!INCLUDE [](dotnet-core/tutorial/07-completed.md)]
