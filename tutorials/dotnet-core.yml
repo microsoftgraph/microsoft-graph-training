@@ -40,9 +40,9 @@ items:
   durationInMinutes: 5
   content: |
     [!INCLUDE [](dotnet-core/tutorial/07-get-inbox-messages.md)]
-- title: Create a new event
+- title: Send mail
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/06-create-event.md)]
+    [!INCLUDE [](dotnet-core/tutorial/08-send-mail.md)]
 - content: |
     [!INCLUDE [](dotnet-core/tutorial/07-completed.md)]
