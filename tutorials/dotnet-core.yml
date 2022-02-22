@@ -36,6 +36,10 @@ items:
   durationInMinutes: 5
   content: |
     [!INCLUDE [](dotnet-core/tutorial/06-get-user.md)]
+- title: List inbox
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](dotnet-core/tutorial/07-get-inbox-messages.md)]
 - title: Create a new event
   durationInMinutes: 5
   content: |
