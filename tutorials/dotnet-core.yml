@@ -28,7 +28,7 @@ items:
   durationInMinutes: 7
   content: |
     [!INCLUDE [](dotnet-core/tutorial/04-create-app.md)]
-- title: Add Azure AD authentication
+- title: Add user authentication
   durationInMinutes: 15
   content: |
     [!INCLUDE [](dotnet-core/tutorial/05-add-user-auth.md)]
