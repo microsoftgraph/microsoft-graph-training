@@ -31,7 +31,7 @@ items:
 - title: Add Azure AD authentication
   durationInMinutes: 15
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/04-add-aad-auth.md)]
+    [!INCLUDE [](dotnet-core/tutorial/05-add-user-auth.md)]
 - title: Get a calendar view
   durationInMinutes: 5
   content: |
