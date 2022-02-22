@@ -48,5 +48,13 @@ items:
   durationInMinutes: 2
   content: |
     [!INCLUDE [](dotnet-core/tutorial/09-add-app-only-auth.md)]
+- title: "Optional: list users"
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](dotnet-core/tutorial/10-get-all-users.md)]
+- title: "Optional: add your own code"
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](dotnet-core/tutorial/11-extend-app.md)]
 - content: |
-    [!INCLUDE [](dotnet-core/tutorial/07-completed.md)]
+    [!INCLUDE [](dotnet-core/tutorial/12-completed.md)]
