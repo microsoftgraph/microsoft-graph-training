@@ -32,10 +32,10 @@ items:
   durationInMinutes: 15
   content: |
     [!INCLUDE [](dotnet-core/tutorial/05-add-user-auth.md)]
-- title: Get a calendar view
+- title: Get user
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/05-add-ms-graph.md)]
+    [!INCLUDE [](dotnet-core/tutorial/06-get-user.md)]
 - title: Create a new event
   durationInMinutes: 5
   content: |
