@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: Build .NET Core apps with Microsoft Graph
+title: Build .NET apps with Microsoft Graph
 metadata:
-  title: Build .NET Core apps with Microsoft Graph
-  description: In this tutorial, you'll build a .NET Core app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  title: Build .NET apps with Microsoft Graph
+  description: In this tutorial, you'll build a .NET app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving data.
   audience: Developer
   level: Beginner
   displayType: one-column
@@ -20,30 +20,30 @@ items:
   durationInMinutes: 5
   content: |
     [!INCLUDE [](dotnet-core/tutorial/02-register-app.md)]
-- title: "Optional: configure app-only authentication"
+- title: Create a .NET console app
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/03-configure-app-only.md)]
-- title: Create a .NET Core console app
-  durationInMinutes: 5
-  content: |
-    [!INCLUDE [](dotnet-core/tutorial/04-create-app.md)]
+    [!INCLUDE [](dotnet-core/tutorial/03-create-app.md)]
 - title: Add user authentication
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/05-add-user-auth.md)]
+    [!INCLUDE [](dotnet-core/tutorial/04-add-user-auth.md)]
 - title: Get user
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/06-get-user.md)]
+    [!INCLUDE [](dotnet-core/tutorial/05-get-user.md)]
 - title: List inbox
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/07-get-inbox-messages.md)]
+    [!INCLUDE [](dotnet-core/tutorial/06-get-inbox-messages.md)]
 - title: Send mail
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/08-send-mail.md)]
+    [!INCLUDE [](dotnet-core/tutorial/07-send-mail.md)]
+- title: "Optional: configure app-only authentication"
+  durationInMinutes: 3
+  content: |
+    [!INCLUDE [](dotnet-core/tutorial/08-configure-app-only.md)]
 - title: "Optional: add app-only authentication"
   durationInMinutes: 2
   content: |
