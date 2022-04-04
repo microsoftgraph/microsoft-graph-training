@@ -11,7 +11,7 @@ This tutorial teaches you how to build a .NET Core console app that uses the Mic
 
 ## Prerequisites
 
-Before you start this tutorial, you should have the [.NET SDK](https://dotnet.microsoft.com/download) installed on your development machine. If you do not have the SDK or Maven, visit the previous link for download options.
+Before you start this tutorial, you should have the [.NET SDK](https://dotnet.microsoft.com/download) installed on your development machine.
 
 You should also have either a personal Microsoft account with a mailbox on Outlook.com, or a Microsoft work or school account. If you don't have a Microsoft account, there are a couple of options to get a free account:
 
