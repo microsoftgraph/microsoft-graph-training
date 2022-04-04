@@ -15,46 +15,46 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/01-intro.md)]
+    [!INCLUDE [](./markdown/dotnet/01-intro.md)]
 - title: Register the app in the portal
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/02-register-app.md)]
+    [!INCLUDE [](./markdown/dotnet/02-register-app.md)]
 - title: Create a .NET console app
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/03-create-app.md)]
+    [!INCLUDE [](./markdown/dotnet/03-create-app.md)]
 - title: Add user authentication
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/04-add-user-auth.md)]
+    [!INCLUDE [](./markdown/dotnet/04-add-user-auth.md)]
 - title: Get user
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/05-get-user.md)]
+    [!INCLUDE [](./markdown/dotnet/05-get-user.md)]
 - title: List inbox
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/06-get-inbox-messages.md)]
+    [!INCLUDE [](./markdown/dotnet/06-get-inbox-messages.md)]
 - title: Send mail
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/07-send-mail.md)]
+    [!INCLUDE [](./markdown/dotnet/07-send-mail.md)]
 - title: "Optional: configure app-only authentication"
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/08-configure-app-only.md)]
+    [!INCLUDE [](./markdown/dotnet/08-configure-app-only.md)]
 - title: "Optional: add app-only authentication"
   durationInMinutes: 2
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/09-add-app-only-auth.md)]
+    [!INCLUDE [](./markdown/dotnet/09-add-app-only-auth.md)]
 - title: "Optional: list users"
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/10-get-all-users.md)]
+    [!INCLUDE [](./markdown/dotnet/10-get-all-users.md)]
 - title: "Optional: add your own code"
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](dotnet-core/tutorial/11-extend-app.md)]
+    [!INCLUDE [](./markdown/dotnet/11-extend-app.md)]
 - content: |
-    [!INCLUDE [](dotnet-core/tutorial/12-completed.md)]
+    [!INCLUDE [](./markdown/dotnet/12-completed.md)]

@@ -54,6 +54,11 @@
       "source_path": "tutorials/flow.yml",
       "redirect_url": "/graph/tutorials/power-automate",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/dotnet-core.yml",
+      "redirect_url": "/graph/tutorials/dotnet",
+      "redirect_document_id": false
     }
   ]
 }
