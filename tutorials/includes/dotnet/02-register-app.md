@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this exercise you will register a new application in Azure Active Directory to enable [user authentication](/graph/auth-v2-user). You can register an application using the Azure Active Directory admin center, or by using the [Microsoft Graph PowerShell SDK](/graph/powershell/get-started).
 
-Optionally, you will also update the app registration to support [app-only authentication](/graph/auth-v2-service). This step will require access to a **Work or School Account** with the **Global administrator** role.
-
 ## Register application for user authentication
 
 In this section you will register an application that will support user authentication using [device code flow](/azure/active-directory/develop/v2-oauth2-device-code).

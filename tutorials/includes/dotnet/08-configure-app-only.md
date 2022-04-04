@@ -49,15 +49,15 @@ In this section you will update the app registration from the previous section t
 
 1. Open PowerShell and change the current directory to the location of **UpdateAppForAppOnlyAuth.ps1**.
 
-1. Run the following command, replacing *&lt;your-app-id&gt;* with the desired value (see table below).
+1. Run the following command, replacing *&lt;your-client-id&gt;* with your client ID.
 
     ```powershell
-    .\UpdateAppForAppOnlyAuth.ps1 -AppId <your-app-id> -GraphScopes "User.Read.All"
+    .\UpdateAppForAppOnlyAuth.ps1 -AppId <your-client-id> -GraphScopes "User.Read.All"
     ```
 
 1. Follow the prompt to open `https://microsoft.com/devicelogin` in a browser, enter the provided code, and complete the authentication process.
 
-1. Copy the **Client secret** value from the script output. You will need this value in the next step.
+1. Copy the **Tenant ID** and **Client secret** values from the script output. You will need these values in the next step.
 
     ```powershell
     SUCCESS
