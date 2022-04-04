@@ -49,7 +49,7 @@ To use PowerShell, you'll need the Microsoft Graph PowerShell SDK. If you do not
 
 1. Create a new file named **RegisterAppForUserAuth.ps1** and add the following code.
 
-    :::code language="powershell" source="../../dotnet/demo/RegisterAppForUserAuth.ps1" id="ScriptBody":::
+    :::code language="powershell" source="./src/demo/RegisterAppForUserAuth.ps1" id="ScriptBody":::
 
 1. Save the file.
 
