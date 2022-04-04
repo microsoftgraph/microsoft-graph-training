@@ -18,7 +18,7 @@ In this section you will register an application that will support user authenti
 
 1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
 
-    ![A screenshot of the App registrations ](/tutorials/images/aad-portal-app-registrations.png)
+    ![A screenshot of the App registrations ](../../images/aad-portal-app-registrations.png)
 
 1. Select **New registration**. Enter a name for your application, for example, `.NET Graph Tutorial`.
 
@@ -34,11 +34,11 @@ In this section you will register an application that will support user authenti
 
 1. Select **Register**. On the application's **Overview** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step. If you chose **Accounts in this organizational directory only** for **Supported account types**, also copy the **Directory (tenant) ID** and save it.
 
-    ![A screenshot of the application ID of the new app registration](/tutorials/images/dotnet//aad-application-id.png)
+    ![A screenshot of the application ID of the new app registration](../../images/dotnet//aad-application-id.png)
 
 1. Select **Authentication** under **Manage**. Locate the **Advanced settings** section and change the **Allow public client flows** toggle to **Yes**, then choose **Save**.
 
-    ![A screenshot of the Allow public client flows toggle](/tutorials/images/aad-default-client-type.png)
+    ![A screenshot of the Allow public client flows toggle](../../images/aad-default-client-type.png)
 
 ### [PowerShell](#tab/powershell)
 
@@ -49,7 +49,7 @@ To use PowerShell, you'll need the Microsoft Graph PowerShell SDK. If you do not
 
 1. Create a new file named **RegisterAppForUserAuth.ps1** and add the following code.
 
-    :::code language="powershell" source="dotnet/demo/RegisterAppForUserAuth.ps1" id="ScriptBody":::
+    :::code language="powershell" source="../../dotnet/demo/RegisterAppForUserAuth.ps1" id="ScriptBody":::
 
 1. Save the file.
 
