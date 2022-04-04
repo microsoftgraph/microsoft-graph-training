@@ -110,7 +110,7 @@ In this section you will create a simple console-based menu.
         // TODO
     }
 
-    async Task MakeGraphCall()
+    async Task MakeGraphCallAsync()
     {
         // TODO
     }
