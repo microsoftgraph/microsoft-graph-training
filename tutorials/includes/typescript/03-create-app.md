@@ -39,7 +39,7 @@ Run the following commands in your CLI to install the dependencies.
 
 ```bash
 npm install @azure/identity @microsoft/microsoft-graph-client isomorphic-fetch readline-sync
-npm install -D @microsoft/microsoft-graph-types @types/node @types/readline-sync
+npm install -D @microsoft/microsoft-graph-types @types/node @types/readline-sync @types/isomorphic-fetch
 ```
 
 ## Load application settings
@@ -68,31 +68,31 @@ In this section you will create a simple console-based menu.
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
     ```typescript
-    function initializeGraph(settings: AppSettings): void {
+    function initializeGraph(settings: AppSettings) {
       // TODO
     }
 
-    async function greetUserAsync(): Promise<void> {
+    async function greetUserAsync() {
       // TODO
     }
 
-    async function displayAccessTokenAsync(): Promise<void> {
+    async function displayAccessTokenAsync() {
       // TODO
     }
 
-    async function listInboxAsync(): Promise<void> {
+    async function listInboxAsync() {
       // TODO
     }
 
-    async function sendMailAsync(): Promise<void> {
+    async function sendMailAsync() {
       // TODO
     }
 
-    async function listUsersAsync(): Promise<void> {
+    async function listUsersAsync() {
       // TODO
     }
 
-    async function makeGraphCallAsync(): Promise<void> {
+    async function makeGraphCallAsync() {
       // TODO
     }
     ```
