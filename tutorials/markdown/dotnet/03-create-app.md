@@ -24,7 +24,7 @@ Begin by creating a new .NET Core console project using the [.NET CLI](/dotnet/c
 
 Before moving on, add some additional dependencies that you will use later.
 
-- [.NET configuration packages](https://docs.microsoft.com/dotnet/core/extensions/configuration) to read application configuration from **appsettings.json**.
+- [.NET configuration packages](/dotnet/core/extensions/configuration) to read application configuration from **appsettings.json**.
 - [Azure Identity client library for .NET](https://www.nuget.org/packages/Azure.Identity)  to authenticate the user and acquire access tokens.
 - [Microsoft Graph .NET client library](https://github.com/microsoftgraph/msgraph-sdk-dotnet) to make calls to the Microsoft Graph.
 
@@ -43,7 +43,7 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the **GraphTutorial** directory named **appsettings.json** and add the following code.
 
-    :::code language="json" source="../demo/GraphTutorial/appsettings.json":::
+    :::code language="json" source="./src/demo/GraphTutorial/appsettings.json":::
 
 1. Update the values according to the following table.
 
@@ -67,7 +67,7 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the **GraphTutorial** directory named **Settings.cs** and add the following code.
 
-    :::code language="csharp" source="../demo/GraphTutorial/Settings.cs" id="SettingsSnippet":::
+    :::code language="csharp" source="./src/demo/GraphTutorial/Settings.cs" id="SettingsSnippet":::
 
 ## Design the app
 
@@ -75,7 +75,7 @@ In this section you will create a simple console-based menu.
 
 1. Open **./Program.cs** and replace its entire contents with the following code.
 
-    :::code language="csharp" source="../demo/GraphTutorial/Program.cs" id="ProgramSnippet":::
+    :::code language="csharp" source="./src/demo/GraphTutorial/Program.cs" id="ProgramSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 

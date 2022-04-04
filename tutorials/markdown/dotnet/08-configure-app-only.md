@@ -4,7 +4,7 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-In this section you will update the app registration from the previous section to support [app-only authentication](https://docs.microsoft.com/graph/auth-v2-service). App-only authentication is a good choice for background services, and there are also some APIs that only support app-only authentication. You only need to complete this section if you intend to use the app-only portions of this tutorial. If not, you can safely skip to the next step.
+In this section you will update the app registration from the previous section to support [app-only authentication](/graph/auth-v2-service). App-only authentication is a good choice for background services, and there are also some APIs that only support app-only authentication. You only need to complete this section if you intend to use the app-only portions of this tutorial. If not, you can safely skip to the next step.
 
 > [!div class="nextstepaction"]
 > [I don't need app-only, skip to the end](?tutorial-step=10)
@@ -28,7 +28,7 @@ In this section you will update the app registration from the previous section t
 
 1. Select **Grant admin consent for...**, then select **Yes** to provide admin consent for the selected permission.
 
-    ![A screenshot of the Configured permissions table after granting admin consent](/tutorials/images/aad-configured-permissions.png)
+    ![A screenshot of the Configured permissions table after granting admin consent](../../images/aad-configured-permissions.png)
 
 1. Select **Certificates and secrets** under **Manage**, then select **New client secret**.
 
@@ -43,7 +43,7 @@ In this section you will update the app registration from the previous section t
 
 1. Create a new file named **UpdateAppForAppOnlyAuth.ps1** and add the following code.
 
-    :::code language="powershell" source="../demo/UpdateAppForAppOnlyAuth.ps1" id="ScriptBody":::
+    :::code language="powershell" source="./src/demo/UpdateAppForAppOnlyAuth.ps1" id="ScriptBody":::
 
 1. Save the file.
 
@@ -69,4 +69,4 @@ In this section you will update the app registration from the previous section t
 ---
 
 > [!NOTE]
-> Notice that, unlike the steps when registering for user authentication, in this section you did configure Microsoft Graph permissions on the app registration. This is because app-only auth uses the [client credentials flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow), which requires that permissions be configured on the app registration. See [The .default scope](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#the-default-scope) for details.
+> Notice that, unlike the steps when registering for user authentication, in this section you did configure Microsoft Graph permissions on the app registration. This is because app-only auth uses the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow), which requires that permissions be configured on the app registration. See [The .default scope](/azure/active-directory/develop/v2-permissions-and-consent#the-default-scope) for details.

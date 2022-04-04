@@ -10,11 +10,11 @@ In this section you will incorporate the Microsoft Graph into the application. F
 
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 
-    :::code language="csharp" source="../demo/GraphTutorial/GraphHelper.cs" id="GetUserSnippet":::
+    :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="GetUserSnippet":::
 
 1. Replace the empty `DisplayAccessTokenAsync` function in **Program.cs** with the following.
 
-    :::code language="csharp" source="../demo/GraphTutorial/Program.cs" id="GreetUserSnippet":::
+    :::code language="csharp" source="./src/demo/GraphTutorial/Program.cs" id="GreetUserSnippet":::
 
 If you run the app now, after you log in the app welcomes you by name.
 
@@ -29,7 +29,7 @@ Consider the code in the `GetUserAsync` function. It's only a few lines, but the
 
 ### Accessing 'me'
 
-The function uses the `_userClient.Me` request builder, which builds a request to the [Get user](https://docs.microsoft.com/graph/api/user-get) API. This API is accessible two ways:
+The function uses the `_userClient.Me` request builder, which builds a request to the [Get user](/graph/api/user-get) API. This API is accessible two ways:
 
 ```http
 GET /me
@@ -39,11 +39,11 @@ GET /users/{user-id}
 In this case, the code will call the `GET /me` API endpoint. This is a shortcut method to get the authenticated user without knowing their user ID.
 
 > [!NOTE]
-> Because the `GET /me` API endpoint gets the authenticated user, it is only availabe to apps that use user authentication. App-only authentication apps cannot access this endpoint.
+> Because the `GET /me` API endpoint gets the authenticated user, it is only available to apps that use user authentication. App-only authentication apps cannot access this endpoint.
 
 ### Requesting specific properties
 
-The function uses the `Select` method on the request to specify the set of properties it needs. This adds the [$select query parameter](https://docs.microsoft.com/graph/query-parameters#select-parameter) to the API call.
+The function uses the `Select` method on the request to specify the set of properties it needs. This adds the [$select query parameter](/graph/query-parameters#select-parameter) to the API call.
 
 ### Strongly-typed return type
 

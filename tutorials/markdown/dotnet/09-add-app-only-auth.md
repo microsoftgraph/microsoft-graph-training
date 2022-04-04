@@ -11,11 +11,11 @@ In this section you will add app-only authentication to the application. This se
 
 ## Configure Graph client for app-only authentication
 
-In this section you will use the `ClientSecretCredential` class to request an access token by using the [client credentials flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+In this section you will use the `ClientSecretCredential` class to request an access token by using the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
 1. Update the value of `tenantId` in **appsettings.json** (or **appsettings.Development.json**) with your organization's tenant ID.
 
-1. Add your client secret to the [.NET Secret Manager](https://docs.microsoft.com/aspnet/core/security/app-secrets). In your command-line interface, change the directory to the location of **GraphTutorial.csproj** and run the following commands, replacing *&lt;client-secret&gt;* with your client secret.
+1. Add your client secret to the [.NET Secret Manager](/aspnet/core/security/app-secrets). In your command-line interface, change the directory to the location of **GraphTutorial.csproj** and run the following commands, replacing *&lt;client-secret&gt;* with your client secret.
 
     ```dotnetcli
     dotnet user-secrets init
@@ -23,8 +23,8 @@ In this section you will use the `ClientSecretCredential` class to request an ac
     ```
 
     > [!NOTE]
-    > The .NET Secret Manager is only available during development. Production apps should store client secrets in a secure store, such as [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/overview).
+    > The .NET Secret Manager is only available during development. Production apps should store client secrets in a secure store, such as [Azure Key Vault](/azure/key-vault/general/overview).
 
 1. Open **./GraphHelper.cs** and add the following code to the **GraphHelper** class.
 
-    :::code language="csharp" source="../demo/GraphTutorial/GraphHelper.cs" id="AppOnyAuthConfigSnippet":::
+    :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="AppOnyAuthConfigSnippet":::
