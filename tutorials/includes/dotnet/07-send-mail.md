@@ -30,7 +30,7 @@ In this section you will add the ability to send an email message as the authent
     Mail sent.
     ```
 
-    [!INCLUDE [dev-tenant-send-mail](../includes/dev-tenant-send-mail.md)]
+    [!INCLUDE [dev-tenant-send-mail](../shared/dev-tenant-send-mail.md)]
 
 ## Code explained
 

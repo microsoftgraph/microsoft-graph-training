@@ -4,13 +4,13 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-In this exercise you will register a new application in Azure Active Directory to enable [user authentication](https://docs.microsoft.com/graph/auth-v2-user). You can register an application using the Azure Active Directory admin center, or by using the [Microsoft Graph PowerShell SDK](https://docs.microsoft.com/graph/powershell/get-started).
+In this exercise you will register a new application in Azure Active Directory to enable [user authentication](/graph/auth-v2-user). You can register an application using the Azure Active Directory admin center, or by using the [Microsoft Graph PowerShell SDK](/graph/powershell/get-started).
 
-Optionally, you will also update the app registration to support [app-only authentication](https://docs.microsoft.com/graph/auth-v2-service). This step will require access to a **Work or School Account** with the **Global administrator** role.
+Optionally, you will also update the app registration to support [app-only authentication](/graph/auth-v2-service). This step will require access to a **Work or School Account** with the **Global administrator** role.
 
 ## Register application for user authentication
 
-In this section you will register an application that will support user authentication using [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code).
+In this section you will register an application that will support user authentication using [device code flow](/azure/active-directory/develop/v2-oauth2-device-code).
 
 ### [Azure AD admin center](#tab/aad)
 
@@ -42,7 +42,7 @@ In this section you will register an application that will support user authenti
 
 ### [PowerShell](#tab/powershell)
 
-To use PowerShell, you'll need the Microsoft Graph PowerShell SDK. If you do not have it, see [Install the Microsoft Graph PowerShell SDK](https://docs.microsoft.com/graph/powershell/installation) for installation instructions.
+To use PowerShell, you'll need the Microsoft Graph PowerShell SDK. If you do not have it, see [Install the Microsoft Graph PowerShell SDK](/graph/powershell/installation) for installation instructions.
 
 > [!IMPORTANT]
 > The PowerShell script requires a work/school account with the Application administrator, Cloud application administrator, or Global administrator role. If your account has the Application developer role, you can register in the Azure AD admin center.
@@ -81,4 +81,4 @@ To use PowerShell, you'll need the Microsoft Graph PowerShell SDK. If you do not
 ---
 
 > [!NOTE]
-> Notice that you did not configure any Microsoft Graph permissions on the app registration. This is because the sample will use [dynamic consent](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#incremental-and-dynamic-user-consent) to request specific permissions for user authentication.
+> Notice that you did not configure any Microsoft Graph permissions on the app registration. This is because the sample will use [dynamic consent](/azure/active-directory/develop/v2-permissions-and-consent#incremental-and-dynamic-user-consent) to request specific permissions for user authentication.

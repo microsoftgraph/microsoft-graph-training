@@ -53,7 +53,7 @@ In this section you'll add the details of your app registration to the project.
     | `authTenant` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
 
     > [!TIP]
-    > Optionally, you can set these values in a separate file named **appsettings.Development.json**, or in the [.NET Secret Manager](https://docs.microsoft.com/aspnet/core/security/app-secrets).
+    > Optionally, you can set these values in a separate file named **appsettings.Development.json**, or in the [.NET Secret Manager](/aspnet/core/security/app-secrets).
 
 1. Update **GraphTutorial.csproj** to copy **appsettings.json** to the output directory. Add the following code between the `<Project>` and `</Project>` lines.
 

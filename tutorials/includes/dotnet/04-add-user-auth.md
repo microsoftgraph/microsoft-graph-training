@@ -67,8 +67,8 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
 
 1. Open a browser and browse to the URL displayed. Enter the provided code and sign in.
 
-    [!INCLUDE [browser-auth-note](../includes/browser-auth-note.md)]
+    [!INCLUDE [browser-auth-note](../shared/browser-auth-note.md)]
 
 1. Once completed, return to the application to see the access token.
 
-    [!INCLUDE [token-debug-tip](../includes/token-debug-tip.md)]
+    [!INCLUDE [token-debug-tip](../shared/token-debug-tip.md)]

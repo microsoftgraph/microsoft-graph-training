@@ -15,46 +15,46 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](./markdown/dotnet/01-intro.md)]
+    [!INCLUDE [](./includes/dotnet/01-intro.md)]
 - title: Register the app in the portal
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](./markdown/dotnet/02-register-app.md)]
+    [!INCLUDE [](./includes/dotnet/02-register-app.md)]
 - title: Create a .NET console app
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](./markdown/dotnet/03-create-app.md)]
+    [!INCLUDE [](./includes/dotnet/03-create-app.md)]
 - title: Add user authentication
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](./markdown/dotnet/04-add-user-auth.md)]
+    [!INCLUDE [](./includes/dotnet/04-add-user-auth.md)]
 - title: Get user
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](./markdown/dotnet/05-get-user.md)]
+    [!INCLUDE [](./includes/dotnet/05-get-user.md)]
 - title: List inbox
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](./markdown/dotnet/06-get-inbox-messages.md)]
+    [!INCLUDE [](./includes/dotnet/06-get-inbox-messages.md)]
 - title: Send mail
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](./markdown/dotnet/07-send-mail.md)]
+    [!INCLUDE [](./includes/dotnet/07-send-mail.md)]
 - title: "Optional: configure app-only authentication"
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](./markdown/dotnet/08-configure-app-only.md)]
+    [!INCLUDE [](./includes/dotnet/08-configure-app-only.md)]
 - title: "Optional: add app-only authentication"
   durationInMinutes: 2
   content: |
-    [!INCLUDE [](./markdown/dotnet/09-add-app-only-auth.md)]
+    [!INCLUDE [](./includes/dotnet/09-add-app-only-auth.md)]
 - title: "Optional: list users"
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](./markdown/dotnet/10-get-all-users.md)]
+    [!INCLUDE [](./includes/dotnet/10-get-all-users.md)]
 - title: "Optional: add your own code"
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](./markdown/dotnet/11-extend-app.md)]
+    [!INCLUDE [](./includes/dotnet/11-extend-app.md)]
 - content: |
-    [!INCLUDE [](./markdown/dotnet/12-completed.md)]
+    [!INCLUDE [](./includes/dotnet/12-completed.md)]
