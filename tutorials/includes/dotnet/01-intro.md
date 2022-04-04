@@ -20,7 +20,3 @@ You should also have either a personal Microsoft account with a mailbox on Outlo
 
 > [!NOTE]
 > This tutorial was written with .NET SDK version 6.0.102. The steps in this guide may work with other versions, but that has not been tested.
-
-## Feedback
-
-Please provide any feedback on this tutorial in the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-dotnet-core).

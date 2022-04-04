@@ -17,7 +17,3 @@ You've completed the .NET Microsoft Graph tutorial. Now that you have a working 
 - [Teams app](https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet)
 - [Change notifications](https://github.com/microsoftgraph/aspnetcore-webhooks-sample)
 - [ASP.NET Core snippets](https://github.com/microsoftgraph/aspnet-snippets-sample)
-
-## Feedback
-
-Please provide any feedback on this tutorial in the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-dotnet-core).
