@@ -12,7 +12,7 @@ In this section you will incorporate the Microsoft Graph into the application. F
 
     :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="GetUserSnippet":::
 
-1. Replace the empty `DisplayAccessTokenAsync` function in **Program.cs** with the following.
+1. Replace the empty `GreetUserAsync` function in **Program.cs** with the following.
 
     :::code language="csharp" source="./src/demo/GraphTutorial/Program.cs" id="GreetUserSnippet":::
 
