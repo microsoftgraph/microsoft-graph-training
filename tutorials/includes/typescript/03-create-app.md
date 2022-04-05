@@ -61,6 +61,12 @@ In this section you'll add the details of your app registration to the project.
 
 In this section you will create a simple console-based menu.
 
+1. Create a file in the root of your project named **graphHelper.ts** and add the following placeholder code. You'll add more code this file in later steps.
+
+    ```typescript
+    export {};
+    ```
+
 1. Create a file in the root of your project named **index.ts** and add the following code.
 
     :::code language="typescript" source="./src/demo/graphtutorial/index.ts" id="ProgramSnippet":::
