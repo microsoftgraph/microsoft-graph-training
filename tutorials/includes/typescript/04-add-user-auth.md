@@ -17,18 +17,6 @@ In this section you will use the `DeviceCodeCredential` class to request an acce
 
 1. Create a new file in the root of your project named **graphHelper.ts** and add the following code to that file.
 
-    ```typescript
-    import 'isomorphic-fetch';
-    import { DeviceCodeCredential, DeviceCodePromptCallback } from '@azure/identity';
-    import { Client } from '@microsoft/microsoft-graph-client';
-    import { TokenCredentialAuthenticationProvider } from
-      '@microsoft/microsoft-graph-client/authProviders/azureTokenCredentials';
-
-    import { AppSettings } from './appSettings';
-    ```
-
-1. Add the following code.
-
     :::code language="typescript" source="./src/demo/graphtutorial/graphHelper.ts" id="UserAuthConfigSnippet":::
 
 1. Replace the empty `initializeGraph` function in **index.ts** with the following.
