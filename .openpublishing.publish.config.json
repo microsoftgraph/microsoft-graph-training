@@ -244,6 +244,16 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/includes/typescript/src",
+      "url": "https://github.com/microsoftgraph/msgraph-training-typescript",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/uwp",
       "url": "https://github.com/microsoftgraph/msgraph-training-uwp",
       "branch": "main",

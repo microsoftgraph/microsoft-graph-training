@@ -1,0 +1,60 @@
+### YamlMime:Tutorial
+title: Build TypeScript apps with Microsoft Graph
+metadata:
+  title: Build TypeScript apps with Microsoft Graph
+  description: In this tutorial, you'll build a TypeScript app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving data.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 04/05/2022
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: tutorial
+  scenarios: getting-started
+  languages: TypeScript
+items:
+- durationInMinutes: 1
+  content: |
+    [!INCLUDE [](./includes/typescript/01-intro.md)]
+- title: Register the app in the portal
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/typescript/02-register-app.md)]
+- title: Create a TypeScript console app
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/typescript/03-create-app.md)]
+- title: Add user authentication
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/typescript/04-add-user-auth.md)]
+- title: Get user
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/typescript/05-get-user.md)]
+- title: List inbox
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/typescript/06-get-inbox-messages.md)]
+- title: Send mail
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/typescript/07-send-mail.md)]
+- title: "Optional: configure app-only authentication"
+  durationInMinutes: 3
+  content: |
+    [!INCLUDE [](./includes/typescript/08-configure-app-only.md)]
+- title: "Optional: add app-only authentication"
+  durationInMinutes: 2
+  content: |
+    [!INCLUDE [](./includes/typescript/09-add-app-only-auth.md)]
+- title: "Optional: list users"
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/typescript/10-get-all-users.md)]
+- title: "Optional: add your own code"
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/typescript/11-extend-app.md)]
+- content: |
+    [!INCLUDE [](./includes/typescript/12-completed.md)]
