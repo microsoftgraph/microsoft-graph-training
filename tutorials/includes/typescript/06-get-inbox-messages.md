@@ -54,7 +54,7 @@ In this section you will add the ability to list messages in the user's email in
 
     ...
 
-    More messages available? True
+    More messages available? true
     ```
 
 ## Code explained
