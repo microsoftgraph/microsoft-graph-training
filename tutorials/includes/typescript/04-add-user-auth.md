@@ -37,7 +37,13 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
 
     :::code language="typescript" source="./src/demo/graphtutorial/index.ts" id="DisplayAccessTokenSnippet":::
 
-1. Build and run the app. Enter `1` when prompted for an option. The application displays a URL and device code.
+1. Run the following command in your CLI in the root of your project.
+
+    ```bash
+    npx ts-node index.ts
+    ```
+
+1. Enter `1` when prompted for an option. The application displays a URL and device code.
 
     ```Shell
     TypeScript Graph Tutorial
