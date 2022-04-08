@@ -4,15 +4,13 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-Begin by creating a new Node.js project.
+Begin by creating a new Node.js project. Open your command-line interface (CLI) in a directory where you want to create the project. Run the following command.
 
-1. Open your command-line interface (CLI) in a directory where you want to create the project. Run the following command.
+```bash
+npm init
+```
 
-    ```bash
-    npm init
-    ```
-
-    Answer the prompts by either supplying your own values or accepting the defaults.
+Answer the prompts by either supplying your own values or accepting the defaults.
 
 ## Install dependencies
 
