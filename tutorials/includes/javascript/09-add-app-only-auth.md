@@ -20,8 +20,8 @@ In this section you will use the `ClientSecretCredential` class to request an ac
     | `tenantId` | Your organization's tenant ID |
     | `clientSecret` | The client secret generated in the previous step |
 
-1. Update the values of `tenantId` in **appsettings.ts** with your organization's tenant ID.
+1. Update the values of `tenantId` in **appsettings.js** with your organization's tenant ID.
 
-1. Open **graphHelper.ts** and add the following code.
+1. Open **graphHelper.js** and add the following code.
 
-    :::code language="typescript" source="./src/demo/graphtutorial/graphHelper.ts" id="AppOnyAuthConfigSnippet":::
+    :::code language="javascript" source="./src/demo/graphtutorial/graphHelper.js" id="AppOnyAuthConfigSnippet":::
