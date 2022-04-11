@@ -4,7 +4,7 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD002 MD041 -->
 
-This tutorial teaches you how to build a .NET Core console app that uses the Microsoft Graph API.
+This tutorial teaches you how to build a .NET console app that uses the Microsoft Graph API.
 
 > [!TIP]
 > If you prefer to just download the completed tutorial, you can download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-dotnet-core).

@@ -4,7 +4,7 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD002 MD041 -->
 
-Begin by creating a new .NET Core console project using the [.NET CLI](/dotnet/core/tools/).
+Begin by creating a new .NET console project using the [.NET CLI](/dotnet/core/tools/).
 
 1. Open your command-line interface (CLI) in a directory where you want to create the project. Run the following command.
 
