@@ -61,9 +61,13 @@ In this section you'll add the details of your app registration to the project.
 
 In this section you will create a simple console-based menu.
 
-1. Open **./app/src/main/java/graphtutorial/App.java** and replace its entire contents with the following code.
+1. Open **./app/src/main/java/graphtutorial/App.java** and add the following `import` statements.
 
-    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/App.java" id="ProgramSnippet":::
+    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/App.java" id="ImportSnippet":::
+
+1. Replace the existing `main` function with the following.
+
+    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/App.java" id="MainSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
