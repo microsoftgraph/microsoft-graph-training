@@ -32,7 +32,7 @@ In this section you will register an application that will support user authenti
 
 1. Select **Register**. On the application's **Overview** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step. If you chose **Accounts in this organizational directory only** for **Supported account types**, also copy the **Directory (tenant) ID** and save it.
 
-    ![A screenshot of the application ID of the new app registration](../../images/dotnet//aad-application-id.png)
+    ![A screenshot of the application ID of the new app registration](../../images/java/aad-application-id.png)
 
 1. Select **Authentication** under **Manage**. Locate the **Advanced settings** section and change the **Allow public client flows** toggle to **Yes**, then choose **Save**.
 
