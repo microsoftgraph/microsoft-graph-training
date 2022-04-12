@@ -18,7 +18,7 @@ In this section you will add the ability to send an email message as the authent
 
 1. Run the app, sign in, and choose option 3 to send an email to yourself.
 
-    ```Shell
+    ```bash
     Please choose one of the following options:
     0. Exit
     1. Display access token

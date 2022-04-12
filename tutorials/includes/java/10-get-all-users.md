@@ -21,7 +21,7 @@ In this section you will add the ability to list all users in your Azure Active 
 
 1. Run the app, sign in, and choose option 4 to list users.
 
-    ```Shell
+    ```bash
     Please choose one of the following options:
     0. Exit
     1. Display access token
