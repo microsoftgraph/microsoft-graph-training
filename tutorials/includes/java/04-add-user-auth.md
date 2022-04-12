@@ -50,7 +50,7 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
 
 1. Build and run the app. Enter `1` when prompted for an option. The application displays a URL and device code.
 
-    ```Shell
+    ```bash
     Java Graph Tutorial
 
     Please choose one of the following options:
