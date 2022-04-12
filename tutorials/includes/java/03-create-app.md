@@ -29,11 +29,11 @@ Before moving on, add some additional dependencies that you will use later.
 
 1. Open **./app/build.gradle**. Update the `dependencies` section to add those dependencies.
 
-    :::code language="gradle" source="../demo/graphtutorial/app/build.gradle" id="DependenciesSnippet" highlight="7-8":::
+    :::code language="gradle" source="./src/demo/graphtutorial/app/build.gradle" id="DependenciesSnippet" highlight="7-8":::
 
 1. Add the following to the end of **./app/build.gradle**.
 
-    :::code language="gradle" source="../demo/graphtutorial/app/build.gradle" id="StandardInputSnippet":::
+    :::code language="gradle" source="./src/demo/graphtutorial/app/build.gradle" id="StandardInputSnippet":::
 
     The next time you build the project, Gradle will download those dependencies.
 
