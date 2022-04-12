@@ -76,6 +76,10 @@ In this section you will create a simple console-based menu.
         // TODO
     }
 
+    private static void greetUser() {
+        // TODO
+    }
+
     private static void displayAccessToken() {
         // TODO
     }
