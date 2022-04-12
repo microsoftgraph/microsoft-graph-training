@@ -124,12 +124,13 @@
       "include_in_build": true
     },
     {
-      "path_to_root": "tutorials/java",
+      "path_to_root": "tutorials/includes/java/src",
       "url": "https://github.com/microsoftgraph/msgraph-training-java",
       "branch": "main",
       "branch_mapping": {
         "master": "main",
-        "live": "live"
+        "live": "live",
+        "v2": "v2"
       },
       "include_in_build": true
     },
