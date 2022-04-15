@@ -21,7 +21,7 @@ In this section you will incorporate the Microsoft Graph into the application. F
 
 If you run the app now, after you log in the app welcomes you by name.
 
-```Shell
+```bash
 Hello, Megan Bowen!
 Email: MeganB@contoso.com
 ```
