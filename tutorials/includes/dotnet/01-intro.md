@@ -2,7 +2,7 @@
 ms.localizationpriority: medium
 ---
 
-<!-- markdownlint-disable MD002 MD041 -->
+<!-- markdownlint-disable MD041 -->
 
 This tutorial teaches you how to build a .NET console app that uses the Microsoft Graph API.
 
