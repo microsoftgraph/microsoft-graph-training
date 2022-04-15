@@ -6,6 +6,9 @@ ms.localizationpriority: medium
 
 In this section you will incorporate the Microsoft Graph into the application. For this application, you will use the [Microsoft Graph SDK for Go](https://github.com/microsoftgraph/msgraph-sdk-go) to make calls to Microsoft Graph.
 
+> [!IMPORTANT]
+> The Microsoft Graph Go SDK is currently in Community Preview. During this period breaking changes are expected to happen. This tutorial was written with version 0.19.1.
+
 ## Get user details
 
 1. Add the following function to **./graphhelper/graphhelper.go**.
