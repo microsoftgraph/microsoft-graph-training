@@ -53,6 +53,14 @@ In this section you'll add the details of your app registration to the project.
 
 In this section you will create a simple console-based menu.
 
+1. Create a new directory in the same directory as **go.mod** named **graphhelper**.
+
+1. Add a new file in the **graphhelper** directory named **graphhelper.go** and add the following code.
+
+    :::code language="go" source="./src/demo/graphtutorial/graphhelper/graphhelper.go" id="GraphHelperSnippet":::
+
+    This creates a basic **GraphHelper** type that you will extend in later sections to use Microsoft Graph.
+
 1. Create a file in the same directory as **go.mod** named **graphtutorial.go**. Add the following code.
 
     :::code language="go" source="./src/demo/graphtutorial/graphtutorial.go" id="ProgramSnippet":::
@@ -60,31 +68,31 @@ In this section you will create a simple console-based menu.
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
     ```go
-    func initializeGraph() {
+    func initializeGraph(graphHelper *graphhelper.GraphHelper) {
         // TODO
     }
 
-    func greetUser() {
+    func greetUser(graphHelper *graphhelper.GraphHelper) {
         // TODO
     }
 
-    func displayAccessToken() {
+    func displayAccessToken(graphHelper *graphhelper.GraphHelper) {
         // TODO
     }
 
-    func listInbox() {
+    func listInbox(graphHelper *graphhelper.GraphHelper) {
         // TODO
     }
 
-    func sendMail() {
+    func sendMail(graphHelper *graphhelper.GraphHelper) {
         // TODO
     }
 
-    func listUsers() {
+    func listUsers(graphHelper *graphhelper.GraphHelper) {
         // TODO
     }
 
-    func makeGraphCall() {
+    func makeGraphCall(graphHelper *graphhelper.GraphHelper) {
         // TODO
     }
     ```
