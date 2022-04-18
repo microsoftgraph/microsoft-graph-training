@@ -94,8 +94,7 @@
         "v2": "v2",
         "master": "main",
         "live": "live"
-      },
-      "include_in_build": true
+      }
     },
     {
       "path_to_root": "tutorials/includes/go/src",
@@ -132,8 +131,7 @@
         "master": "main",
         "live": "live",
         "v2": "v2"
-      },
-      "include_in_build": true
+      }
     },
     {
       "path_to_root": "tutorials/javascript",
@@ -151,8 +149,7 @@
       "branch_mapping": {
         "master": "main",
         "live": "live"
-      },
-      "include_in_build": true
+      }
     },
     {
       "path_to_root": "tutorials/node",
@@ -251,8 +248,7 @@
       "branch_mapping": {
         "master": "main",
         "live": "live"
-      },
-      "include_in_build": true
+      }
     },
     {
       "path_to_root": "tutorials/uwp",
