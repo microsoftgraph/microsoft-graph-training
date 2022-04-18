@@ -104,6 +104,16 @@
       "include_in_build": true
     },
     {
+      "path_to_root": "tutorials/includes/go/src",
+      "url": "https://github.com/microsoftgraph/msgraph-training-go",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
+    },
+    {
       "path_to_root": "tutorials/ios-objectivec",
       "url": "https://github.com/microsoftgraph/msgraph-training-ios-objectivec",
       "branch": "main",

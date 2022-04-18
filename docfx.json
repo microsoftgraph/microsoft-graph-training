@@ -23,6 +23,7 @@
           "tutorials/blazor/**",
           "tutorials/bot-framework/**",
           "tutorials/includes/dotnet/src/**",
+          "tutorials/includes/go/src/**",
           "tutorials/includes/java/src/**",
           "tutorials/includes/javascript/src/**",
           "tutorials/includes/typescript/src/**",
