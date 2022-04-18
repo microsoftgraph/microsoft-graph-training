@@ -36,7 +36,7 @@ This code loads information from the .env file, and initializes two properties, 
 
 Next, add code to get an access token from the `GraphHelper`.
 
-1. Add the following function to **GraphHelper.php**.
+1. Add the following function to the `GraphHelper` class.
 
     :::code language="php" source="./src/demo/graphtutorial/GraphHelper.php" id="GetUserTokenSnippet":::
 
