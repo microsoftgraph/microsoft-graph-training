@@ -167,7 +167,8 @@
       "branch_mapping": {
         "master": "main",
         "live": "live"
-      }
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/php",
