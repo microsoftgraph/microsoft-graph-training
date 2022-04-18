@@ -1,7 +1,9 @@
 {
     "cSpell.words": [
+        "GetOdatanextLink",
         "graphhelper",
-        "readline"
+        "readline",
+        "Userable"
     ],
     "cSpell.ignoreWords": [
         "Contoso",
