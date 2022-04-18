@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will add the ability to send an email message as the authenticated user.
 
-## Get user details
-
 1. Open **Graph.java** and add the following function to the **Graph** class.
 
     :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/Graph.java" id="SendMailSnippet":::

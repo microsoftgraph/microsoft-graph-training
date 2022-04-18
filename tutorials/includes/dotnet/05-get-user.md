@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will incorporate the Microsoft Graph into the application. For this application, you will use the [Microsoft Graph .NET Client Library](https://github.com/microsoftgraph/msgraph-sdk-dotnet) to make calls to Microsoft Graph.
 
-## Get user details
-
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 
     :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="GetUserSnippet":::

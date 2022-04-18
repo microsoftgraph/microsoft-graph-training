@@ -9,8 +9,6 @@ In this section you will add the ability to list all users in your Azure Active 
 > [!div class="nextstepaction"]
 > [I don't need app-only, skip to the end](?tutorial-step=10)
 
-## Get user details
-
 1. Open **graphHelper.js** and add the following function.
 
     :::code language="javascript" source="./src/demo/graphtutorial/graphHelper.js" id="GetUsersSnippet":::

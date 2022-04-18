@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will incorporate the Microsoft Graph into the application. For this application, you will use the [Microsoft Graph Java Client Library](https://github.com/microsoftgraph/msgraph-sdk-java) to make calls to Microsoft Graph.
 
-## Get user details
-
 1. Open **Graph.java** and add the following function to the **Graph** class.
 
     :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/Graph.java" id="GetUserSnippet":::

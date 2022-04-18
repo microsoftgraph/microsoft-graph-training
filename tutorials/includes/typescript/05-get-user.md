@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will incorporate the Microsoft Graph into the application. You will use the [Microsoft Graph JavaScript client library](https://www.npmjs.com/package/@microsoft/microsoft-graph-client) to make calls to Microsoft Graph.
 
-## Get user details
-
 1. Open **graphHelper.ts** and add the following function.
 
     :::code language="typescript" source="./src/demo/graphtutorial/graphHelper.ts" id="GetUserSnippet":::

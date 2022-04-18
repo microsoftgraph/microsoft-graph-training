@@ -9,8 +9,6 @@ In this section you will add the ability to list all users in your Azure Active 
 > [!div class="nextstepaction"]
 > [I don't need app-only, skip to the end](?tutorial-step=10)
 
-## Get user details
-
 1. Open **Graph.java** and add the following function to the **Graph** class.
 
     :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/Graph.java" id="GetUsersSnippet":::

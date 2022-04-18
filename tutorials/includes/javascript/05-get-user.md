@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will incorporate the Microsoft Graph into the application. You will use the [Microsoft Graph JavaScript client library](https://www.npmjs.com/package/@microsoft/microsoft-graph-client) to make calls to Microsoft Graph.
 
-## Get user details
-
 1. Open **graphHelper.js** and add the following function.
 
     :::code language="javascript" source="./src/demo/graphtutorial/graphHelper.js" id="GetUserSnippet":::

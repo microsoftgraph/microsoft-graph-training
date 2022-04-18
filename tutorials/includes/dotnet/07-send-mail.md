@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will add the ability to send an email message as the authenticated user.
 
-## Get user details
-
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 
     :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="SendMailSnippet":::

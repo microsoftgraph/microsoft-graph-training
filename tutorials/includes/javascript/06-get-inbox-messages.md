@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will add the ability to list messages in the user's email inbox.
 
-## List user's inbox
-
 1. Open **graphHelper.js** and add the following function.
 
     :::code language="javascript" source="./src/demo/graphtutorial/graphHelper.js" id="GetInboxSnippet":::

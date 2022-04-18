@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will add the ability to send an email message as the authenticated user.
 
-## Get user details
-
 1. Open **graphHelper.ts** and add the following function.
 
     :::code language="typescript" source="./src/demo/graphtutorial/graphHelper.ts" id="SendMailSnippet":::

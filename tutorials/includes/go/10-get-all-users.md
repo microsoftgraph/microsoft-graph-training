@@ -12,8 +12,6 @@ In this section you will add the ability to list all users in your Azure Active 
 > [!div class="nextstepaction"]
 > [I don't need app-only, skip to the end](?tutorial-step=10)
 
-## Get user details
-
 1. Add the following function to **./graphhelper/graphhelper.go**.
 
     :::code language="go" source="./src/demo/graphtutorial/graphhelper/graphhelper.go" id="GetUsersSnippet":::
