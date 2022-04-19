@@ -15,6 +15,7 @@ In this section you will use the `GuzzleHttp\Client` class to request an access 
     ```php
     <?php
     use Microsoft\Graph\Graph;
+    use Microsoft\Graph\Http;
     use Microsoft\Graph\Model;
     use GuzzleHttp\Client;
 
