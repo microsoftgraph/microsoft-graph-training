@@ -171,8 +171,8 @@
       "include_in_build": true
     },
     {
-      "path_to_root": "tutorials/php",
-      "url": "https://github.com/microsoftgraph/msgraph-training-phpapp",
+      "path_to_root": "tutorials/includes/php/src",
+      "url": "https://github.com/microsoftgraph/msgraph-training-php",
       "branch": "main",
       "branch_mapping": {
         "master": "main",
