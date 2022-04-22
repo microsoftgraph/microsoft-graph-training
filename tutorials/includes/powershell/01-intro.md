@@ -4,14 +4,14 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-This tutorial teaches you how to build a PowerShell console app that uses the Microsoft Graph API.
+This tutorial teaches you how to build a PowerShell script that uses the Microsoft Graph API.
 
 > [!TIP]
 > If you prefer to just download the completed tutorial, you can download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-powershell).
 
 ## Prerequisites
 
-Before you start this tutorial, you should have the [Microsoft Graph PowerShell SDK](/graph/powershell/installation) installed on your development machine.
+Before you start this tutorial, you should have [PowerShell](/powershell) and the [Microsoft Graph PowerShell SDK](/graph/powershell/installation) installed on your development machine.
 
 You should also have either a personal Microsoft account with a mailbox on Outlook.com, or a Microsoft work or school account. If you don't have a Microsoft account, there are a couple of options to get a free account:
 
@@ -19,4 +19,4 @@ You should also have either a personal Microsoft account with a mailbox on Outlo
 - You can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
 
 > [!NOTE]
-> This tutorial was written with Microsoft Graph PowerShell SDK version 1.9.5. The steps in this guide may work with other versions, but that has not been tested.
+> This tutorial was written with PowerShell 7.2.2 and Microsoft Graph PowerShell SDK version 1.9.5. The steps in this guide may work with other versions, but that has not been tested.
