@@ -12,11 +12,15 @@
         "dotnetcli",
         "godotenv",
         "graphtutorial",
+        "inkey",
         "joho",
+        "keyout",
         "localizationpriority",
         "mailfolder",
+        "newkey",
         "nextstepaction",
         "odata",
+        "pkcs12",
         "v2-oauth2-client-creds-grant-flow"
     ]
 }

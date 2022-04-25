@@ -12,7 +12,56 @@ In this section you will update the app registration from the previous section t
 > [!IMPORTANT]
 > The steps in this section require a work/school account with the Global administrator role.
 
-### [Azure AD admin center](#tab/aad)
+## Create a self-signed certificate
+
+The Microsoft Graph PowerShell SDK requires a certificate for app-only authentication. For development purposes, a self-signed certificate is sufficient. You need a certificate with the private key installed on the local machine, and the public key exported in a .CER, .PEM, or .CRT file.
+
+### [Windows](#tab/windows)
+
+On Windows, you can use the [pki PowerShell module](/powershell/module/pki) to generate the certificate.
+
+```powershell
+$cert = New-SelfSignedCertificate -Subject "CN=PowerShell App-Only" -CertStoreLocation `
+  "Cert:\CurrentUser\My" -KeyExportPolicy Exportable -KeySpec Signature -KeyLength 2048 `
+  -KeyAlgorithm RSA -HashAlgorithm SHA256
+Export-Certificate -Cert $cert -FilePath "./PowerShellAppOnly.cer"
+```
+
+### [Linux/MacOS](#tab/linux-macos)
+
+On Linux or MacOS, you can use [OpenSSL](https://www.openssl.org/) to generate the private and public keys, then use PowerShell to install the private key into a certificate store readable by PowerShell.
+
+1. Generate a new X509 certificate using the following command.
+
+    ```bash
+    openssl req -x509 -newkey rsa:2048 -sha256 -days 365 -keyout powershell.pem -out powershell.crt -subj "/CN=PowerShell App-Only"
+    ```
+
+1. OpenSSL prompts you for a PEM pass phrase. Enter a pass phrase you will remember.
+
+1. Create a PFX file using the following command.
+
+    ```bash
+    openssl pkcs12 -export -out powershell.pfx -inkey powershell.pem -in powershell.crt
+    ```
+
+1. OpenSSL prompts you for the pass phrase for **powershell.pem**, enter the pass phrase you used in the previous step.
+
+1. OpenSSL prompts you for an export password. Enter a password you will remember.
+
+1. Open PowerShell and run the following commands, replacing *&lt;export-password&gt;* with the export password you used in the previous step.
+
+    ```powershell
+    using namespace System.Security.Cryptography.X509Certificates
+    $store = [X509Store]::new('My', 'CurrentUser', 'ReadWrite')
+    $store.Add([X509Certificate2]::new('./powershell.pfx', '<export-password>', [X509KeyStorageFlags]::PersistKeyS
+    et))
+    $store.Dispose()
+    ```
+
+---
+
+## Update the app registration
 
 1. Open the app registration from the previous section in the Azure AD admin center.
 
@@ -30,43 +79,9 @@ In this section you will update the app registration from the previous section t
 
     ![A screenshot of the Configured permissions table after granting admin consent](../../images/aad-configured-permissions.png)
 
-1. Select **Certificates and secrets** under **Manage**, then select **New client secret**.
+1. Select **Certificates and secrets** under **Manage**, then select **Certificates**.
 
-1. Enter a description, choose a duration, and select **Add**.
-
-1. Copy the secret from the **Value** column, you will need it in the next steps.
-
-    > [!IMPORTANT]
-    > This client secret is never shown again, so make sure you copy it now.
-
-### [PowerShell](#tab/powershell)
-
-1. Create a new file named **UpdateAppForAppOnlyAuth.ps1** and add the following code.
-
-    :::code language="powershell" source="./src/demo/UpdateAppForAppOnlyAuth.ps1" id="ScriptBody":::
-
-1. Save the file.
-
-1. Open PowerShell and change the current directory to the location of **UpdateAppForAppOnlyAuth.ps1**.
-
-1. Run the following command, replacing *&lt;your-client-id&gt;* with your client ID.
-
-    ```powershell
-    .\UpdateAppForAppOnlyAuth.ps1 -AppId <your-client-id> -GraphScopes "User.Read.All"
-    ```
-
-1. Follow the prompt to open `https://microsoft.com/devicelogin` in a browser, enter the provided code, and complete the authentication process.
-
-1. Copy the **Tenant ID** and **Client secret** values from the script output. You will need these values in the next step.
-
-    ```powershell
-    SUCCESS
-    Tenant ID: a795ad0f-7d82-4a3b-a2c0-0713ec72ade7
-    Client secret: 2jv7Q~8eiOd_QafJ.....
-    Secret expires: 2/16/2024 9:32:09 PM
-    ```
-
----
+1. Select **Upload certificate**. Upload the **PowerShellAppOnly.cer** or **powershell.crt** file you created in the previous step, then select **Add**.
 
 > [!NOTE]
 > Notice that, unlike the steps when registering for user authentication, in this section you did configure Microsoft Graph permissions on the app registration. This is because app-only auth uses the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow), which requires that permissions be configured on the app registration. See [The .default scope](/azure/active-directory/develop/v2-permissions-and-consent#the-default-scope) for details.
