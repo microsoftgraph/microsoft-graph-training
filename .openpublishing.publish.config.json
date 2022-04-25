@@ -189,6 +189,15 @@
       }
     },
     {
+      "path_to_root": "tutorials/includes/powershell/src",
+      "url": "https://github.com/microsoftgraph/msgraph-training-powershell",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
       "path_to_root": "tutorials/python",
       "url": "https://github.com/microsoftgraph/msgraph-training-pythondjangoapp",
       "branch": "main",
