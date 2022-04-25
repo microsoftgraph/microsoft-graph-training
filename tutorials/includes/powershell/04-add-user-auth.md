@@ -16,7 +16,7 @@ The Microsoft Graph PowerShell SDK provides two authentication methods for user 
     $clientId = <your-client-id>
     ```
 
-1. Set the `$authTenant` session variable. If you chose the option to only allow users in your organization to sign in when registering your application, replace *&lt;auth-tenant&gt;* with tenant ID. Otherwise, replace with `common`.
+1. Set the `$authTenant` session variable. If you chose the option to only allow users in your organization to sign in when registering your application, replace *&lt;auth-tenant&gt;* with your organization's tenant ID. Otherwise, replace with `common`.
 
     ```powershell
     $authTenant = <auth-tenant>
