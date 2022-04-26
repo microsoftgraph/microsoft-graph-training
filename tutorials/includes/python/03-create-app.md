@@ -66,7 +66,7 @@ In this section you will create a simple console-based menu.
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
     ```python
-    def initialize_graph():
+    def initialize_graph(settings: configparser.SectionProxy):
         # TODO
         print(1)
         return
