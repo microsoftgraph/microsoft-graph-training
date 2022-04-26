@@ -1,0 +1,106 @@
+---
+ms.localizationpriority: medium
+---
+
+<!-- markdownlint-disable MD002 MD041 -->
+
+Begin by creating a new Python file.
+
+> [!IMPORTANT]
+> The Microsoft Graph Core Python Client Library is currently in preview. During this period breaking changes are expected to happen. This tutorial was written with version 0.2.2.
+
+1. Create a new file named **main.py** and add the following code.
+
+    ```python
+    print ('Hello world!')
+    ```
+
+1. Save the file and use the following command to run the file.
+
+    ```bash
+    python3 main.py
+    ```
+
+    If it works, the app should output `Hello world!`.
+
+## Install dependencies
+
+Before moving on, add some additional dependencies that you will use later.
+
+- [Azure Identity client library for Python](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity) to authenticate the user and acquire access tokens.
+- [Microsoft Graph Core Python Client Library (preview)](https://github.com/microsoftgraph/msgraph-sdk-python-core) to make calls to the Microsoft Graph.
+
+Run the following commands in your CLI to install the dependencies.
+
+```bash
+python3 -m pip install azure-identity
+python3 -m pip install msgraph-core
+```
+
+## Load application settings
+
+In this section you'll add the details of your app registration to the project.
+
+1. Create a file in the same directory as **main.py** named **config.cfg** and add the following code.
+
+    :::code language="ini" source="./src/demo/graphtutorial/config.cfg":::
+
+1. Update the values according to the following table.
+
+    | Setting | Value |
+    |---------|-------|
+    | `clientId` | The client ID of your app registration |
+    | `authTenant` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+
+    > [!TIP]
+    > Optionally, you can set these values in a separate file named **config.dev.cfg**.
+
+## Design the app
+
+In this section you will create a simple console-based menu.
+
+1. Open **main.py** and replace its entire contents with the following code.
+
+    :::code language="python" source="./src/demo/graphtutorial/main.py" id="ProgramSnippet":::
+
+1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
+
+    ```python
+    def initialize_graph():
+        # TODO
+        print(1)
+        return
+
+    def greet_user():
+        # TODO
+        return
+
+    def display_access_token():
+        # TODO
+        return 1
+
+    def list_inbox():
+        # TODO
+        return
+
+    def send_mail():
+        # TODO
+        return
+
+    def list_users():
+        # TODO
+        return
+
+    def make_graph_call():
+        # TODO
+        return
+    ```
+
+1. Add the following line to call `main` at the end of the file.
+
+    ```python
+    # Run main
+    main()
+    ```
+
+This implements a basic menu and reads the user's choice from the command line.
