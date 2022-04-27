@@ -28,6 +28,7 @@
           "tutorials/includes/javascript/src/**",
           "tutorials/includes/php/src/**",
           "tutorials/includes/powershell/src/**",
+          "tutorials/includes/python/src/**",
           "tutorials/includes/typescript/src/**",
           "tutorials/ios-objectivec/**",
           "tutorials/ios-swift/**",
