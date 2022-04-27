@@ -6,7 +6,7 @@ metadata:
   audience: Developer
   level: Beginner
   displayType: one-column
-  ms.date: 12/08/2020
+  ms.date: 04/27/2022
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
@@ -14,26 +14,46 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](python/tutorial/01-intro.md)]
-- title: Create a Python Django web app
-  durationInMinutes: 7
-  content: |
-    [!INCLUDE [](python/tutorial/02-create-app.md)]
+    [!INCLUDE [](./includes/python/01-intro.md)]
 - title: Register the app in the portal
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/python/02-register-app.md)]
+- title: Create a Python console app
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/python/03-create-app.md)]
+- title: Add user authentication
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/python/04-add-user-auth.md)]
+- title: Get user
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/python/05-get-user.md)]
+- title: List inbox
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/python/06-get-inbox-messages.md)]
+- title: Send mail
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/python/07-send-mail.md)]
+- title: "Optional: configure app-only authentication"
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](python/tutorial/03-register-app.md)]
-- title: Add Azure AD authentication
-  durationInMinutes: 15
+    [!INCLUDE [](./includes/python/08-configure-app-only.md)]
+- title: "Optional: add app-only authentication"
+  durationInMinutes: 2
   content: |
-    [!INCLUDE [](python/tutorial/04-add-aad-auth.md)]
-- title: Get a calendar view
+    [!INCLUDE [](./includes/python/09-add-app-only-auth.md)]
+- title: "Optional: list users"
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](python/tutorial/05-add-ms-graph.md)]
-- title: Create a new event
+    [!INCLUDE [](./includes/python/10-get-all-users.md)]
+- title: "Optional: add your own code"
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](python/tutorial/06-create-event.md)]
+    [!INCLUDE [](./includes/python/11-extend-app.md)]
 - content: |
-    [!INCLUDE [](python/tutorial/07-completed.md)]
+    [!INCLUDE [](./includes/python/12-completed.md)]
