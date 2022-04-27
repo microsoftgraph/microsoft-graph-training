@@ -198,8 +198,8 @@
       }
     },
     {
-      "path_to_root": "tutorials/python",
-      "url": "https://github.com/microsoftgraph/msgraph-training-pythondjangoapp",
+      "path_to_root": "tutorials/includes/python/src",
+      "url": "https://github.com/microsoftgraph/msgraph-training-python",
       "branch": "main",
       "branch_mapping": {
         "master": "main",
