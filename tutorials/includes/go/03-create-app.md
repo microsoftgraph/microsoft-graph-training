@@ -10,8 +10,7 @@ Begin by initializing a new Go module using the [Go CLI](https://pkg.go.dev/cmd/
 go mod init graphtutorial
 ```
 
-> [!IMPORTANT]
-> The Microsoft Graph Go SDK is currently in Community Preview. During this period breaking changes are expected to happen. This tutorial was written with version 0.19.1.
+[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
 
 ## Install dependencies
 

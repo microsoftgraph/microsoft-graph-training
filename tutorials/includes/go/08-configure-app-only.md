@@ -6,8 +6,7 @@ ms.localizationpriority: medium
 
 In this section you will update the app registration from the previous section to support [app-only authentication](/graph/auth-v2-service). App-only authentication is a good choice for background services, and there are also some APIs that only support app-only authentication. You only need to complete this section if you intend to use the app-only portions of this tutorial. If not, you can safely skip to the next step.
 
-> [!IMPORTANT]
-> The Microsoft Graph Go SDK is currently in Community Preview. During this period breaking changes are expected to happen. This tutorial was written with version 0.19.1.
+[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
 
 > [!div class="nextstepaction"]
 > [I don't need app-only, skip to the end](?tutorial-step=10)
