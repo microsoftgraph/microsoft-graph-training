@@ -6,8 +6,7 @@ ms.localizationpriority: medium
 
 In this exercise you will register a new application in Azure Active Directory to enable [user authentication](/graph/auth-v2-user). You can register an application using the Azure Active Directory admin center, or by using the [Microsoft Graph PowerShell SDK](/graph/powershell/get-started).
 
-> [!IMPORTANT]
-> The Microsoft Graph Core Python Client Library is currently in preview. During this period breaking changes are expected to happen. This tutorial was written with version 0.2.2.
+[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
 
 ## Register application for user authentication
 

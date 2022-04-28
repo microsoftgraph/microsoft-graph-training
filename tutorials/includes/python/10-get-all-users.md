@@ -6,8 +6,7 @@ ms.localizationpriority: medium
 
 In this section you will add the ability to list all users in your Azure Active Directory using app-only authentication. This section is optional, and requires completion of [Optional: configure app-only authentication](?tutorial-step=2) and [Optional: add app-only authentication](?tutorial-step=8). These steps can only be completed with a work or school account.
 
-> [!IMPORTANT]
-> The Microsoft Graph Core Python Client Library is currently in preview. During this period breaking changes are expected to happen. This tutorial was written with version 0.2.2.
+[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
 
 > [!div class="nextstepaction"]
 > [I don't need app-only, skip to the end](?tutorial-step=10)

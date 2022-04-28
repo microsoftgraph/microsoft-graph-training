@@ -6,8 +6,7 @@ ms.localizationpriority: medium
 
 In this section you will add the ability to send an email message as the authenticated user.
 
-> [!IMPORTANT]
-> The Microsoft Graph Core Python Client Library is currently in preview. During this period breaking changes are expected to happen. This tutorial was written with version 0.2.2.
+[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
 
 1. Add the following function to **graph.py**.
 

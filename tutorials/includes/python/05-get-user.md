@@ -6,8 +6,7 @@ ms.localizationpriority: medium
 
 In this section you will incorporate the Microsoft Graph into the application. For this application, you will use the [Microsoft Graph Core Python Client Library (preview)](https://github.com/microsoftgraph/msgraph-sdk-python-core) to make calls to Microsoft Graph.
 
-> [!IMPORTANT]
-> The Microsoft Graph Core Python Client Library is currently in preview. During this period breaking changes are expected to happen. This tutorial was written with version 0.2.2.
+[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
 
 1. Add the following function to **graph.py**.
 

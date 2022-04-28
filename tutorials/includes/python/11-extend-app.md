@@ -6,8 +6,7 @@ ms.localizationpriority: medium
 
 In this section you will add your own Microsoft Graph capabilities to the application. This could be a code snippet from Microsoft Graph [documentation](/graph/api/overview) or [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer), or code that you created. This section is optional.
 
-> [!IMPORTANT]
-> The Microsoft Graph Core Python Client Library is currently in preview. During this period breaking changes are expected to happen. This tutorial was written with version 0.2.2.
+[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
 
 ## Update the app
 

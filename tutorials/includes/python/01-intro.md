@@ -6,8 +6,7 @@ ms.localizationpriority: medium
 
 This tutorial teaches you how to build a Python console app that uses the Microsoft Graph API.
 
-> [!IMPORTANT]
-> The Microsoft Graph Core Python Client Library is currently in preview. During this period breaking changes are expected to happen. This tutorial was written with version 0.2.2.
+[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
 
 > [!TIP]
 > If you prefer to just download the completed tutorial, you can download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-python).
