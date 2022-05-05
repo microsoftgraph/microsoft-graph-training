@@ -13,7 +13,7 @@ This tutorial teaches you how to build a Python console app that uses the Micros
 
 ## Prerequisites
 
-Before you start this tutorial, you should have the [Python](https://www.python.org/) and [pip](https://pip.pypa.io/en/stable/) installed on your development machine.
+Before you start this tutorial, you should have [Python](https://www.python.org/) and [pip](https://pip.pypa.io/en/stable/) installed on your development machine.
 
 You should also have either a personal Microsoft account with a mailbox on Outlook.com, or a Microsoft work or school account. If you don't have a Microsoft account, there are a couple of options to get a free account:
 
