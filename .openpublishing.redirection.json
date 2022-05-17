@@ -1,5 +1,89 @@
 {
   "redirections": [
-
+    {
+      "source_path": "tutorials/android.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-android",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/angular.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-angularspa",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/aspnet-core.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-aspnet-core",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/azure-functions.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-azurefunction-csharp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/blazor.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-blazor-clientside",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/bot-framework.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-botframework",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/ios-objectivec.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-ios-objectivec",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/ios-swift.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-ios-swift",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/node.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-nodeexpressapp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/office-addin.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-office-addin",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/react-native.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-react-native",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/react.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-reactspa",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/ruby.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-rubyrailsapp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/spfx.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-spfx",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/teams.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/uwp.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-uwp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "tutorials/xamarin.yml",
+      "redirect_url": "https://github.com/microsoftgraph/msgraph-training-xamarin",
+      "redirect_document_id": false
+    }
   ]
 }
