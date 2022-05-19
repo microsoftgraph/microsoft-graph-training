@@ -23,7 +23,7 @@ In this section you will use app-only authentication with the Microsoft Graph Po
     $tenantId = <your-tenant-id>
     ```
 
-1. Set the `$certficate` session variable to the subject of the certificate created in the previous step.
+1. Set the `$certificate` session variable to the subject of the certificate created in the previous step.
 
     ```powershell
     $certificate = "CN=PowerShell App-Only"
@@ -34,7 +34,7 @@ In this section you will use app-only authentication with the Microsoft Graph Po
     > [!NOTE]
     > The `$clientId` session variable should still be set from previous steps. If it isn't, reset it before using the `Connect-MgGraph` command.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorial.ps1" id="AppOnlyAuthSnippet":::
+    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorialAppOnly.ps1" id="AppOnlyAuthSnippet":::
 
 1. Use `Get-MgContext` to verify that you are authenticated with app-only authentication. Verify that **AuthType** is `AppOnly`.
 

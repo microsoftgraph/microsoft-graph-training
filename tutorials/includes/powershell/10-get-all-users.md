@@ -11,7 +11,7 @@ In this section you will list all users in your Azure Active Directory using app
 
 1. In your authenticated PowerShell session, run the following command to list users.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorial.ps1" id="GetUsersSnippet":::
+    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorialAppOnly.ps1" id="GetUsersSnippet":::
 
 1. Review the output.
 
