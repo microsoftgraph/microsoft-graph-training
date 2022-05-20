@@ -9,67 +9,30 @@ items:
       tocHref: /graph/tutorials/
       topicHref: /graph/tutorials/
       items:
-      - name: .NET Core
-        tocHref: /graph/tutorials/dotnet-core
-        topicHref: /graph/tutorials/dotnet-core
-      - name: Android
-        tocHref: /graph/tutorials/android
-        topicHref: /graph/tutorials/android
-      - name: Angular
-        tocHref: /graph/tutorials/angular
-        topicHref: /graph/tutorials/angular
-      - name: ASP.NET
-        tocHref: /graph/tutorials/aspnet
-        topicHref: /graph/tutorials/aspnet
-      - name: iOS Objective-C
-        tocHref: /graph/tutorials/ios-objectivec
-        topicHref: /graph/tutorials/ios-objectivec
-      - name: iOS Swift
-        tocHref: /graph/tutorials/ios-swift
-        topicHref: /graph/tutorials/ios-swift
+      - name: .NET
+        tocHref: /graph/tutorials/dotnet
+        topicHref: /graph/tutorials/dotnet
+      - name: Go
+        tocHref: /graph/tutorials/go
+        topicHref: /graph/tutorials/go
       - name: Java
         tocHref: /graph/tutorials/java
         topicHref: /graph/tutorials/java
       - name: JavaScript
         tocHref: /graph/tutorials/javascript
         topicHref: /graph/tutorials/javascript
-      - name: Microsoft Flow
-        tocHref: /graph/tutorials/flow
-        topicHref: /graph/tutorials/flow
-      - name: Node.js
-        tocHref: /graph/tutorials/node
-        topicHref: /graph/tutorials/node
       - name: PHP
         tocHref: /graph/tutorials/php
         topicHref: /graph/tutorials/php
+      - name: Power Automate
+        tocHref: /graph/tutorials/power-automate
+        topicHref: /graph/tutorials/power-automate
+      - name: PowerShell
+        tocHref: /graph/tutorials/powershell
+        topicHref: /graph/tutorials/powershell
       - name: Python
         tocHref: /graph/tutorials/python
         topicHref: /graph/tutorials/python
-      - name: Ruby
-        tocHref: /graph/tutorials/ruby
-        topicHref: /graph/tutorials/ruby
-      - name: React
-        tocHref: /graph/tutorials/react
-        topicHref: /graph/tutorials/react
-      - name: React Native
-        tocHref: /graph/tutorials/react-native
-        topicHref: /graph/tutorials/react-native
-      - name: UWP
-        tocHref: /graph/tutorials/uwp
-        topicHref: /graph/tutorials/uwp
-      - name: Xamarin
-        tocHref: /graph/tutorials/xamarin
-        topicHref: /graph/tutorials/xamarin
-  - name: Develop
-    items:
-    - name: Use the API
-      tocHref: /graph/use-the-api
-      topicHref: /graph/use-the-api
-      items:
-      - name: Change notifications
-        tocHref: /graph/webhooks
-        topicHref: /graph/webhooks
-        items:
-        - name: Tutorial
-          tocHref: /graph/tutorials/change-notifications
-          topicHref: /graph/tutorials/change-notifications
+      - name: TypeScript
+        tocHref: /graph/tutorials/typescript
+        topicHref: /graph/tutorials/typescript

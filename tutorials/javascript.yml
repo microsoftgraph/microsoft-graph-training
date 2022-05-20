@@ -1,39 +1,60 @@
 ### YamlMime:Tutorial
-title: Build JavaScript single-page apps with Microsoft Graph
+title: Build JavaScript apps with Microsoft Graph
 metadata:
-  title: Build JavaScript single-page apps with Microsoft Graph
-  description: In this tutorial, you'll build a JavaScript single-page app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  title: Build JavaScript apps with Microsoft Graph
+  description: In this tutorial, you'll build a JavaScript app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving data.
   audience: Developer
   level: Beginner
   displayType: one-column
-  ms.date: 08/10/2021
+  ms.date: 04/05/2022
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
-  ms.custom: scenarios:getting-started, languages:JavaScript
+  scenarios: getting-started
+  languages: JavaScript
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](javascript/tutorial/01-intro.md)]
-- title: Create a JavaScript single-page app
-  durationInMinutes: 7
-  content: |
-    [!INCLUDE [](javascript/tutorial/02-create-app.md)]
+    [!INCLUDE [](./includes/javascript/01-intro.md)]
 - title: Register the app in the portal
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/javascript/02-register-app.md)]
+- title: Create a JavaScript console app
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/javascript/03-create-app.md)]
+- title: Add user authentication
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/javascript/04-add-user-auth.md)]
+- title: Get user
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/javascript/05-get-user.md)]
+- title: List inbox
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/javascript/06-get-inbox-messages.md)]
+- title: Send mail
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/javascript/07-send-mail.md)]
+- title: "Optional: configure app-only authentication"
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](javascript/tutorial/03-register-app.md)]
-- title: Add Azure AD authentication
-  durationInMinutes: 15
+    [!INCLUDE [](./includes/javascript/08-configure-app-only.md)]
+- title: "Optional: add app-only authentication"
+  durationInMinutes: 2
   content: |
-    [!INCLUDE [](javascript/tutorial/04-add-aad-auth.md)]
-- title: Get a calendar view
+    [!INCLUDE [](./includes/javascript/09-add-app-only-auth.md)]
+- title: "Optional: list users"
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](javascript/tutorial/05-add-ms-graph.md)]
-- title: Create a new event
+    [!INCLUDE [](./includes/javascript/10-get-all-users.md)]
+- title: "Optional: add your own code"
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](javascript/tutorial/06-create-event.md)]
+    [!INCLUDE [](./includes/javascript/11-extend-app.md)]
 - content: |
-    [!INCLUDE [](javascript/tutorial/07-completed.md)]
+    [!INCLUDE [](./includes/javascript/12-completed.md)]

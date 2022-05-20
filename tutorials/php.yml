@@ -2,11 +2,11 @@
 title: Build PHP apps with Microsoft Graph
 metadata:
   title: Build PHP apps with Microsoft Graph
-  description: In this tutorial, you'll build a PHP web app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  description: In this tutorial, you'll build a PHP web app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving data.
   audience: Developer
   level: Beginner
   displayType: one-column
-  ms.date: 11/13/2018
+  ms.date: 04/19/2022
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
@@ -14,26 +14,46 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    [!INCLUDE [](php/tutorial/01-intro.md)]
-- title: Create a PHP web app
-  durationInMinutes: 7
-  content: |
-    [!INCLUDE [](php/tutorial/02-create-app.md)]
+    [!INCLUDE [](./includes/php/01-intro.md)]
 - title: Register the app in the portal
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/php/02-register-app.md)]
+- title: Create a PHP console app
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/php/03-create-app.md)]
+- title: Add user authentication
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/php/04-add-user-auth.md)]
+- title: Get user
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/php/05-get-user.md)]
+- title: List inbox
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/php/06-get-inbox-messages.md)]
+- title: Send mail
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/php/07-send-mail.md)]
+- title: "Optional: configure app-only authentication"
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](php/tutorial/03-register-app.md)]
-- title: Add Azure AD authentication
-  durationInMinutes: 15
+    [!INCLUDE [](./includes/php/08-configure-app-only.md)]
+- title: "Optional: add app-only authentication"
+  durationInMinutes: 2
   content: |
-    [!INCLUDE [](php/tutorial/04-add-aad-auth.md)]
-- title: Get a calendar view
-  durationInMinutes: 10
+    [!INCLUDE [](./includes/php/09-add-app-only-auth.md)]
+- title: "Optional: list users"
+  durationInMinutes: 5
   content: |
-    [!INCLUDE [](php/tutorial/05-add-ms-graph.md)]
-- title: Create a new event
-  durationInMinutes: 10
+    [!INCLUDE [](./includes/php/10-get-all-users.md)]
+- title: "Optional: add your own code"
+  durationInMinutes: 5
   content: |
-    [!INCLUDE [](php/tutorial/06-create-event.md)]
+    [!INCLUDE [](./includes/php/11-extend-app.md)]
 - content: |
-    [!INCLUDE [](php/tutorial/07-completed.md)]
+    [!INCLUDE [](./includes/php/12-completed.md)]
