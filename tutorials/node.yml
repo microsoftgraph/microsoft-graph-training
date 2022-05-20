@@ -1,0 +1,39 @@
+### YamlMime:Tutorial
+title: Build Node.js Express apps with Microsoft Graph
+metadata:
+  title: Build Node.js Express apps with Microsoft Graph
+  description: In this tutorial, you'll build a Node.js Express app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 08/10/2021
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: tutorial
+  ms.custom: scenarios:getting-started, languages:NodeJS
+items:
+- durationInMinutes: 1
+  content: |
+    [!INCLUDE [](node/tutorial/01-intro.md)]
+- title: Create a Node.js Express web app
+  durationInMinutes: 7
+  content: |
+    [!INCLUDE [](node/tutorial/02-create-app.md)]
+- title: Register the app in the portal
+  durationInMinutes: 3
+  content: |
+    [!INCLUDE [](node/tutorial/03-register-app.md)]
+- title: Add Azure AD authentication
+  durationInMinutes: 15
+  content: |
+    [!INCLUDE [](node/tutorial/04-add-aad-auth.md)]
+- title: Get a calendar view
+  durationInMinutes: 10
+  content: |
+    [!INCLUDE [](node/tutorial/05-add-ms-graph.md)]
+- title: Create a new event
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](node/tutorial/06-create-event.md)]
+- content: |
+    [!INCLUDE [](node/tutorial/07-completed.md)]

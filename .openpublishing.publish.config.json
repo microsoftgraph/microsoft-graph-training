@@ -33,6 +33,60 @@
       "branch_mapping": {}
     },
     {
+      "path_to_root": "tutorials/android",
+      "url": "https://github.com/microsoftgraph/msgraph-training-android",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/angular",
+      "url": "https://github.com/microsoftgraph/msgraph-training-angularspa",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/aspnet-core",
+      "url": "https://github.com/microsoftgraph/msgraph-training-aspnet-core",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/azure-functions",
+      "url": "https://github.com/microsoftgraph/msgraph-training-azurefunction-csharp",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/blazor",
+      "url": "https://github.com/microsoftgraph/msgraph-training-blazor-clientside",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/bot-framework",
+      "url": "https://github.com/microsoftgraph/msgraph-training-botframework",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
       "path_to_root": "tutorials/includes/dotnet/src",
       "url": "https://github.com/microsoftgraph/msgraph-training-dotnet-core",
       "branch": "main",
@@ -51,8 +105,35 @@
       }
     },
     {
+      "path_to_root": "tutorials/ios-objectivec",
+      "url": "https://github.com/microsoftgraph/msgraph-training-ios-objectivec",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/ios-swift",
+      "url": "https://github.com/microsoftgraph/msgraph-training-ios-swift",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
       "path_to_root": "tutorials/includes/java/src",
       "url": "https://github.com/microsoftgraph/msgraph-training-java",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/javascript",
+      "url": "https://github.com/microsoftgraph/msgraph-training-javascriptspa",
       "branch": "main",
       "branch_mapping": {
         "master": "main",
@@ -67,6 +148,25 @@
         "master": "main",
         "live": "live"
       }
+    },
+    {
+      "path_to_root": "tutorials/node",
+      "url": "https://github.com/microsoftgraph/msgraph-training-nodeexpressapp",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/office-addin",
+      "url": "https://github.com/microsoftgraph/msgraph-training-office-addin",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      },
+      "include_in_build": true
     },
     {
       "path_to_root": "tutorials/includes/php/src",
@@ -105,8 +205,71 @@
       }
     },
     {
+      "path_to_root": "tutorials/react",
+      "url": "https://github.com/microsoftgraph/msgraph-training-reactspa",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/react-native",
+      "url": "https://github.com/microsoftgraph/msgraph-training-react-native",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/ruby",
+      "url": "https://github.com/microsoftgraph/msgraph-training-rubyrailsapp",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/spfx",
+      "url": "https://github.com/microsoftgraph/msgraph-training-spfx",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/teams",
+      "url": "https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
       "path_to_root": "tutorials/includes/typescript/src",
       "url": "https://github.com/microsoftgraph/msgraph-training-typescript",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/uwp",
+      "url": "https://github.com/microsoftgraph/msgraph-training-uwp",
+      "branch": "main",
+      "branch_mapping": {
+        "master": "main",
+        "live": "live"
+      }
+    },
+    {
+      "path_to_root": "tutorials/xamarin",
+      "url": "https://github.com/microsoftgraph/msgraph-training-xamarin",
       "branch": "main",
       "branch_mapping": {
         "master": "main",
