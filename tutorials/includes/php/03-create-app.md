@@ -67,31 +67,31 @@ In this section you will create a simple console-based menu.
 1. Add the following placeholder methods at the end of the file before the closing PHP tag. You'll implement them in later steps.
 
     ```php
-    function initializeGraph() {
+    function initializeGraph(): void {
         // TODO
     }
 
-    function greetUser() {
+    function greetUser(): void {
         // TODO
     }
 
-    function displayAccessToken() {
+    function displayAccessToken(): void {
         // TODO
     }
 
-    function listInbox() {
+    function listInbox(): void {
         // TODO
     }
 
-    function sendMail() {
+    function sendMail(): void {
         // TODO
     }
 
-    function listUsers() {
+    function listUsers(): void {
         // TODO
     }
 
-    function makeGraphCall() {
+    function makeGraphCall(): void {
         // TODO
     }
     ```
