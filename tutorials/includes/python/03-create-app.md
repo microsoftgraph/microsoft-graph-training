@@ -65,32 +65,27 @@ In this section you will create a simple console-based menu.
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
     ```python
-    def initialize_graph(settings: configparser.SectionProxy):
-        # TODO
-        print(1)
-        return
-
-    def greet_user():
+    def greet_user(graph: Graph):
         # TODO
         return
 
-    def display_access_token():
+    def display_access_token(graph: Graph):
         # TODO
         return 1
 
-    def list_inbox():
+    def list_inbox(graph: Graph):
         # TODO
         return
 
-    def send_mail():
+    def send_mail(graph: Graph):
         # TODO
         return
 
-    def list_users():
+    def list_users(graph: Graph):
         # TODO
         return
 
-    def make_graph_call():
+    def make_graph_call(graph: Graph):
         # TODO
         return
     ```
