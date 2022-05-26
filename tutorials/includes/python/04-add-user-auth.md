@@ -27,7 +27,7 @@ In this section you will use the `DeviceCodeCredential` class to request an acce
 
     :::code language="python" source="./src/demo/graphtutorial/graph.py" id="GetUserTokenSnippet":::
 
-1. Replace the empty `DisplayAccessTokenAsync` function in **Program.cs** with the following.
+1. Replace the empty `display_access_token` function in **main.py** with the following.
 
     :::code language="python" source="./src/demo/graphtutorial/main.py" id="DisplayAccessTokenSnippet":::
 
