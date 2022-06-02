@@ -34,7 +34,7 @@
     },
     {
       "path_to_root": "tutorials/includes/dotnet/src",
-      "url": "https://github.com/microsoftgraph/msgraph-training-dotnet-core",
+      "url": "https://github.com/microsoftgraph/msgraph-training-dotnet",
       "branch": "main",
       "branch_mapping": {
         "master": "main",
