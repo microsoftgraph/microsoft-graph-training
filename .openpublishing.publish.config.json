@@ -78,7 +78,7 @@
       }
     },
     {
-      "path_to_root": "tutorials/power-automate",
+      "path_to_root": "tutorials/includes/power-automate/src",
       "url": "https://github.com/microsoftgraph/msgraph-training-powerautomate",
       "branch": "main",
       "branch_mapping": {
