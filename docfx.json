@@ -20,10 +20,10 @@
           "tutorials/includes/java/src/**",
           "tutorials/includes/javascript/src/**",
           "tutorials/includes/php/src/**",
+          "tutorials/includes/power-automate/src/**",
           "tutorials/includes/powershell/src/**",
           "tutorials/includes/python/src/**",
-          "tutorials/includes/typescript/src/**",
-          "tutorials/power-automate/**"
+          "tutorials/includes/typescript/src/**"
         ]
       }
     ],
