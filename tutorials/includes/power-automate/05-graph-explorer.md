@@ -2,7 +2,7 @@
 
 Before creating a Flow to consume the new connector, use [Microsoft Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) to discover some of the capabilities and features of JSON batching in Microsoft Graph.
 
-Open the [Microsoft Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) in your browser. Sign in with your Office 365 tenant administrator account. Search for for **Batch** from the **Sample queries**.
+Open the [Microsoft Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) in your browser. Sign in with your Microsoft 365 tenant administrator account. Search for for **Batch** from the **Sample queries**.
 
 Select the **Perform parallel GETs** sample query in the left menu. Choose the **Run Query** button at the top right of the screen.
 

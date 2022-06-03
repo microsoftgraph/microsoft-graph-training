@@ -9,7 +9,7 @@ In [Microsoft Power Automate](https://powerautomate.microsoft.com), go to the **
 
 ![A screen shot of the New connection button](../../images/power-automate/new-connection.png)
 
-Find your custom connector and complete the connection by selecting it, then choosing **Create**. Sign in with your Office 365 tenant administrator's Azure Active Directory account.
+Find your custom connector and complete the connection by selecting it, then choosing **Create**. Sign in with your Microsoft 365 tenant administrator's Azure Active Directory account.
 
 ![A screen shot of the connections list](../../images/power-automate/connection-sign-in.png)
 

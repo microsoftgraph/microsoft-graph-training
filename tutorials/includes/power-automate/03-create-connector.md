@@ -2,7 +2,7 @@
 
 In this exercise, you will create a new custom connector which can be used in Microsoft Power Automate or in Azure Logic Apps. The OpenAPI definition file is prebuilt with the correct path for the Microsoft Graph `$batch` endpoint and additional settings to enable simple import.
 
-Open a browser and navigate to [Microsoft Power Automate](https://powerautomate.microsoft.com/). Sign in with your Office 365 tenant administrator account. Choose **Data** on the left-hand side menu, and select the **Custom Connectors** item in the drop-down menu.
+Open a browser and navigate to [Microsoft Power Automate](https://powerautomate.microsoft.com/). Sign in with your Microsoft 365 tenant administrator account. Choose **Data** on the left-hand side menu, and select the **Custom Connectors** item in the drop-down menu.
 
 ![A screen shot of the drop-down menu in Microsoft Power Automate](../../images/power-automate/custom-connectors.png)
 
@@ -71,8 +71,6 @@ Choose **Create Connector** on the top-right.
 Using a text editor, create a new empty file named `MSGraph-Delegate-Batch.swagger.json` and add the following code.
 
 :::code language="json" source="./src/LabFiles/MSGraph-Delegate-Batch.swagger.json":::
-
-
 
 On the **Custom Connectors** page choose the **New custom connector** link in the top right, then select the **Import an OpenAPI file** item in the drop-down menu.
 

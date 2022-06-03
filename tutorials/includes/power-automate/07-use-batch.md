@@ -2,7 +2,7 @@
 
 The Flow you created in the previous exercise uses the `$batch` API to make two individual requests to the Microsoft Graph. Calling the `$batch` endpoint this way provides some benefit and flexibility, but the true power of the `$batch` endpoint comes when executing multiple requests to Microsoft Graph in a single `$batch` call. In this exercise, you will extend the example of creating a Unified Group and associating a Team to include creating multiple default Channels for the Team in a single `$batch` request.
 
-Open [Microsoft Power Automate](https://flow.microsoft.com) in your browser and sign in with your Office 365 tenant administrator account. Select the Flow you created in the previous step and choose **Edit**.
+Open [Microsoft Power Automate](https://powerautomate.microsoft.com) in your browser and sign in with your Microsoft 365 tenant administrator account. Select the Flow you created in the previous step and choose **Edit**.
 
 Choose **New step** and type `Batch` in the search box. Add the **MS Graph Batch Connector** action. Choose the ellipsis and rename this action to `Batch POST-channels`.
 
@@ -73,7 +73,7 @@ Once the Flow starts, choose the **Done** button to see the activity log. When t
 
 ![A screen shot of the successful flow activity log](../../images/power-automate/batch-success.png)
 
-Browse to [Microsoft Teams](https://teams.microsoft.com) and sign in with your Office 365 tenant administrator account. Verify that the team you just created appears and includes the three channels created by the `$batch` request.
+Browse to [Microsoft Teams](https://teams.microsoft.com) and sign in with your Microsoft 365 tenant administrator account. Verify that the team you just created appears and includes the three channels created by the `$batch` request.
 
 ![A screen shot of the Teams app with the new team and channels showing](../../images/power-automate/team-channels.png)
 
