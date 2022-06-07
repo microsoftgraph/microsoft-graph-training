@@ -19,7 +19,7 @@ items:
   durationInMinutes: 5
   content: |
     [!INCLUDE [](./includes/java/02-register-app.md)]
-- title: Create a .NET console app
+- title: Create a Java console app
   durationInMinutes: 5
   content: |
     [!INCLUDE [](./includes/java/03-create-app.md)]
