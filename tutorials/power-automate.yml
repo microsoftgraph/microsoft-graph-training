@@ -10,7 +10,7 @@ metadata:
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
-  ms.prod: Flow
+  ms.service: power-automate
   ms.custom: "scenarios:getting-started"
 items:
 - durationInMinutes: 3
