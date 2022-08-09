@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: Build Python apps with Microsoft Graph
+title: Build Python apps with Microsoft Graph to access Microsoft 365 data
 metadata:
-  title: Build Python apps with Microsoft Graph
-  description: In this tutorial, you'll build a Python app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  title: Build Python apps with Microsoft Graph to access Microsoft 365 data
+  description: In this tutorial, you'll build a Python app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving Microsoft 365 (Office 365) calendar data.
   audience: Developer
   level: Beginner
   displayType: one-column
