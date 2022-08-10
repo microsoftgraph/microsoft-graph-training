@@ -2,7 +2,7 @@
 title: Build Python apps with Microsoft Graph
 metadata:
   title: Build Python apps with Microsoft Graph
-  description: In this tutorial, you'll build a Python app that uses Azure Active Directory for authentication and Microsoft Graph for retrieving calendar data.
+  description: Build Python apps using Microsoft identity platform for authentication and Microsoft Graph for accessing data in Microsoft 365 (Office 365) or personal accounts.
   audience: Developer
   level: Beginner
   displayType: one-column
