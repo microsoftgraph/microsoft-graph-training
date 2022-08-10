@@ -76,7 +76,7 @@ APIs that use paging implement a default page size. For messages, the default va
 
 #### Getting subsequent pages
 
-If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The Java client library exposes this property on `PageCollection` objects. If this property is not undefined, there are more results available.
+If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The JavaScript client library exposes this property on `PageCollection` objects. If this property is not undefined, there are more results available.
 
 The value of `@odata.nextLink` can be passed to `_userClient.api` to get the next page of results. Alternatively, you can use the `PageIterator` object from the client library to [iterate over all available pages](/graph/sdks/paging).
 
