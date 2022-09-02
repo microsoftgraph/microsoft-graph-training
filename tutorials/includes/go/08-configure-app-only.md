@@ -2,7 +2,7 @@
 ms.localizationpriority: medium
 ---
 
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD041 MD051 -->
 
 In this section you will update the app registration from the previous section to support [app-only authentication](/graph/auth-v2-service). App-only authentication is a good choice for background services, and there are also some APIs that only support app-only authentication. You only need to complete this section if you intend to use the app-only portions of this tutorial. If not, you can safely skip to the next step.
 
