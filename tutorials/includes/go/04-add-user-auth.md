@@ -39,7 +39,7 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
 
     :::code language="go" source="./src/demo/graphtutorial/graphtutorial.go" id="DisplayAccessTokenSnippet":::
 
-1. Build and run the app. Enter `1` when prompted for an option. The application displays a URL and device code.
+1. Build and run the app by running `go run graphtutorial.go`. Enter `1` when prompted for an option. The application displays a URL and device code.
 
     ```bash
     Go Graph Tutorial

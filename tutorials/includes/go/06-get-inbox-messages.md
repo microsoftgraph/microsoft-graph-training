@@ -78,7 +78,7 @@ APIs that use paging implement a default page size. For messages, the default va
 
 #### Getting subsequent pages
 
-If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The Go SDK exposes this as the `GetNextLink` method on collection page objects. If this method returns non-nil, there are more results available.
+If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The Go SDK exposes this as the `GetOdataNextLink` method on collection page objects. If this method returns non-nil, there are more results available.
 
 ### Sorting collections
 
