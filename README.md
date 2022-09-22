@@ -1,6 +1,6 @@
 # Microsoft Graph Training
 
-This repository holds the YAML files used to generate the [Microsoft Graph Tutorials](https://docs.microsoft.com/graph/tutorials/).
+This repository holds the YAML files used to generate the [Microsoft Graph Tutorials](https://learn.microsoft.com/graph/tutorials/).
 
 ## Microsoft Open Source Code of Conduct
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
