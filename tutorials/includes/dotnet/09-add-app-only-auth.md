@@ -13,13 +13,15 @@ In this section you will add app-only authentication to the application. This se
 
 In this section you will use the `ClientSecretCredential` class to request an access token by using the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
+1. Update the value of `enableAppOnly` to `true` in **appsettings.json** (or **appsettings.Development.json**).
+
 1. Update the value of `tenantId` in **appsettings.json** (or **appsettings.Development.json**) with your organization's tenant ID.
 
 1. Add your client secret to the [.NET Secret Manager](/aspnet/core/security/app-secrets). In your command-line interface, change the directory to the location of **GraphTutorial.csproj** and run the following commands, replacing *&lt;client-secret&gt;* with your client secret.
 
     ```dotnetcli
     dotnet user-secrets init
-    dotnet user-secrets set settings:clientSecret <client-secret>
+    dotnet user-secrets set settings:appOnly:clientSecret <client-secret>
     ```
 
     > [!NOTE]

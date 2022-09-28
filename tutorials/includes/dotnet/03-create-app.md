@@ -33,6 +33,7 @@ Run the following commands in your CLI to install the dependencies.
 ```Shell
 dotnet add package Microsoft.Extensions.Configuration.Binder
 dotnet add package Microsoft.Extensions.Configuration.Json
+dotnet add package Microsoft.Extensions.Configuration.UserSecrets
 dotnet add package Azure.Identity
 dotnet add package Microsoft.Graph
 ```
