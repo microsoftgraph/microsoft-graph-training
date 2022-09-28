@@ -14,6 +14,7 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
+          "SECURITY.md",
           "ThirdPartyNotices",
           "tutorials/includes/dotnet/src/**",
           "tutorials/includes/go/src/**",
@@ -49,7 +50,7 @@
       "feedback_system": "None",
       "uhfHeaderId": "MSDocsHeader-MSGraph",
       "ms.prod": "non-product-specific",
-      "ms.technology": "ms-graph"
+      "ms.technology": "microsoft-graph"
     },
     "fileMetadata": {
       "featureFlags": {
