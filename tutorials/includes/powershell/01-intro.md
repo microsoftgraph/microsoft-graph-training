@@ -4,14 +4,18 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-This tutorial teaches you how to build a PowerShell script that uses the Microsoft Graph API.
+This tutorial teaches you how to build a PowerShell script that uses the Microsoft Graph API to access data on behalf of a user. In this tutorial, you will:
+
+- [Get the signed-in user](/graph/api/user-get)
+- [List the user's inbox messages](/graph/api/user-list-messages)
+- [Send an email](/graph/api/user-sendmail)
 
 > [!TIP]
 > If you prefer to just download the completed tutorial, you can download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-powershell).
 
 ## Prerequisites
 
-Before you start this tutorial, you should have [PowerShell](/powershell) and the [Microsoft Graph PowerShell SDK](/graph/powershell/installation) installed on your development machine.
+Before you start this tutorial, you should have [PowerShell](/powershell) installed on your development machine. PowerShell 5.1 is the minimum requirement, but PowerShell 7 is recommended.
 
 You should also have either a personal Microsoft account with a mailbox on Outlook.com, or a Microsoft work or school account. If you don't have a Microsoft account, there are a couple of options to get a free account:
 

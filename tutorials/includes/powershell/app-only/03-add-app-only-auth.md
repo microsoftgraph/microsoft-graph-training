@@ -4,10 +4,7 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-In this section you will use app-only authentication with the Microsoft Graph PowerShell SDK. This section is optional, and requires completion of [Optional: configure app-only authentication](?tutorial-step=7). These steps can only be completed with a work or school account.
-
-> [!div class="nextstepaction"]
-> [I don't need app-only, skip to the end](?tutorial-step=10)
+In this section you will use app-only authentication with the Microsoft Graph PowerShell SDK.
 
 ## Connect with app-only authentication
 
@@ -15,6 +12,12 @@ In this section you will use app-only authentication with the Microsoft Graph Po
 
     ```powershell
     Disconnect-MgGraph
+    ```
+
+1. Open PowerShell and use the following command to set the `$clientID` session variable, replacing *&lt;your-client-id&gt;* with the client ID of your app registration.
+
+    ```powershell
+    $clientId = <your-client-id>
     ```
 
 1. Set the `$tenantId` session variable, replacing *&lt;your-tenant-id&gt;* with your organization's tenant ID.
@@ -30,9 +33,6 @@ In this section you will use app-only authentication with the Microsoft Graph Po
     ```
 
 1. Use the `Connect-MgGraph` command to authenticate using the certificate from the previous step.
-
-    > [!NOTE]
-    > The `$clientId` session variable should still be set from previous steps. If it isn't, reset it before using the `Connect-MgGraph` command.
 
     :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorialAppOnly.ps1" id="AppOnlyAuthSnippet":::
 
