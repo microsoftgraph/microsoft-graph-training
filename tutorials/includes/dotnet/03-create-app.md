@@ -33,6 +33,7 @@ Run the following commands in your CLI to install the dependencies.
 ```Shell
 dotnet add package Microsoft.Extensions.Configuration.Binder
 dotnet add package Microsoft.Extensions.Configuration.Json
+dotnet add package Microsoft.Extensions.Configuration.UserSecrets
 dotnet add package Azure.Identity
 dotnet add package Microsoft.Graph
 ```
@@ -80,7 +81,7 @@ In this section you will create a simple console-based menu.
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
     ```csharp
-    void InitializeGraph()
+    void InitializeGraph(Settings settings)
     {
         // TODO
     }
