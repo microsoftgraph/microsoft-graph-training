@@ -4,7 +4,12 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-This tutorial teaches you how to build a PowerShell script that uses the Microsoft Graph API to access data using app-only authentication. App-only authentication is a good choice for background services, and there are also some APIs that only support app-only authentication. In this tutorial, you will:
+This tutorial teaches you how to build a PowerShell script that uses the Microsoft Graph API to access data using app-only authentication. App-only authentication is a good choice for background services or applications that need to access data for all users in an organization.
+
+> [!NOTE]
+> To learn how to use Microsoft Graph to access data on behalf of a user, see this [user (delegated) authentication tutorial](/graph/tutorials/powershell).
+
+In this tutorial, you will:
 
 - [List users](/graph/api/user-list)
 

@@ -23,6 +23,8 @@ In this section you will send an email message as the authenticated user.
 
     [!INCLUDE [dev-tenant-send-mail](../shared/dev-tenant-send-mail.md)]
 
+1. To verify the message was received, repeat the `Get-MgUserMailFolderMessage` command from the previous step.
+
 ## Code explained
 
 Consider the commands used to send a message.
