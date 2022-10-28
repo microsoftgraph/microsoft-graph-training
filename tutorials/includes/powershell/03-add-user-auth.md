@@ -8,6 +8,9 @@ In this section you will authenticate a PowerShell session as a user for Microso
 
 The Microsoft Graph PowerShell SDK provides two authentication methods for user authentication: interactive browser and device code authentication. Interactive browser authentication uses a device's default browser to allow the user to sign in. Device code authentication allows authentication in environments that do not have a default browser. In this exercise you will use device code authentication.
 
+> [!IMPORTANT]
+> If you do not already have the Microsoft Graph PowerShell SDK installed, [install it now](/powershell/microsoftgraph/installation) before proceeding.
+
 ## Authenticate the user
 
 1. Open PowerShell and use the following command to set the `$clientID` session variable, replacing *&lt;your-client-id&gt;* with the client ID of your app registration.
@@ -16,10 +19,10 @@ The Microsoft Graph PowerShell SDK provides two authentication methods for user 
     $clientId = <your-client-id>
     ```
 
-1. Set the `$authTenant` session variable. If you chose the option to only allow users in your organization to sign in when registering your application, replace *&lt;auth-tenant&gt;* with your organization's tenant ID. Otherwise, replace with `common`.
+1. Set the `$tenantId` session variable. If you chose the option to only allow users in your organization to sign in when registering your application, replace *&lt;tenant-id&gt;* with your organization's tenant ID. Otherwise, replace with `common`.
 
     ```powershell
-    $authTenant = <auth-tenant>
+    $tenantId = <tenant-id>
     ```
 
 1. Set the `$graphScopes` session variable.
@@ -30,7 +33,7 @@ The Microsoft Graph PowerShell SDK provides two authentication methods for user 
 
 1. Use the following command to authenticate the user inside the current PowerShell session.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorial.ps1" id="UserAuthSnippet":::
+    :::code language="powershell" source="./src/user-auth/GraphTutorial.ps1" id="UserAuthSnippet":::
 
     > [!TIP]
     > If you would prefer to use interactive browser authentication, omit the `-UseDeviceAuthentication` parameter.
@@ -41,7 +44,7 @@ The Microsoft Graph PowerShell SDK provides two authentication methods for user 
 
 1. Once completed, return to the PowerShell window. Run the following command to verify the authenticated context.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorial.ps1" id="GetContextSnippet":::
+    :::code language="powershell" source="./src/user-auth/GraphTutorial.ps1" id="GetContextSnippet":::
 
     ```powershell
     ClientId              : 2fb1652f-a9a0-4db9-b220-b224b8d9d38b
