@@ -34,7 +34,7 @@ In this section you will use app-only authentication with the Microsoft Graph Po
 
 1. Use the `Connect-MgGraph` command to authenticate using the certificate from the previous step.
 
-    :::code language="powershell" source="./src/app-auth/GraphTutorialAppOnly.ps1" id="AppOnlyAuthSnippet":::
+    :::code language="powershell" source="../src/app-auth/GraphTutorialAppOnly.ps1" id="AppOnlyAuthSnippet":::
 
 1. Use `Get-MgContext` to verify that you are authenticated with app-only authentication. Verify that **AuthType** is `AppOnly`.
 
