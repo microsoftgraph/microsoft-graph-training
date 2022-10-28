@@ -4,14 +4,11 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-In this section you will list all users in your Azure Active Directory using app-only authentication. This section is optional, and requires completion of [Optional: configure app-only authentication](?tutorial-step=2) and [Optional: add app-only authentication](?tutorial-step=8). These steps can only be completed with a work or school account.
-
-> [!div class="nextstepaction"]
-> [I don't need app-only, skip to the end](?tutorial-step=10)
+In this section you will list all users in your Azure Active Directory using app-only authentication.
 
 1. In your authenticated PowerShell session, run the following command to list users.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorialAppOnly.ps1" id="GetUsersSnippet":::
+    :::code language="powershell" source="./src/app-auth/GraphTutorialAppOnly.ps1" id="GetUsersSnippet":::
 
 1. Review the output.
 
@@ -31,10 +28,8 @@ In this section you will list all users in your Azure Active Directory using app
 
 ## Code explained
 
-Consider the command used to list users. The parameters uses are very similar to the ones used for the `Get-MgUserMailFolderMessage` command.
+Consider the command used to list users.
 
 - It uses `-Select` to request specific properties
 - It uses `-Top` to limit the number of users returned
 - It uses `-OrderBy` to sort the response
-
-The key difference is that the connection to Graph is using app-only authentication. The syntax for commands are the same.
