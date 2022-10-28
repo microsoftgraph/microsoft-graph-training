@@ -55,15 +55,15 @@ On Linux or MacOS, you can use [OpenSSL](https://www.openssl.org/) to generate t
 
 ---
 
-## Register application for user authentication
+## Register application for app-only authentication
 
-In this section you will register an application that will support user authentication using [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+In this section you will register an application that will support app-only authentication using [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
 1. Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com) and login using a Global administrator account.
 
 1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
 
-    ![A screenshot of the App registrations ](../../images/aad-portal-app-registrations.png)
+    ![A screenshot of the App registrations ](../../../images/aad-portal-app-registrations.png)
 
 1. Select **New registration**. Enter a name for your application, for example, `PowerShell Graph Tutorial`.
 
@@ -73,7 +73,7 @@ In this section you will register an application that will support user authenti
 
 1. Select **Register**. On the application's **Overview** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step. If you chose **Accounts in this organizational directory only** for **Supported account types**, also copy the **Directory (tenant) ID** and save it.
 
-    ![A screenshot of the application ID of the new app registration](../../images/dotnet/aad-application-id.png)
+    ![A screenshot of the application ID of the new app registration](../../../images/dotnet/aad-application-id.png)
 
 1. Select **API permissions** under **Manage**.
 
