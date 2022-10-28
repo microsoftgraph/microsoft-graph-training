@@ -8,11 +8,11 @@ In this section you will incorporate the Microsoft Graph into the application. F
 
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="GetUserSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/GraphHelper.cs" id="GetUserSnippet":::
 
 1. Replace the empty `GreetUserAsync` function in **Program.cs** with the following.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/Program.cs" id="GreetUserSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/Program.cs" id="GreetUserSnippet":::
 
 If you run the app now, after you log in the app welcomes you by name.
 

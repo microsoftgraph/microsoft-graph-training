@@ -71,7 +71,7 @@ In this section you will register an application that will support app-only auth
 
 1. Leave **Redirect URI** empty.
 
-1. Select **Register**. On the application's **Overview** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step. If you chose **Accounts in this organizational directory only** for **Supported account types**, also copy the **Directory (tenant) ID** and save it.
+1. Select **Register**. On the application's **Overview** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID** and save them, you will need these values in the next step.
 
     ![A screenshot of the application ID of the new app registration](../../../images/dotnet/aad-application-id.png)
 
