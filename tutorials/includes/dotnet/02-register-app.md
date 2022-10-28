@@ -8,7 +8,7 @@ In this exercise you will register a new application in Azure Active Directory t
 
 ## Register application for user authentication
 
-In this section you will register an application that will support user authentication using [device code flow](/azure/active-directory/develop/v2-oauth2-device-code).
+In this section you will register an application that supports user authentication using [device code flow](/azure/active-directory/develop/v2-oauth2-device-code).
 
 ### [Azure AD admin center](#tab/aad)
 
@@ -79,4 +79,4 @@ To use PowerShell, you'll need the Microsoft Graph PowerShell SDK. If you do not
 ---
 
 > [!NOTE]
-> Notice that you did not configure any Microsoft Graph permissions on the app registration. This is because the sample will use [dynamic consent](/azure/active-directory/develop/v2-permissions-and-consent#incremental-and-dynamic-user-consent) to request specific permissions for user authentication.
+> Notice that you did not configure any Microsoft Graph permissions on the app registration. This is because the sample uses [dynamic consent](/azure/active-directory/develop/v2-permissions-and-consent#incremental-and-dynamic-user-consent) to request specific permissions for user authentication.

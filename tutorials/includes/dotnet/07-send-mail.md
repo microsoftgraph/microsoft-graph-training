@@ -29,6 +29,8 @@ In this section you will add the ability to send an email message as the authent
 
     [!INCLUDE [dev-tenant-send-mail](../shared/dev-tenant-send-mail.md)]
 
+1. To verify the message was received, choose option 2 to list your inbox.
+
 ## Code explained
 
 Consider the code in the `SendMailAsync` function.

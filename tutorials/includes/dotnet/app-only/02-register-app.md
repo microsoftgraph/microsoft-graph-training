@@ -8,7 +8,7 @@ In this exercise you will register a new application in Azure Active Directory t
 
 ## Register application for app-only authentication
 
-In this section you will register an application that will support user authentication using [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+In this section you will register an application that supports app-only authentication using [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
 ### [Azure AD admin center](#tab/aad)
 

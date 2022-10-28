@@ -60,7 +60,7 @@ Consider the code in the `GetInboxAsync` function.
 
 ### Accessing well-known mail folders
 
-The function uses the `_userClient.Me.MailFolders["Inbox"].Messages` request builder, which builds a request to the [List messages](/graph/api/user-list-messages) API. Because it includes the `MailFolders["Inbox"]` request builder, the API will only return messages in the requested mail folder. In this case, because the inbox is a default, well-known folder inside a user's mailbox, it's accessible via its well-known name. Non-default folders are accessed the same way, by replacing the well-known name with the mail folder's ID property. For details on the available well-known folder names, see [mailFolder resource type](/graph/api/resources/mailfolder).
+The function uses the `_userClient.Me.MailFolders["Inbox"].Messages` request builder, which builds a request to the [List messages](/graph/api/user-list-messages) API. Because it includes the `MailFolders["Inbox"]` request builder, the API only returns messages in the requested mail folder. In this case, because the inbox is a default, well-known folder inside a user's mailbox, it's accessible via its well-known name. Non-default folders are accessed the same way, by replacing the well-known name with the mail folder's ID property. For details on the available well-known folder names, see [mailFolder resource type](/graph/api/resources/mailfolder).
 
 ### Accessing a collection
 

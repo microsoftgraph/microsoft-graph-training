@@ -51,7 +51,7 @@ In this section you'll add the details of your app registration to the project.
     | Setting | Value |
     |---------|-------|
     | `clientId` | The client ID of your app registration |
-    | `authTenant` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+    | `tenantId` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
 
     > [!TIP]
     > Optionally, you can set these values in a separate file named **appsettings.Development.json**, or in the [.NET Secret Manager](/aspnet/core/security/app-secrets).

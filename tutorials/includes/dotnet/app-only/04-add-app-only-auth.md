@@ -32,7 +32,7 @@ In this section you will use the `ClientSecretCredential` class to request an ac
 
     :::code language="csharp" source="../src/app-auth/GraphAppOnlyTutorial/Program.cs" id="InitializeGraphSnippet":::
 
-This code declares two private properties, a `ClientSecretCredential` object and a `GraphServiceClient` object. The `InitializeGraphForAppOnlyAuth` function creates a new instance of `ClientSecretCredential`, then uses that instance to create a new instance of `GraphServiceClient`. Every time an API call is made to Microsoft Graph through the `_appClient`, it will use the provided credential to get an access token.
+This code declares two private properties, a `ClientSecretCredential` object and a `GraphServiceClient` object. The `InitializeGraphForAppOnlyAuth` function creates a new instance of `ClientSecretCredential`, then uses that instance to create a new instance of `GraphServiceClient`. Every time an API call is made to Microsoft Graph through the `_appClient`, it uses the provided credential to get an access token.
 
 ## Test the ClientSecretCredential
 
@@ -46,7 +46,7 @@ Next, add code to get an access token from the `ClientSecretCredential`.
 
     :::code language="csharp" source="../src/app-auth/GraphAppOnlyTutorial/Program.cs" id="DisplayAccessTokenSnippet":::
 
-1. Build and run the app. Enter `1` when prompted for an option. The application displays a URL and device code.
+1. Build and run the app. Enter `1` when prompted for an option. The application displays the access token.
 
     ```Shell
     .NET Graph Tutorial
@@ -59,7 +59,5 @@ Next, add code to get an access token from the `ClientSecretCredential`.
     1
     App-only token: eyJ0eXAiOiJKV1QiLCJub25jZSI6IlVDTzRYOWtKYlNLVjVkRzJGenJqd2xvVUcwWS...
     ```
-
-1. Once completed, return to the application to see the access token.
 
     [!INCLUDE [token-debug-tip](../../shared/app-token-debug-tip.md)]

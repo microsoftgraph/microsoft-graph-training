@@ -34,7 +34,7 @@ GET /me
 GET /users/{user-id}
 ```
 
-In this case, the code will call the `GET /me` API endpoint. This is a shortcut method to get the authenticated user without knowing their user ID.
+In this case, the code calls the `GET /me` API endpoint. This is a shortcut method to get the authenticated user without knowing their user ID.
 
 > [!NOTE]
 > Because the `GET /me` API endpoint gets the authenticated user, it is only available to apps that use user authentication. App-only authentication apps cannot access this endpoint.
@@ -45,4 +45,4 @@ The function uses the `Select` method on the request to specify the set of prope
 
 ### Strongly-typed return type
 
-The function returns a `Microsoft.Graph.User` object deserialized from the JSON response from the API. Because the code uses `Select`, only the requested properties will have values in the returned `User` object. All other properties will have default values.
+The function returns a `Microsoft.Graph.User` object deserialized from the JSON response from the API. Because the code uses `Select`, only the requested properties have values in the returned `User` object. All other properties have default values.

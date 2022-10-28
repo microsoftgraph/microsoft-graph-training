@@ -18,7 +18,7 @@ In this section you will add your own Microsoft Graph capabilities to the applic
 
 ## Choose an API
 
-Find an API in Microsoft Graph you'd like to try. For example, the [Create event](/graph/api/user-post-events) API. You can use one of the examples in the API documentation, or you can customize an API request in Graph Explorer and use the generated snippet.
+Find an API in Microsoft Graph you'd like to try. For example, the [Create event](/graph/api/user-post-events) API. You can use one of the examples in the API documentation, or you can customize an example.
 
 ## Configure permissions
 
