@@ -26,7 +26,7 @@ In this section you will register an application that will support user authenti
 
 1. Select **Register**. On the application's **Overview** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID** and save them, you will need these values in the next step.
 
-    ![A screenshot of the application ID of the new app registration](../../images/dotnet/aad-application-id.png)
+    ![A screenshot of the application ID of the new app registration](../../../images/dotnet/aad-application-id.png)
 
 1. Select **API permissions** under **Manage**.
 
@@ -40,7 +40,7 @@ In this section you will register an application that will support user authenti
 
 1. Select **Grant admin consent for...**, then select **Yes** to provide admin consent for the selected permission.
 
-    ![A screenshot of the Configured permissions table after granting admin consent](../../images/aad-configured-permissions.png)
+    ![A screenshot of the Configured permissions table after granting admin consent](../../../images/aad-configured-permissions.png)
 
 1. Select **Certificates and secrets** under **Manage**, then select **New client secret**.
 
