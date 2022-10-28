@@ -17,23 +17,23 @@ items:
   content: |
     [!INCLUDE [](./includes/dotnet/app-only/01-intro.md)]
 - title: Register the app in the portal
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
     [!INCLUDE [](./includes/dotnet/app-only/02-register-app.md)]
 - title: Create a .NET console app
-  durationInMinutes: 5
+  durationInMinutes: 6
   content: |
     [!INCLUDE [](./includes/dotnet/app-only/03-create-app.md)]
 - title: Add app-only authentication
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
     [!INCLUDE [](./includes/dotnet/app-only/04-add-app-only-auth.md)]
 - title: List users
-  durationInMinutes: 5
+  durationInMinutes: 2
   content: |
     [!INCLUDE [](./includes/dotnet/app-only/05-get-all-users.md)]
 - title: "Optional: add your own code"
-  durationInMinutes: 5
+  durationInMinutes: 4
   content: |
     [!INCLUDE [](./includes/dotnet/app-only/06-extend-app.md)]
 - content: |
