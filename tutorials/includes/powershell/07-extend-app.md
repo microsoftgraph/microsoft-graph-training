@@ -32,10 +32,9 @@ The output indicates that the `New-MgUserEvent` command is the corresponding com
 
 ## Configure permissions
 
-Check the **Permissions** section of the reference documentation for your chosen API to see which authentication methods are supported. Some APIs don't support app-only, or personal Microsoft accounts, for example.
+Check the **Permissions** section of the reference documentation for your chosen API to see which authentication methods are supported. Some APIs don't support user (delegated) authentication, or personal Microsoft accounts, for example.
 
-- To call an API with user authentication (if the API supports user (delegated) authentication), disconnect the current session (`Disconnect-MgGraph`) and reconnect with the required permission in the `-Scopes` parameter.
-- To call an API with app-only authentication (if the API supports it), add the required permission scope in the Azure AD admin center. Be sure to disconnect and reconnect using app-only permission.
+Disconnect the current session (`Disconnect-MgGraph`) and reconnect with the required permission in the `-Scopes` parameter.
 
 > [!TIP]
 > Using the `-ForceRefresh` parameter with the `Connect-MgGraph` command ensures that newly configured permissions are applied.

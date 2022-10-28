@@ -15,13 +15,15 @@ In this section you will send an email message as the authenticated user.
 
 1. Use the following command to define an object representing the request body for the [Send mail](/graph/api/user-sendmail) API.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorial.ps1" id="DefineMailSnippet":::
+    :::code language="powershell" source="./src/user-auth/GraphTutorial.ps1" id="DefineMailSnippet":::
 
 1. Use the following command to send the message.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorial.ps1" id="SendMailSnippet":::
+    :::code language="powershell" source="./src/user-auth/GraphTutorial.ps1" id="SendMailSnippet":::
 
     [!INCLUDE [dev-tenant-send-mail](../shared/dev-tenant-send-mail.md)]
+
+1. To verify the message was received, repeat the `Get-MgUserMailFolderMessage` command from the previous step.
 
 ## Code explained
 

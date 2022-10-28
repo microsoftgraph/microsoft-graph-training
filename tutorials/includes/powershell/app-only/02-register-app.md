@@ -2,15 +2,9 @@
 ms.localizationpriority: medium
 ---
 
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD041 MD051 -->
 
-In this section you will update the app registration from the previous section to support [app-only authentication](/graph/auth-v2-service). App-only authentication is a good choice for background services, and there are also some APIs that only support app-only authentication. You only need to complete this section if you intend to use the app-only portions of this tutorial. If not, you can safely skip to the next step.
-
-> [!div class="nextstepaction"]
-> [I don't need app-only, skip to the end](?tutorial-step=10)
-
-> [!IMPORTANT]
-> The steps in this section require a work/school account with the Global administrator role.
+In this exercise you will register a new application in Azure Active Directory to enable [app-only authentication](/graph/auth-v2-service).
 
 ## Create a self-signed certificate
 
@@ -61,9 +55,25 @@ On Linux or MacOS, you can use [OpenSSL](https://www.openssl.org/) to generate t
 
 ---
 
-## Update the app registration
+## Register application for app-only authentication
 
-1. Open the app registration from the previous section in the Azure AD admin center.
+In this section you will register an application that will support app-only authentication using [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+
+1. Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com) and login using a Global administrator account.
+
+1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
+
+    ![A screenshot of the App registrations ](../../../images/aad-portal-app-registrations.png)
+
+1. Select **New registration**. Enter a name for your application, for example, `PowerShell Graph Tutorial`.
+
+1. Set **Supported account types** to **Accounts in this organizational directory only**.
+
+1. Leave **Redirect URI** empty.
+
+1. Select **Register**. On the application's **Overview** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step. If you chose **Accounts in this organizational directory only** for **Supported account types**, also copy the **Directory (tenant) ID** and save it.
+
+    ![A screenshot of the application ID of the new app registration](../../../images/dotnet/aad-application-id.png)
 
 1. Select **API permissions** under **Manage**.
 
@@ -77,7 +87,7 @@ On Linux or MacOS, you can use [OpenSSL](https://www.openssl.org/) to generate t
 
 1. Select **Grant admin consent for...**, then select **Yes** to provide admin consent for the selected permission.
 
-    ![A screenshot of the Configured permissions table after granting admin consent](../../images/aad-configured-permissions.png)
+    ![A screenshot of the Configured permissions table after granting admin consent](../../../images/aad-configured-permissions.png)
 
 1. Select **Certificates and secrets** under **Manage**, then select **Certificates**.
 
