@@ -8,11 +8,11 @@ In this section you will add the ability to send an email message as the authent
 
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="SendMailSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/GraphHelper.cs" id="SendMailSnippet":::
 
 1. Replace the empty `SendMailAsync` function in **Program.cs** with the following.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/Program.cs" id="SendMailSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/Program.cs" id="SendMailSnippet":::
 
 1. Run the app, sign in, and choose option 3 to send an email to yourself.
 
@@ -22,8 +22,7 @@ In this section you will add the ability to send an email message as the authent
     1. Display access token
     2. List my inbox
     3. Send mail
-    4. List users (requires app-only)
-    5. Make a Graph call
+    4. Make a Graph call
     3
     Mail sent.
     ```
