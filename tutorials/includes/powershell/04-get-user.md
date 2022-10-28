@@ -8,18 +8,18 @@ In this section you will get the authenticated user.
 
 1. In your authenticated PowerShell session, run the following command to get the current context. The context provides information to identify the authenticated user.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorial.ps1" id="SaveContextSnippet":::
+    :::code language="powershell" source="./src/user-auth/GraphTutorial.ps1" id="SaveContextSnippet":::
 
 1. Run the following command to get the user from Microsoft Graph.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorial.ps1" id="GetUserSnippet":::
+    :::code language="powershell" source="./src/user-auth/GraphTutorial.ps1" id="GetUserSnippet":::
 
     > [!TIP]
     > You can add the `-Debug` switch to the previous command to see the API request and response.
 
 1. Run the following commands to output user information.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorial.ps1" id="GreetUserSnippet":::
+    :::code language="powershell" source="./src/user-auth/GraphTutorial.ps1" id="GreetUserSnippet":::
 
     ```powershell
     Hello, Megan Bowen!

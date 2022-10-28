@@ -48,7 +48,7 @@ In this section you will register an application that will support user authenti
 
 1. Create a new file named **RegisterAppForUserAuth.ps1** and add the following code.
 
-    :::code language="powershell" source="./src/demo/RegisterAppForUserAuth.ps1" id="ScriptBody":::
+    :::code language="powershell" source="./src/user-auth/RegisterAppForUserAuth.ps1" id="ScriptBody":::
 
 1. Save the file.
 

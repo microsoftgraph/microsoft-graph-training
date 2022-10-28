@@ -15,7 +15,7 @@ In this section you will list messages in the user's email inbox.
 
 1. Run the following command to list the user's inbox.
 
-    :::code language="powershell" source="./src/demo/graphtutorial/GraphTutorial.ps1" id="GetInboxSnippet":::
+    :::code language="powershell" source="./src/user-auth/GraphTutorial.ps1" id="GetInboxSnippet":::
 
 1. Review the output.
 
