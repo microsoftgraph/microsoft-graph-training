@@ -77,7 +77,7 @@ On Linux or MacOS, you can use [OpenSSL](https://www.openssl.org/) to generate t
 
 1. Select **Grant admin consent for...**, then select **Yes** to provide admin consent for the selected permission.
 
-    ![A screenshot of the Configured permissions table after granting admin consent](../../images/aad-configured-permissions.png)
+    ![A screenshot of the Configured permissions table after granting admin consent](../../../images/aad-configured-permissions.png)
 
 1. Select **Certificates and secrets** under **Manage**, then select **Certificates**.
 
