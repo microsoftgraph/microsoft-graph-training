@@ -14,7 +14,7 @@ In this tutorial, you will:
 - [List users](/graph/api/user-list)
 
 > [!TIP]
-> If you prefer to just download the completed tutorial, you can download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-powershell).
+> As an alternative to following this tutorial, you can download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-powershell/tree/main/app-auth) and follow the instructions in the README to register an application and configure the project.
 
 ## Prerequisites
 
