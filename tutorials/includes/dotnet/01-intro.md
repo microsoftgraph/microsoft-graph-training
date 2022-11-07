@@ -4,7 +4,7 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-This tutorial teaches you how to build a .NET console app that uses the Microsoft Graph API  to access data on behalf of a user.
+This tutorial teaches you how to build a .NET console app that uses the Microsoft Graph API to access data on behalf of a user.
 
 > [!NOTE]
 > To learn how to use Microsoft Graph to access data using app-only authentication, see this [app-only authentication tutorial](/graph/tutorials/dotnet-app-only).

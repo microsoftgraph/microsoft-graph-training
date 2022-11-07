@@ -6,22 +6,19 @@ ms.localizationpriority: medium
 
 In this section you will extend the application from the previous exercise to support authentication with Azure AD. This is required to obtain the necessary OAuth access token to call the Microsoft Graph. In this step you will integrate the [Azure Identity client library for JavaScript](https://www.npmjs.com/package/@azure/identity) into the application and configure authentication for the [Microsoft Graph JavaScript client library](https://www.npmjs.com/package/@microsoft/microsoft-graph-client).
 
-The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph client library uses those classes to authenticate calls to Microsoft Graph. In this example, we'll use the following `TokenCredential` classes.
-
-- `DeviceCodeCredential` implements the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) for user authentication.
-- `ClientSecretCredential` implements the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow) for app-only authentication. You will use this class in the optional app-only sections.
+The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph client library uses those classes to authenticate calls to Microsoft Graph.
 
 ## Configure Graph client for user authentication
 
 In this section you will use the `DeviceCodeCredential` class to request an access token by using the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code).
 
-1. Create a new file in the root of your project named **graphHelper.js** and add the following code to that file.
+1. Open **graphHelper.js** and replace its contents with the following.
 
-    :::code language="javascript" source="./src/demo/graphtutorial/graphHelper.js" id="UserAuthConfigSnippet":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/graphHelper.js" id="UserAuthConfigSnippet":::
 
 1. Replace the empty `initializeGraph` function in **index.js** with the following.
 
-    :::code language="javascript" source="./src/demo/graphtutorial/index.js" id="InitializeGraphSnippet":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/index.js" id="InitializeGraphSnippet":::
 
 This code declares two private properties, a `DeviceCodeCredential` object and a `Client` object. The `initializeGraphForUserAuth` function creates a new instance of `DeviceCodeCredential`, then uses that instance to create a new instance of `Client`. Every time an API call is made to Microsoft Graph through the `_userClient`, it will use the provided credential to get an access token.
 
@@ -31,11 +28,11 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
 
 1. Add the following function to **graphHelper.js**.
 
-    :::code language="javascript" source="./src/demo/graphtutorial/graphHelper.js" id="GetUserTokenSnippet":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/graphHelper.js" id="GetUserTokenSnippet":::
 
 1. Replace the empty `displayAccessTokenAsync` function in **index.js** with the following.
 
-    :::code language="javascript" source="./src/demo/graphtutorial/index.js" id="DisplayAccessTokenSnippet":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/index.js" id="DisplayAccessTokenSnippet":::
 
 1. Run the following command in your CLI in the root of your project.
 
@@ -51,11 +48,10 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
     [1] Display access token
     [2] List my inbox
     [3] Send mail
-    [4] List users (requires app-only)
-    [5] Make a Graph call
+    [4] Make a Graph call
     [0] Exit
 
-    Select an option [1...5 / 0]: 1
+    Select an option [1...4 / 0]: 1
     To sign in, use a web browser to open the page https://microsoft.com/devicelogin and
     enter the code RK987NX32 to authenticate.
     ```

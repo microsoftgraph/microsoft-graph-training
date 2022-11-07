@@ -8,11 +8,11 @@ In this section you will add the ability to list messages in the user's email in
 
 1. Open **graphHelper.js** and add the following function.
 
-    :::code language="javascript" source="./src/demo/graphtutorial/graphHelper.js" id="GetInboxSnippet":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/graphHelper.js" id="GetInboxSnippet":::
 
 1. Replace the empty `ListInboxAsync` function in **index.js** with the following.
 
-    :::code language="javascript" source="./src/demo/graphtutorial/index.js" id="ListInboxSnippet":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/index.js" id="ListInboxSnippet":::
 
 1. Run the app, sign in, and choose option 2 to list your inbox.
 
@@ -20,11 +20,10 @@ In this section you will add the ability to list messages in the user's email in
     [1] Display access token
     [2] List my inbox
     [3] Send mail
-    [4] List users (requires app-only)
-    [5] Make a Graph call
+    [4] Make a Graph call
     [0] Exit
 
-    Select an option [1...5 / 0]: 2
+    Select an option [1...4 / 0]: 2
     Message: Updates from Ask HR and other communities
       From: Contoso Demo on Yammer
       Status: Read

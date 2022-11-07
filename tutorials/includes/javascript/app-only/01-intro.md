@@ -4,21 +4,17 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-This tutorial teaches you how to build a JavaScript console app that uses the Microsoft Graph API to access data on behalf of a user.
+This tutorial teaches you how to build a JavaScript console app that uses the Microsoft Graph API to access data using app-only authentication. App-only authentication is a good choice for background services or applications that need to access data for all users in an organization.
 
 > [!NOTE]
-> To learn how to use Microsoft Graph to access data using app-only authentication, see this [app-only authentication tutorial](/graph/tutorials/javascript-app-only).
+> To learn how to use Microsoft Graph to access data on behalf of a user, see this [user (delegated) authentication tutorial](/graph/tutorials/javascript).
 
 In this tutorial, you will:
 
-- [Get the signed-in user](/graph/api/user-get)
-- [List the user's inbox messages](/graph/api/user-list-messages)
-- [Send an email](/graph/api/user-sendmail)
+- [List users](/graph/api/user-list)
 
 > [!TIP]
-> As an alternative to following this tutorial, you can download the completed code through the [quick start](https://developer.microsoft.com/graph/quick-start) tool, which automates app registration and configuration. The downloaded code works without any modifications required.
->
-> You can also download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-javascript) and follow the instructions in the README to register an application and configure the project.
+> As an alternative to following this tutorial, you can download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-javascript/tree/main/app-auth) and follow the instructions in the README to register an application and configure the project.
 
 ## Prerequisites
 

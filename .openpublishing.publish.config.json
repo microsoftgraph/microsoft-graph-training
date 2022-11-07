@@ -65,6 +65,7 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-javascript",
       "branch": "main",
       "branch_mapping": {
+        "app-only-split": "app-only-split",
         "master": "main",
         "live": "live"
       }
