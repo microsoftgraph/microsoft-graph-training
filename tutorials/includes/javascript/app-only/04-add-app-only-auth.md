@@ -14,7 +14,7 @@ In this section you will use the `ClientSecretCredential` class to request an ac
 
 1. Open **graphHelper.js** and add the following code.
 
-    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/graphHelper.js" id="AppOnyAuthConfigSnippet":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/graphHelper.js" id="AppOnlyAuthConfigSnippet":::
 
 1. Replace the empty `initializeGraph` function in **index.js** with the following.
 
