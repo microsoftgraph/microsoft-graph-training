@@ -33,7 +33,7 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the root of your project named **appSettings.js** and add the following code.
 
-    :::code language="javascript" source="./src/user-auth/graphtutorial/appSettings.example.js":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/appSettings.example.js" id="SettingsSnippet":::
 
 1. Update the values in `settings` according to the following table.
 

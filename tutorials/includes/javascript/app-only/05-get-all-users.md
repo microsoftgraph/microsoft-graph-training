@@ -14,7 +14,7 @@ In this section you will add the ability to list all users in your Azure Active 
 
     :::code language="javascript" source="../src/app-auth/graphapponlytutorial/index.js" id="ListUsersSnippet":::
 
-1. Run the app, sign in, and choose option 2 to list users.
+1. Run the app and choose option 2 to list users.
 
     ```Shell
     [1] Display access token
