@@ -17,27 +17,27 @@ items:
   content: |
     [!INCLUDE [](./includes/javascript/01-intro.md)]
 - title: Register the app in the portal
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
     [!INCLUDE [](./includes/javascript/02-register-app.md)]
 - title: Create a JavaScript console app
-  durationInMinutes: 5
+  durationInMinutes: 4
   content: |
     [!INCLUDE [](./includes/javascript/03-create-app.md)]
 - title: Add user authentication
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
     [!INCLUDE [](./includes/javascript/04-add-user-auth.md)]
 - title: Get user
-  durationInMinutes: 5
+  durationInMinutes: 2
   content: |
     [!INCLUDE [](./includes/javascript/05-get-user.md)]
 - title: List inbox
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
     [!INCLUDE [](./includes/javascript/06-get-inbox-messages.md)]
 - title: Send mail
-  durationInMinutes: 5
+  durationInMinutes: 2
   content: |
     [!INCLUDE [](./includes/javascript/07-send-mail.md)]
 - title: "Optional: add your own code"
