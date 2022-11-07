@@ -10,11 +10,11 @@ In this section you will add your own Microsoft Graph capabilities to the applic
 
 1. Open **graphHelper.js** and add the following function.
 
-    :::code language="javascript" source="./src/app-auth/graphapponlytutorial/graphHelper.js" id="MakeGraphCallSnippet":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/graphHelper.js" id="MakeGraphCallSnippet":::
 
 1. Replace the empty `makeGraphCallAsync` function in **index.js** with the following.
 
-    :::code language="javascript" source="./src/app-auth/graphapponlytutorial/index.js" id="MakeGraphCallSnippet":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/index.js" id="MakeGraphCallSnippet":::
 
 ## Choose an API
 

@@ -8,11 +8,11 @@ In this section you will add the ability to list all users in your Azure Active 
 
 1. Open **graphHelper.js** and add the following function.
 
-    :::code language="javascript" source="./src/app-auth/graphapponlytutorial/graphHelper.js" id="GetUsersSnippet":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/graphHelper.js" id="GetUsersSnippet":::
 
 1. Replace the empty `listUsersAsync` function in **index.js** with the following.
 
-    :::code language="javascript" source="./src/app-auth/graphapponlytutorial/index.js" id="ListUsersSnippet":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/index.js" id="ListUsersSnippet":::
 
 1. Run the app, sign in, and choose option 2 to list users.
 

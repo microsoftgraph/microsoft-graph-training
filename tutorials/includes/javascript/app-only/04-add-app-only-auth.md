@@ -14,11 +14,11 @@ In this section you will use the `ClientSecretCredential` class to request an ac
 
 1. Open **graphHelper.js** and add the following code.
 
-    :::code language="javascript" source="./src/app-auth/graphapponlytutorial/graphHelper.js" id="AppOnyAuthConfigSnippet":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/graphHelper.js" id="AppOnyAuthConfigSnippet":::
 
 1. Replace the empty `initializeGraph` function in **index.js** with the following.
 
-    :::code language="javascript" source="./src/app-auth/graphapponlytutorial/index.js" id="InitializeGraphSnippet":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/index.js" id="InitializeGraphSnippet":::
 
 This code declares two private properties, a `ClientSecretCredential` object and a `Client` object. The `InitializeGraphForAppOnlyAuth` function creates a new instance of `ClientSecretCredential`, then uses that instance to create a new instance of `Client`. Every time an API call is made to Microsoft Graph through the `_appClient`, it uses the provided credential to get an access token.
 
@@ -28,11 +28,11 @@ Next, add code to get an access token from the `ClientSecretCredential`.
 
 1. Add the following function to **graphHelper.js**.
 
-    :::code language="javascript" source="./src/app-auth/graphapponlytutorial/graphHelper.js" id="GetAppOnlyTokenSnippet":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/graphHelper.js" id="GetAppOnlyTokenSnippet":::
 
 1. Replace the empty `displayAccessTokenAsync` function in **index.js** with the following.
 
-    :::code language="javascript" source="./src/app-auth/graphapponlytutorial/index.js" id="DisplayAccessTokenSnippet":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/index.js" id="DisplayAccessTokenSnippet":::
 
 1. Run the following command in your CLI in the root of your project.
 
@@ -54,4 +54,4 @@ Next, add code to get an access token from the `ClientSecretCredential`.
     App-only token: eyJ0eXAiOiJKV1QiLCJub25jZSI6IlVDTzRYOWtKYlNLVjVkRzJGenJqd2xvVUcwWS...
     ```
 
-    [!INCLUDE [token-debug-tip](../shared/token-debug-tip.md)]
+    [!INCLUDE [token-debug-tip](../../shared/token-debug-tip.md)]

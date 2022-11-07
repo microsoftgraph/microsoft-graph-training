@@ -33,7 +33,7 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the root of your project named **appSettings.js** and add the following code.
 
-    :::code language="javascript" source="./src/app-auth/graphapponlytutorial/appSettings.example.js":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/appSettings.example.js":::
 
 1. Update the values in `settings` according to the following table.
 
@@ -55,7 +55,7 @@ In this section you will create a simple console-based menu.
 
 1. Create a file in the root of your project named **index.js** and add the following code.
 
-    :::code language="javascript" source="./src/app-auth/graphapponlytutorial/index.js" id="ProgramSnippet":::
+    :::code language="javascript" source="../src/app-auth/graphapponlytutorial/index.js" id="ProgramSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
