@@ -4,30 +4,25 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-In this section you will add the ability to list all users in your Azure Active Directory using app-only authentication. This section is optional, and requires completion of [Optional: configure app-only authentication](?tutorial-step=2) and [Optional: add app-only authentication](?tutorial-step=8). These steps can only be completed with a work or school account.
-
-> [!div class="nextstepaction"]
-> [I don't need app-only, skip to the end](?tutorial-step=10)
+In this section you will add the ability to list all users in your Azure Active Directory using app-only authentication.
 
 1. Open **graphHelper.ts** and add the following function.
 
-    :::code language="typescript" source="./src/demo/graphtutorial/graphHelper.ts" id="GetUsersSnippet":::
+    :::code language="typescript" source="../src/app-auth/graphapponlytutorial/graphHelper.ts" id="GetUsersSnippet":::
 
 1. Replace the empty `listUsersAsync` function in **index.ts** with the following.
 
-    :::code language="typescript" source="./src/demo/graphtutorial/index.ts" id="ListUsersSnippet":::
+    :::code language="typescript" source="../src/app-auth/graphapponlytutorial/index.ts" id="ListUsersSnippet":::
 
-1. Run the app, sign in, and choose option 4 to list users.
+1. Run the app, sign in, and choose option 2 to list users.
 
     ```Shell
     [1] Display access token
-    [2] List my inbox
-    [3] Send mail
-    [4] List users (requires app-only)
-    [5] Make a Graph call
+    [2] List users
+    [3] Make a Graph call
     [0] Exit
 
-    Select an option [1...5 / 0]: 4
+    Select an option [1...3 / 0]: 2
     User: Adele Vance
       ID: 05fb57bf-2653-4396-846d-2f210a91d9cf
       Email: AdeleV@contoso.com
@@ -57,5 +52,3 @@ Consider the code in the `getUsersAsync` function. It is very similar to the cod
 - It uses `select` to request specific properties
 - It uses `top` to limit the number of users returned
 - It uses `orderBy` to sort the response
-
-The key difference is that this code uses the `_appClient`, not the `_userClient`. Both clients use the same syntax and request builders, but were configured with different credentials.

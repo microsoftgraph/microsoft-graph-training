@@ -4,7 +4,10 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-You've completed the TypeScript Microsoft Graph tutorial. Now that you have a working app that calls Microsoft Graph, you can experiment and add new features. Visit the [Overview of Microsoft Graph](/graph/overview) to see all of the data you can access with Microsoft Graph.
+You've completed the TypeScript Microsoft Graph tutorial. Now that you have a working app that calls Microsoft Graph, you can experiment and add new features.
+
+- Learn how to use [user (delegated) authentication](/graph/tutorials/typescript) with the Microsoft Graph JavaScript SDK.
+- Visit the [Overview of Microsoft Graph](/graph/overview) to see all of the data you can access with Microsoft Graph.
 
 ## Microsoft Graph Toolkit
 

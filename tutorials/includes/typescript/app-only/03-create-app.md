@@ -48,7 +48,7 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the root of your project named **appSettings.ts** and add the following code.
 
-    :::code language="typescript" source="./src/user-auth/graphtutorial/appSettings.example.ts" id="SettingsSnippet":::
+    :::code language="typescript" source="../src/app-auth/graphapponlytutorial/appSettings.example.ts" id="SettingsSnippet":::
 
 1. Update the values in `settings` according to the following table.
 
@@ -56,6 +56,7 @@ In this section you'll add the details of your app registration to the project.
     |---------|-------|
     | `clientId` | The client ID of your app registration |
     | `tenantId` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+    | `clientSecret` | The client secret generated in the previous step |
 
 ## Design the app
 
@@ -78,19 +79,11 @@ In this section you will create a simple console-based menu.
       // TODO
     }
 
-    async function greetUserAsync() {
-      // TODO
-    }
-
     async function displayAccessTokenAsync() {
       // TODO
     }
 
-    async function listInboxAsync() {
-      // TODO
-    }
-
-    async function sendMailAsync() {
+    async function listUsersAsync() {
       // TODO
     }
 
