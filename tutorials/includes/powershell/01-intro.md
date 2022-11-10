@@ -16,7 +16,7 @@ In this tutorial, you will:
 - [Send an email](/graph/api/user-sendmail)
 
 > [!TIP]
-> As an alternative to following this tutorial, you can download the completed code through the [quick start](https://developer.microsoft.com/graph/quick-start) tool, which automates app registration and configuration. The downloaded code works without any modifications required.
+> As an alternative to following this tutorial, you can download the completed code through the [quick start](https://developer.microsoft.com/graph/quick-start?state=option-powershell) tool, which automates app registration and configuration. The downloaded code works without any modifications required.
 >
 > You can also download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-powershell/tree/main/user-auth) and follow the instructions in the README to register an application and configure the project.
 
