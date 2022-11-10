@@ -55,7 +55,7 @@ In this section you'll add the details of your app registration to the project.
     | Setting | Value |
     |---------|-------|
     | `clientId` | The client ID of your app registration |
-    | `tenantId` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+    | `tenantId` | The tenant ID of your organization. |
     | `clientSecret` | The client secret generated in the previous step |
 
 ## Design the app
@@ -70,7 +70,7 @@ In this section you will create a simple console-based menu.
 
 1. Create a file in the root of your project named **index.ts** and add the following code.
 
-    :::code language="typescript" source="./src/user-auth/graphtutorial/index.ts" id="ProgramSnippet":::
+    :::code language="typescript" source="../src/app-auth/graphapponlytutorial/index.ts" id="ProgramSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
