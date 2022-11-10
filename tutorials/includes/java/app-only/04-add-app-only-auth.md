@@ -57,4 +57,4 @@ Next, add code to get an access token from the `ClientSecretCredential`.
     App-only token: eyJ0eXAiOiJKV1QiLCJub25jZSI6IlVDTzRYOWtKYlNLVjVkRzJGenJqd2xvVUcwWS...
     ```
 
-    [!INCLUDE [token-debug-tip](../shared/token-debug-tip.md)]
+    [!INCLUDE [token-debug-tip](../../shared/token-debug-tip.md)]
