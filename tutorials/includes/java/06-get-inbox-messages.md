@@ -8,11 +8,11 @@ In this section you will add the ability to list messages in the user's email in
 
 1. Open **Graph.java** and add the following function to the **Graph** class.
 
-    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/Graph.java" id="GetInboxSnippet":::
+    :::code language="java" source="./src/user-auth/graphtutorial/app/src/main/java/graphtutorial/Graph.java" id="GetInboxSnippet":::
 
 1. Replace the empty `listInbox` function in **App.java** with the following.
 
-    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/App.java" id="ListInboxSnippet":::
+    :::code language="java" source="./src/user-auth/graphtutorial/app/src/main/java/graphtutorial/App.java" id="ListInboxSnippet":::
 
 1. Run the app, sign in, and choose option 2 to list your inbox.
 
@@ -22,8 +22,7 @@ In this section you will add the ability to list messages in the user's email in
     1. Display access token
     2. List my inbox
     3. Send mail
-    4. List users (requires app-only)
-    5. Make a Graph call
+    4. Make a Graph call
     2
     Message: Updates from Ask HR and other communities
       From: Contoso Demo on Yammer

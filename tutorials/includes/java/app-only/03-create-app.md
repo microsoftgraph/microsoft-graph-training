@@ -9,7 +9,7 @@ In this section you'll create a basic Java console app.
 1. Open your command-line interface (CLI) in a directory where you want to create the project. Run the following command to create a new Gradle project.
 
     ```Shell
-    gradle init --dsl groovy --test-framework junit --type java-application --project-name graphtutorial --package graphtutorial
+    gradle init --dsl groovy --test-framework junit --type java-application --project-name graphapponlytutorial --package graphapponlytutorial
     ```
 
 1. Once the project is created, verify that it works by running the following command to run the app in your CLI.
@@ -29,11 +29,11 @@ Before moving on, add some additional dependencies that you will use later.
 
 1. Open **./app/build.gradle**. Update the `dependencies` section to add those dependencies.
 
-    :::code language="gradle" source="./src/user-auth/graphtutorial/app/build.gradle" id="DependenciesSnippet" highlight="7-8":::
+    :::code language="gradle" source="../src/app-auth/graphapponlytutorial/app/build.gradle" id="DependenciesSnippet" highlight="7-8":::
 
 1. Add the following to the end of **./app/build.gradle**.
 
-    :::code language="gradle" source="./src/user-auth/graphtutorial/app/build.gradle" id="StandardInputSnippet":::
+    :::code language="gradle" source="../src/app-auth/graphapponlytutorial/app/build.gradle" id="StandardInputSnippet":::
 
     The next time you build the project, Gradle will download those dependencies.
 
@@ -41,18 +41,19 @@ Before moving on, add some additional dependencies that you will use later.
 
 In this section you'll add the details of your app registration to the project.
 
-1. Create a new directory named **graphtutorial** in the **./app/src/main/resources** directory.
+1. Create a new directory named **graphapponlytutorial** in the **./app/src/main/resources** directory.
 
-1. Create a new file in the **./app/src/main/resources/graphtutorial** directory named **oAuth.properties**, and add the following text in that file.
+1. Create a new file in the **./app/src/main/resources/graphapponlytutorial** directory named **oAuth.properties**, and add the following text in that file.
 
-    :::code language="ini" source="./src/user-auth/graphtutorial/app/src/main/resources/graphtutorial/oAuth.properties.example":::
+    :::code language="ini" source="../src/app-auth/graphapponlytutorial/app/src/main/resources/graphapponlytutorial/oAuth.properties.example":::
 
 1. Update the values according to the following table.
 
     | Setting | Value |
     |---------|-------|
-    | `app.clientId` | The client ID of your app registration |
-    | `app.tenantId` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+    | `app.clientId`     | The client ID of your app registration |
+    | `app.tenantId`     | The tenant ID of your organization |
+    | `app.clientSecret` | The client secret |
 
     > [!IMPORTANT]
     > If you're using source control such as git, now would be a good time to exclude the **oAuth.properties** file from source control to avoid inadvertently leaking your app ID.
@@ -61,13 +62,13 @@ In this section you'll add the details of your app registration to the project.
 
 In this section you will create a simple console-based menu.
 
-1. Open **./app/src/main/java/graphtutorial/App.java** and add the following `import` statements.
+1. Open **./app/src/main/java/graphapponlytutorial/App.java** and add the following `import` statements.
 
-    :::code language="java" source="./src/user-auth/graphtutorial/app/src/main/java/graphtutorial/App.java" id="ImportSnippet":::
+    :::code language="java" source="../src/app-auth/graphapponlytutorial/app/src/main/java/graphapponlytutorial/App.java" id="ImportSnippet":::
 
 1. Replace the existing `main` function with the following.
 
-    :::code language="java" source="./src/user-auth/graphtutorial/app/src/main/java/graphtutorial/App.java" id="MainSnippet":::
+    :::code language="java" source="../src/app-auth/graphapponlytutorial/app/src/main/java/graphapponlytutorial/App.java" id="MainSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
@@ -76,19 +77,11 @@ In this section you will create a simple console-based menu.
         // TODO
     }
 
-    private static void greetUser() {
-        // TODO
-    }
-
     private static void displayAccessToken() {
         // TODO
     }
 
-    private static void listInbox() {
-        // TODO
-    }
-
-    private static void sendMail() {
+    private static void listUsers() {
         // TODO
     }
 
@@ -99,4 +92,4 @@ In this section you will create a simple console-based menu.
 
 This implements a basic menu and reads the user's choice from the command line.
 
-1. Delete **./app/src/test/java/graphtutorial/AppTest.java**.
+1. Delete **./app/src/test/java/graphapponlytutorial/AppTest.java**.
