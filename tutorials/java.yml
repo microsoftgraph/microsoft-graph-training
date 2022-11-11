@@ -16,11 +16,11 @@ items:
   content: |
     [!INCLUDE [](./includes/java/01-intro.md)]
 - title: Register the app in the portal
-  durationInMinutes: 5
+  durationInMinutes: 2
   content: |
     [!INCLUDE [](./includes/java/02-register-app.md)]
 - title: Create a Java console app
-  durationInMinutes: 5
+  durationInMinutes: 6
   content: |
     [!INCLUDE [](./includes/java/03-create-app.md)]
 - title: Add user authentication
@@ -28,15 +28,15 @@ items:
   content: |
     [!INCLUDE [](./includes/java/04-add-user-auth.md)]
 - title: Get user
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
     [!INCLUDE [](./includes/java/05-get-user.md)]
 - title: List inbox
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
     [!INCLUDE [](./includes/java/06-get-inbox-messages.md)]
 - title: Send mail
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
     [!INCLUDE [](./includes/java/07-send-mail.md)]
 - title: "Optional: add your own code"
