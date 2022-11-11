@@ -21,11 +21,11 @@ items:
   content: |
     [!INCLUDE [](./includes/java/app-only/02-register-app.md)]
 - title: Create a Java console app
-  durationInMinutes: 4
+  durationInMinutes: 5
   content: |
     [!INCLUDE [](./includes/java/app-only/03-create-app.md)]
 - title: Add app-only authentication
-  durationInMinutes: 3
+  durationInMinutes: 4
   content: |
     [!INCLUDE [](./includes/java/app-only/04-add-app-only-auth.md)]
 - title: "List users"
