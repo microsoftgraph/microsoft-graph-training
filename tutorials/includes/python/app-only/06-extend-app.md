@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 
 In this section you will add your own Microsoft Graph capabilities to the application. This could be a code snippet from Microsoft Graph [documentation](/graph/api/overview) or [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer), or code that you created. This section is optional.
 
-[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
+[!INCLUDE [preview-disclaimer](../preview-disclaimer.md)]
 
 ## Update the app
 
