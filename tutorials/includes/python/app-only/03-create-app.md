@@ -27,13 +27,13 @@ Begin by creating a new Python file.
 Before moving on, add some additional dependencies that you will use later.
 
 - [Azure Identity client library for Python](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity) to authenticate the user and acquire access tokens.
-- [Microsoft Graph SDK for Python (preview)](https://github.com/microsoftgraph/msgraph-sdk-python) to make calls to the Microsoft Graph.
+- [Microsoft Graph Core Python Client Library (preview)](https://github.com/microsoftgraph/msgraph-sdk-python-core) to make calls to the Microsoft Graph.
 
 Run the following commands in your CLI to install the dependencies.
 
 ```bash
 python3 -m pip install azure-identity
-python3 -m pip install msgraph-sdk
+python3 -m pip install msgraph-core
 ```
 
 ## Load application settings
@@ -42,14 +42,15 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the same directory as **main.py** named **config.cfg** and add the following code.
 
-    :::code language="ini" source="./src/user-auth/graphtutorial/config.cfg":::
+    :::code language="ini" source="../src/app-auth/graphapponlytutorial/config.cfg":::
 
 1. Update the values according to the following table.
 
     | Setting | Value |
     |---------|-------|
     | `clientId` | The client ID of your app registration |
-    | `tenantId` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+    | `clientSecret` | The client secret of your app registration |
+    | `tenantId` | The tenant ID of your organization |
 
     > [!TIP]
     > Optionally, you can set these values in a separate file named **config.dev.cfg**.
@@ -60,22 +61,14 @@ In this section you will create a simple console-based menu.
 
 1. Open **main.py** and replace its entire contents with the following code.
 
-    :::code language="python" source="./src/user-auth/graphtutorial/main.py" id="ProgramSnippet":::
+    :::code language="python" source="../src/app-auth/graphapponlytutorial/main.py" id="ProgramSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
     ```python
-    async def greet_user(graph: Graph):
-        # TODO
-        return
-
     async def display_access_token(graph: Graph):
         # TODO
         return 1
-
-    async def list_inbox(graph: Graph):
-        # TODO
-        return
 
     async def list_users(graph: Graph):
         # TODO
