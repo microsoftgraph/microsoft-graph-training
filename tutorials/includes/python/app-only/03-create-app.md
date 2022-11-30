@@ -68,7 +68,7 @@ In this section you will create a simple console-based menu.
     ```python
     async def display_access_token(graph: Graph):
         # TODO
-        return 1
+        return
 
     async def list_users(graph: Graph):
         # TODO

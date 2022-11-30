@@ -71,7 +71,7 @@ In this section you will create a simple console-based menu.
 
     async def display_access_token(graph: Graph):
         # TODO
-        return 1
+        return
 
     async def list_inbox(graph: Graph):
         # TODO
