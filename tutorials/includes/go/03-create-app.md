@@ -26,7 +26,6 @@ Run the following commands in your CLI to install the dependencies.
 ```bash
 go get github.com/Azure/azure-sdk-for-go/sdk/azidentity
 go get github.com/microsoftgraph/msgraph-sdk-go
-go get github.com/microsoft/kiota-authentication-azure-go
 go get github.com/joho/godotenv
 ```
 
