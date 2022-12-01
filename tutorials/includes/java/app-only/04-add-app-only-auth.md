@@ -43,7 +43,7 @@ Next, add code to get an access token from the `ClientSecretCredential`.
 
     :::code language="java" source="../src/app-auth/graphapponlytutorial/app/src/main/java/graphapponlytutorial/App.java" id="DisplayAccessTokenSnippet":::
 
-1. Build and run the app. Enter `1` when prompted for an option. The application displays a URL and device code.
+1. Build and run the app. Enter `1` when prompted for an option. The application displays an access token.
 
     ```bash
     Java App-Only Graph Tutorial

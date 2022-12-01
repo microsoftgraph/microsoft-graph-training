@@ -28,10 +28,10 @@ In this section you will use the `ClientSecretCredential` class to request an ac
 
     :::code language="python" source="../src/app-auth/graphapponlytutorial/main.py" id="DisplayAccessTokenSnippet":::
 
-1. Build and run the app. Enter `1` when prompted for an option. The application displays a URL and device code.
+1. Build and run the app. Enter `1` when prompted for an option. The application displays an access token.
 
     ```bash
-    Python Graph Tutorial
+    Python Graph App-Only Tutorial
 
     Please choose one of the following options:
     0. Exit

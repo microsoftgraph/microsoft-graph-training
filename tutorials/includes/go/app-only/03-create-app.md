@@ -7,10 +7,10 @@ ms.localizationpriority: medium
 Begin by initializing a new Go module using the [Go CLI](https://pkg.go.dev/cmd/go). Open your command-line interface (CLI) in a directory where you want to create the project. Run the following command.
 
 ```bash
-go mod init graphtutorial
+go mod init graphapponlytutorial
 ```
 
-[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
+[!INCLUDE [preview-disclaimer](../preview-disclaimer.md)]
 
 ## Install dependencies
 
@@ -34,14 +34,15 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the same directory as **go.mod** named **.env** and add the following code.
 
-    :::code language="ini" source="./src/user-auth/graphtutorial/.env":::
+    :::code language="ini" source="../src/app-auth/graphapponlytutorial/.env":::
 
 1. Update the values according to the following table.
 
-    | Setting | Value |
-    |---------|-------|
-    | `CLIENT_ID` | The client ID of your app registration |
-    | `TENANT_ID` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+    | Setting         | Value                                      |
+    |-----------------|--------------------------------------------|
+    | `CLIENT_ID`     | The client ID of your app registration     |
+    | `CLIENT_SECRET` | The client secret of your app registration |
+    | `TENANT_ID`     | The tenant ID of your organization         |
 
     > [!TIP]
     > Optionally, you can set these values in a separate file named **.env.local**.
@@ -54,13 +55,13 @@ In this section you will create a simple console-based menu.
 
 1. Add a new file in the **graphhelper** directory named **graphhelper.go** and add the following code.
 
-    :::code language="go" source="./src/user-auth/graphtutorial/graphhelper/graphhelper.go" id="GraphHelperSnippet":::
+    :::code language="go" source="../src/app-auth/graphapponlytutorial/graphhelper/graphhelper.go" id="GraphHelperSnippet":::
 
     This creates a basic **GraphHelper** type that you will extend in later sections to use Microsoft Graph.
 
 1. Create a file in the same directory as **go.mod** named **graphtutorial.go**. Add the following code.
 
-    :::code language="go" source="./src/user-auth/graphtutorial/graphtutorial.go" id="ProgramSnippet":::
+    :::code language="go" source="../src/app-auth/graphapponlytutorial/graphtutorial.go" id="ProgramSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
@@ -69,19 +70,11 @@ In this section you will create a simple console-based menu.
         // TODO
     }
 
-    func greetUser(graphHelper *graphhelper.GraphHelper) {
-        // TODO
-    }
-
     func displayAccessToken(graphHelper *graphhelper.GraphHelper) {
         // TODO
     }
 
-    func listInbox(graphHelper *graphhelper.GraphHelper) {
-        // TODO
-    }
-
-    func sendMail(graphHelper *graphhelper.GraphHelper) {
+    func listUsers(graphHelper *graphhelper.GraphHelper) {
         // TODO
     }
 

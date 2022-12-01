@@ -46,7 +46,7 @@ Next, add code to get an access token from the `ClientSecretCredential`.
 
     :::code language="csharp" source="../src/app-auth/GraphAppOnlyTutorial/Program.cs" id="DisplayAccessTokenSnippet":::
 
-1. Build and run the app. Enter `1` when prompted for an option. The application displays the access token.
+1. Build and run the app. Enter `1` when prompted for an option. The application displays an access token.
 
     ```Shell
     .NET Graph Tutorial

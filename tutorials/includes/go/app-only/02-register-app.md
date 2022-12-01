@@ -20,7 +20,7 @@ In this section you will register an application that will support user authenti
 
     ![A screenshot of the App registrations ](../../../images/aad-portal-app-registrations.png)
 
-1. Select **New registration**. Enter a name for your application, for example, `Python App-Only Graph Tutorial`.
+1. Select **New registration**. Enter a name for your application, for example, `Go App-Only Graph Tutorial`.
 
 1. Set **Supported account types** to **Accounts in this organizational directory only**.
 
@@ -28,7 +28,7 @@ In this section you will register an application that will support user authenti
 
 1. Select **Register**. On the application's **Overview** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID** and save them, you will need these values in the next step.
 
-    ![A screenshot of the application ID of the new app registration](../../../images/python/aad-application-id.png)
+    ![A screenshot of the application ID of the new app registration](../../../images/go/aad-application-id.png)
 
 1. Select **API permissions** under **Manage**.
 
@@ -68,7 +68,7 @@ To use PowerShell, you'll need the Microsoft Graph PowerShell SDK. If you do not
 1. Run the following command.
 
     ```powershell
-    .\RegisterAppForAppOnlyAuth.ps1 -AppName "Python App-Only Graph Tutorial" -GraphScopes "User.Read.All"
+    .\RegisterAppForAppOnlyAuth.ps1 -AppName "Go App-Only Graph Tutorial" -GraphScopes "User.Read.All"
     ```
 
 1. Follow the prompt to open `https://microsoft.com/devicelogin` in a browser, enter the provided code, and complete the authentication process.

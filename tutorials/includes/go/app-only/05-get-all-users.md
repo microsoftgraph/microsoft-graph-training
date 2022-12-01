@@ -8,17 +8,17 @@ In this section you will add the ability to list all users in your Azure Active 
 
 [!INCLUDE [preview-disclaimer](../preview-disclaimer.md)]
 
-1. Add the following function to **graph.py**.
+1. Add the following function to **./graphhelper/graphhelper.go**.
 
-    :::code language="python" source="../src/app-auth/graphapponlytutorial/graph.py" id="GetUsersSnippet":::
+    :::code language="go" source="../src/app-auth/graphapponlytutorial/graphhelper/graphhelper.go" id="GetUsersSnippet":::
 
-1. Replace the empty `list_users` function in **main.py** with the following.
+1. Replace the empty `listUsers` function in **graphapponlytutorial.go** with the following.
 
-    :::code language="python" source="../src/app-auth/graphapponlytutorial/main.py" id="ListUsersSnippet":::
+    :::code language="go" source="../src/app-auth/graphapponlytutorial/graphapponlytutorial.go" id="ListUsersSnippet":::
 
 1. Run the app, sign in, and choose option 2 to list users.
 
-    ```bash
+    ```Shell
     Please choose one of the following options:
     0. Exit
     1. Display access token
@@ -36,21 +36,21 @@ In this section you will add the ability to list all users in your Azure Active 
       Email: AllanD@contoso.com
     User: Bianca Pisani
       ID: 9a7dcbd0-72f0-48a9-a9fa-03cd46641d49
-      Email: None
+      Email: NO EMAIL
     User: Brian Johnson (TAILSPIN)
       ID: a8989e40-be57-4c2e-bf0b-7cdc471e9cc4
       Email: BrianJ@contoso.com
 
     ...
 
-    More users available? True
+    More users available? true
     ```
 
 ## Code explained
 
-Consider the code in the `get_users` function.
+Consider the code in the `GetUsers` function.
 
 - It gets a collection of users
-- It uses `$select` to request specific properties
-- It uses `$top` to limit the number of users returned
-- It uses `$orderBy` to sort the response
+- It uses `Select` to request specific properties
+- It uses `Top` to limit the number of users returned
+- It uses `OrderBy` to sort the response

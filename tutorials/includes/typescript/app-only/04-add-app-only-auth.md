@@ -40,7 +40,7 @@ Next, add code to get an access token from the `ClientSecretCredential`.
     npx ts-node index.ts
     ```
 
-1. Enter `1` when prompted for an option. The application displays a URL and device code.
+1. Enter `1` when prompted for an option. The application displays an access token.
 
     ```Shell
     TypeScript Graph App-Only Tutorial
