@@ -8,11 +8,11 @@ In this section you will add the ability to send an email message as the authent
 
 1. Add the following code to the `GraphHelper` class.
 
-    :::code language="php" source="./src/demo/graphtutorial/GraphHelper.php" id="SendMailSnippet":::
+    :::code language="php" source="./src/user-auth/graphtutorial/GraphHelper.php" id="SendMailSnippet":::
 
 1. Replace the empty `sendMail` function in **main.php** with the following.
 
-    :::code language="php" source="./src/demo/graphtutorial/main.php" id="SendMailSnippet":::
+    :::code language="php" source="./src/user-auth/graphtutorial/main.php" id="SendMailSnippet":::
 
 1. Run the app, sign in, and choose option 3 to send an email to yourself.
 
@@ -22,14 +22,15 @@ In this section you will add the ability to send an email message as the authent
     1. Display access token
     2. List my inbox
     3. Send mail
-    4. List users (requires app-only)
-    5. Make a Graph call
+    4. Make a Graph call
     3
 
     Mail sent.
     ```
 
     [!INCLUDE [dev-tenant-send-mail](../shared/dev-tenant-send-mail.md)]
+
+1. To verify the message was received, choose option 2 to list your inbox.
 
 ## Code explained
 

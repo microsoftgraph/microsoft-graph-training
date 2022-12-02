@@ -26,25 +26,25 @@ In this section you will use the `GuzzleHttp\Client` class to request an access 
 
 1. Add the following code to the `GraphHelper` class.
 
-    :::code language="php" source="./src/demo/graphtutorial/GraphHelper.php" id="UserAuthConfigSnippet":::
+    :::code language="php" source="./src/user-auth/graphtutorial/GraphHelper.php" id="UserAuthConfigSnippet":::
 
 1. Replace the empty `initializeGraph` function in **main.php** with the following.
 
-    :::code language="php" source="./src/demo/graphtutorial/main.php" id="InitializeGraphSnippet":::
+    :::code language="php" source="./src/user-auth/graphtutorial/main.php" id="InitializeGraphSnippet":::
 
 This code loads information from the .env file, and initializes two properties, a `Client` object and a `Graph` object. The `Client` object will be used to request an access token, and the `Graph` object will be used to make calls to Microsoft Graph.
 
-## Test the DeviceCodeCredential
+## Test the device code flow
 
 Next, add code to get an access token from the `GraphHelper`.
 
 1. Add the following function to the `GraphHelper` class.
 
-    :::code language="php" source="./src/demo/graphtutorial/GraphHelper.php" id="GetUserTokenSnippet":::
+    :::code language="php" source="./src/user-auth/graphtutorial/GraphHelper.php" id="GetUserTokenSnippet":::
 
 1. Replace the empty `displayAccessToken` function in **main.php** with the following.
 
-    :::code language="php" source="./src/demo/graphtutorial/main.php" id="DisplayAccessTokenSnippet":::
+    :::code language="php" source="./src/user-auth/graphtutorial/main.php" id="DisplayAccessTokenSnippet":::
 
 1. Build and run the app. Enter `1` when prompted for an option. The application displays a URL and device code.
 
@@ -58,8 +58,7 @@ Next, add code to get an access token from the `GraphHelper`.
     1. Display access token
     2. List my inbox
     3. Send mail
-    4. List users (requires app-only)
-    5. Make a Graph call
+    4. Make a Graph call
     1
     To sign in, use a web browser to open the page https://microsoft.com/devicelogin and
     enter the code RB2RUD56D to authenticate.

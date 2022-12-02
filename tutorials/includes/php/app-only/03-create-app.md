@@ -15,7 +15,7 @@ Answer the prompts. You can accept the defaults for most questions, but respond 
 ```bash
 Would you like to define your dependencies (require) interactively [yes]? n
 Would you like to define your dev dependencies (require-dev) interactively [yes]? n
-Add PSR-4 autoload mapping? Maps namespace "Microsoft\Graphtutorial" to the entered relative path. [src/, n to skip]: n
+Add PSR-4 autoload mapping? Maps namespace "Microsoft\Graphapponlytutorial" to the entered relative path. [src/, n to skip]: n
 ```
 
 ## Install dependencies
@@ -37,14 +37,15 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the root directory of your project named **.env** and add the following code.
 
-    :::code language="ini" source="./src/user-auth/graphtutorial/.env.example":::
+    :::code language="ini" source="../src/app-auth/graphapponlytutorial/.env.example":::
 
 1. Update the values according to the following table.
 
     | Setting | Value |
     |---------|-------|
-    | `CLIENT_ID` | The client ID of your app registration |
-    | `TENANT_ID` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+    | `CLIENT_ID`     | The client ID of your app registration |
+    | `CLIENT_SECRET` | The client secret of your app registration |
+    | `TENANT_ID`     | The tenant ID of your organization |
 
     > [!IMPORTANT]
     > If you're using source control such as git, now would be a good time to exclude the **.env** file from source control to avoid inadvertently leaking your app ID.
@@ -62,7 +63,7 @@ In this section you will create a simple console-based menu.
 
 1. Add the following code between the PHP tags.
 
-    :::code language="php" source="./src/user-auth/graphtutorial/main.php" id="ProgramSnippet":::
+    :::code language="php" source="../src/app-auth/graphapponlytutorial/main.php" id="ProgramSnippet":::
 
 1. Add the following placeholder methods at the end of the file before the closing PHP tag. You'll implement them in later steps.
 
@@ -71,19 +72,11 @@ In this section you will create a simple console-based menu.
         // TODO
     }
 
-    function greetUser(): void {
-        // TODO
-    }
-
     function displayAccessToken(): void {
         // TODO
     }
 
-    function listInbox(): void {
-        // TODO
-    }
-
-    function sendMail(): void {
+    function listUsers(): void {
         // TODO
     }
 
