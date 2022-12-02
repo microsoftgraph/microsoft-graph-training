@@ -12,11 +12,11 @@ In this section you will add your own Microsoft Graph capabilities to the applic
 
 1. Add the following function to **./graphhelper/graphhelper.go**.
 
-    :::code language="go" source="./src/demo/graphtutorial/graphhelper/graphhelper.go" id="MakeGraphCallSnippet":::
+    :::code language="go" source="./src/user-auth/graphtutorial/graphhelper/graphhelper.go" id="MakeGraphCallSnippet":::
 
 1. Replace the empty `makeGraphCall` function in **graphtutorial.go** with the following.
 
-    :::code language="go" source="./src/demo/graphtutorial/graphtutorial.go" id="MakeGraphCallSnippet":::
+    :::code language="go" source="./src/user-auth/graphtutorial/graphtutorial.go" id="MakeGraphCallSnippet":::
 
 ## Choose an API
 

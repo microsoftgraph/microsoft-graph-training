@@ -61,7 +61,7 @@ In this section you will create a simple console-based menu.
 
 1. Create a file in the same directory as **go.mod** named **graphtutorial.go**. Add the following code.
 
-    :::code language="go" source="../src/app-auth/graphapponlytutorial/graphtutorial.go" id="ProgramSnippet":::
+    :::code language="go" source="../src/app-auth/graphapponlytutorial/graphapponlytutorial.go" id="ProgramSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
