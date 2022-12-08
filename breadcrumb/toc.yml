@@ -1,38 +1,4 @@
 items:
-- name: Overview of Microsoft Graph
-  tocHref: /graph/overview/
-  topicHref: /graph/overview/
-  items:
-  - name: Explore
-    items:
-    - name: Tutorials
-      tocHref: /graph/tutorials/
-      topicHref: /graph/tutorials/
-      items:
-      - name: .NET
-        tocHref: /graph/tutorials/dotnet
-        topicHref: /graph/tutorials/dotnet
-      - name: Go
-        tocHref: /graph/tutorials/go
-        topicHref: /graph/tutorials/go
-      - name: Java
-        tocHref: /graph/tutorials/java
-        topicHref: /graph/tutorials/java
-      - name: JavaScript
-        tocHref: /graph/tutorials/javascript
-        topicHref: /graph/tutorials/javascript
-      - name: PHP
-        tocHref: /graph/tutorials/php
-        topicHref: /graph/tutorials/php
-      - name: Power Automate
-        tocHref: /graph/tutorials/power-automate
-        topicHref: /graph/tutorials/power-automate
-      - name: PowerShell
-        tocHref: /graph/tutorials/powershell
-        topicHref: /graph/tutorials/powershell
-      - name: Python
-        tocHref: /graph/tutorials/python
-        topicHref: /graph/tutorials/python
-      - name: TypeScript
-        tocHref: /graph/tutorials/typescript
-        topicHref: /graph/tutorials/typescript
+- name: Microsoft Graph
+  tocHref: /graph/
+  topicHref: /graph/index
