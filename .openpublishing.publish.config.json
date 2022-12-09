@@ -37,7 +37,6 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-dotnet",
       "branch": "main",
       "branch_mapping": {
-        "app-only-split": "app-only-split",
         "master": "main",
         "live": "live"
       }
@@ -47,7 +46,6 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-go",
       "branch": "main",
       "branch_mapping": {
-        "app-only-split": "app-only-split",
         "master": "main",
         "live": "live"
       }
@@ -57,7 +55,6 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-java",
       "branch": "main",
       "branch_mapping": {
-        "app-only-split": "app-only-split",
         "master": "main",
         "live": "live"
       }
@@ -67,7 +64,6 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-javascript",
       "branch": "main",
       "branch_mapping": {
-        "app-only-split": "app-only-split",
         "master": "main",
         "live": "live"
       }
@@ -77,7 +73,6 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-php",
       "branch": "main",
       "branch_mapping": {
-        "app-only-split": "app-only-split",
         "master": "main",
         "live": "live"
       }
@@ -96,7 +91,6 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-powershell",
       "branch": "main",
       "branch_mapping": {
-        "app-only-split": "app-only-split",
         "master": "main",
         "live": "live"
       }
@@ -106,7 +100,6 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-python",
       "branch": "main",
       "branch_mapping": {
-        "app-only-split": "app-only-split",
         "master": "main",
         "live": "live"
       }
@@ -116,7 +109,6 @@
       "url": "https://github.com/microsoftgraph/msgraph-training-typescript",
       "branch": "main",
       "branch_mapping": {
-        "app-only-split": "app-only-split",
         "master": "main",
         "live": "live"
       }
