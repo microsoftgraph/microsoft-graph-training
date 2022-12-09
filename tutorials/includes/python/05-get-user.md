@@ -4,17 +4,17 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 -->
 
-In this section you will incorporate the Microsoft Graph into the application. For this application, you will use the [Microsoft Graph Core Python Client Library (preview)](https://github.com/microsoftgraph/msgraph-sdk-python-core) to make calls to Microsoft Graph.
+In this section you will incorporate the Microsoft Graph into the application. For this application, you will use the [Microsoft Graph SDK for Python (preview)](https://github.com/microsoftgraph/msgraph-sdk-python) to make calls to Microsoft Graph.
 
 [!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
 
 1. Add the following function to **graph.py**.
 
-    :::code language="python" source="./src/demo/graphtutorial/graph.py" id="GetUserSnippet":::
+    :::code language="python" source="./src/user-auth/graphtutorial/graph.py" id="GetUserSnippet":::
 
 1. Replace the empty `greet_user` function in **main.py** with the following.
 
-    :::code language="python" source="./src/demo/graphtutorial/main.py" id="GreetUserSnippet":::
+    :::code language="python" source="./src/user-auth/graphtutorial/main.py" id="GreetUserSnippet":::
 
 If you run the app now, after you log in the app welcomes you by name.
 
@@ -43,4 +43,4 @@ In this case, the code will call the `GET /me` API endpoint. This is a shortcut 
 
 ### Requesting specific properties
 
-The function uses the [$select query parameter](/graph/query-parameters#select-parameter) to specify the set of properties it needs. Microsoft Graph will return only the requested properties in the response.
+The function uses the [$select query parameter](/graph/query-parameters#select-parameter) to specify the set of properties it needs. Microsoft Graph will return only the requested properties in the response. In `get_user`, this is accomplished with the `select` parameter in the `MeRequestBuilderGetQueryParameters` object.

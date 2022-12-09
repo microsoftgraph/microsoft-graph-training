@@ -8,11 +8,11 @@ In this section you will incorporate the Microsoft Graph into the application. F
 
 1. Add the following code to the `GraphHelper` class.
 
-    :::code language="php" source="./src/demo/graphtutorial/GraphHelper.php" id="GetUserSnippet":::
+    :::code language="php" source="./src/user-auth/graphtutorial/GraphHelper.php" id="GetUserSnippet":::
 
 1. Replace the empty `greetUser` function in **main.php** with the following.
 
-    :::code language="php" source="./src/demo/graphtutorial/main.php" id="GreetUserSnippet":::
+    :::code language="php" source="./src/user-auth/graphtutorial/main.php" id="GreetUserSnippet":::
 
 If you run the app now, after you log in the app welcomes you by name.
 

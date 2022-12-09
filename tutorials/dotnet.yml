@@ -6,7 +6,7 @@ metadata:
   audience: Developer
   level: Beginner
   displayType: one-column
-  ms.date: 04/25/2022
+  ms.date: 10/28/2022
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: tutorial
@@ -17,11 +17,11 @@ items:
   content: |
     [!INCLUDE [](./includes/dotnet/01-intro.md)]
 - title: Register the app in the portal
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
     [!INCLUDE [](./includes/dotnet/02-register-app.md)]
 - title: Create a .NET console app
-  durationInMinutes: 5
+  durationInMinutes: 6
   content: |
     [!INCLUDE [](./includes/dotnet/03-create-app.md)]
 - title: Add user authentication
@@ -29,32 +29,20 @@ items:
   content: |
     [!INCLUDE [](./includes/dotnet/04-add-user-auth.md)]
 - title: Get user
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
     [!INCLUDE [](./includes/dotnet/05-get-user.md)]
 - title: List inbox
-  durationInMinutes: 5
+  durationInMinutes: 4
   content: |
     [!INCLUDE [](./includes/dotnet/06-get-inbox-messages.md)]
 - title: Send mail
-  durationInMinutes: 5
-  content: |
-    [!INCLUDE [](./includes/dotnet/07-send-mail.md)]
-- title: "Optional: configure app-only authentication"
   durationInMinutes: 3
   content: |
-    [!INCLUDE [](./includes/dotnet/08-configure-app-only.md)]
-- title: "Optional: add app-only authentication"
-  durationInMinutes: 2
-  content: |
-    [!INCLUDE [](./includes/dotnet/09-add-app-only-auth.md)]
-- title: "Optional: list users"
-  durationInMinutes: 5
-  content: |
-    [!INCLUDE [](./includes/dotnet/10-get-all-users.md)]
+    [!INCLUDE [](./includes/dotnet/07-send-mail.md)]
 - title: "Optional: add your own code"
   durationInMinutes: 5
   content: |
-    [!INCLUDE [](./includes/dotnet/11-extend-app.md)]
+    [!INCLUDE [](./includes/dotnet/08-extend-app.md)]
 - content: |
-    [!INCLUDE [](./includes/dotnet/12-completed.md)]
+    [!INCLUDE [](./includes/dotnet/09-completed.md)]

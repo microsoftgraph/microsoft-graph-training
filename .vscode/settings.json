@@ -1,9 +1,15 @@
 {
     "cSpell.words": [
+        "asyncio",
         "GetOdatanextLink",
+        "graphapponlytutorial",
         "graphhelper",
+        "Laravel",
+        "phpdotenv",
+        "Pisani",
         "readline",
-        "Userable"
+        "Userable",
+        "vlucas"
     ],
     "cSpell.ignoreWords": [
         "Contoso",

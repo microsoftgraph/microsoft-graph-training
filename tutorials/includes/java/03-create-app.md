@@ -29,11 +29,11 @@ Before moving on, add some additional dependencies that you will use later.
 
 1. Open **./app/build.gradle**. Update the `dependencies` section to add those dependencies.
 
-    :::code language="gradle" source="./src/demo/graphtutorial/app/build.gradle" id="DependenciesSnippet" highlight="7-8":::
+    :::code language="gradle" source="./src/user-auth/graphtutorial/app/build.gradle" id="DependenciesSnippet" highlight="7-8":::
 
 1. Add the following to the end of **./app/build.gradle**.
 
-    :::code language="gradle" source="./src/demo/graphtutorial/app/build.gradle" id="StandardInputSnippet":::
+    :::code language="gradle" source="./src/user-auth/graphtutorial/app/build.gradle" id="StandardInputSnippet":::
 
     The next time you build the project, Gradle will download those dependencies.
 
@@ -45,14 +45,14 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a new file in the **./app/src/main/resources/graphtutorial** directory named **oAuth.properties**, and add the following text in that file.
 
-    :::code language="ini" source="./src/demo/graphtutorial/app/src/main/resources/graphtutorial/oAuth.properties.example":::
+    :::code language="ini" source="./src/user-auth/graphtutorial/app/src/main/resources/graphtutorial/oAuth.properties.example":::
 
 1. Update the values according to the following table.
 
     | Setting | Value |
     |---------|-------|
     | `app.clientId` | The client ID of your app registration |
-    | `app.authTenant` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+    | `app.tenantId` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
 
     > [!IMPORTANT]
     > If you're using source control such as git, now would be a good time to exclude the **oAuth.properties** file from source control to avoid inadvertently leaking your app ID.
@@ -63,11 +63,11 @@ In this section you will create a simple console-based menu.
 
 1. Open **./app/src/main/java/graphtutorial/App.java** and add the following `import` statements.
 
-    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/App.java" id="ImportSnippet":::
+    :::code language="java" source="./src/user-auth/graphtutorial/app/src/main/java/graphtutorial/App.java" id="ImportSnippet":::
 
 1. Replace the existing `main` function with the following.
 
-    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/App.java" id="MainSnippet":::
+    :::code language="java" source="./src/user-auth/graphtutorial/app/src/main/java/graphtutorial/App.java" id="MainSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
@@ -89,10 +89,6 @@ In this section you will create a simple console-based menu.
     }
 
     private static void sendMail() {
-        // TODO
-    }
-
-    private static void listUsers() {
         // TODO
     }
 
