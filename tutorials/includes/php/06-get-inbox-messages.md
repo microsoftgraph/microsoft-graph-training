@@ -8,11 +8,11 @@ In this section you will add the ability to list messages in the user's email in
 
 1. Add the following code to the `GraphHelper` class.
 
-    :::code language="php" source="./src/demo/graphtutorial/GraphHelper.php" id="GetInboxSnippet":::
+    :::code language="php" source="./src/user-auth/graphtutorial/GraphHelper.php" id="GetInboxSnippet":::
 
 1. Replace the empty `listInbox` function in **main.php** with the following.
 
-    :::code language="php" source="./src/demo/graphtutorial/main.php" id="ListInboxSnippet":::
+    :::code language="php" source="./src/user-auth/graphtutorial/main.php" id="ListInboxSnippet":::
 
 1. Run the app, sign in, and choose option 2 to list your inbox.
 
@@ -22,8 +22,7 @@ In this section you will add the ability to list messages in the user's email in
     1. Display access token
     2. List my inbox
     3. Send mail
-    4. List users (requires app-only)
-    5. Make a Graph call
+    4. Make a Graph call
     2
     Message: Updates from Ask HR and other communities
       From: Contoso Demo on Yammer

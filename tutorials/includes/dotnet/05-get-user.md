@@ -8,11 +8,11 @@ In this section you will incorporate the Microsoft Graph into the application. F
 
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="GetUserSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/GraphHelper.cs" id="GetUserSnippet":::
 
 1. Replace the empty `GreetUserAsync` function in **Program.cs** with the following.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/Program.cs" id="GreetUserSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/Program.cs" id="GreetUserSnippet":::
 
 If you run the app now, after you log in the app welcomes you by name.
 
@@ -34,7 +34,7 @@ GET /me
 GET /users/{user-id}
 ```
 
-In this case, the code will call the `GET /me` API endpoint. This is a shortcut method to get the authenticated user without knowing their user ID.
+In this case, the code calls the `GET /me` API endpoint. This is a shortcut method to get the authenticated user without knowing their user ID.
 
 > [!NOTE]
 > Because the `GET /me` API endpoint gets the authenticated user, it is only available to apps that use user authentication. App-only authentication apps cannot access this endpoint.
@@ -45,4 +45,4 @@ The function uses the `Select` method on the request to specify the set of prope
 
 ### Strongly-typed return type
 
-The function returns a `Microsoft.Graph.User` object deserialized from the JSON response from the API. Because the code uses `Select`, only the requested properties will have values in the returned `User` object. All other properties will have default values.
+The function returns a `Microsoft.Graph.User` object deserialized from the JSON response from the API. Because the code uses `Select`, only the requested properties have values in the returned `User` object. All other properties have default values.

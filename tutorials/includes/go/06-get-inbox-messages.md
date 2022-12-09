@@ -10,11 +10,11 @@ In this section you will add the ability to list messages in the user's email in
 
 1. Add the following function to **./graphhelper/graphhelper.go**.
 
-    :::code language="go" source="./src/demo/graphtutorial/graphhelper/graphhelper.go" id="GetInboxSnippet":::
+    :::code language="go" source="./src/user-auth/graphtutorial/graphhelper/graphhelper.go" id="GetInboxSnippet":::
 
 1. Replace the empty `listInbox` function in **graphtutorial.go** with the following.
 
-    :::code language="go" source="./src/demo/graphtutorial/graphtutorial.go" id="ListInboxSnippet":::
+    :::code language="go" source="./src/user-auth/graphtutorial/graphtutorial.go" id="ListInboxSnippet":::
 
 1. Run the app, sign in, and choose option 2 to list your inbox.
 
@@ -24,8 +24,7 @@ In this section you will add the ability to list messages in the user's email in
     1. Display access token
     2. List my inbox
     3. Send mail
-    4. List users (requires app-only)
-    5. Make a Graph call
+    4. Make a Graph call
     2
     Message: Updates from Ask HR and other communities
       From: Contoso Demo on Yammer

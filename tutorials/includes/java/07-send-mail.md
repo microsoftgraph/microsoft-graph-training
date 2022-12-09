@@ -8,11 +8,11 @@ In this section you will add the ability to send an email message as the authent
 
 1. Open **Graph.java** and add the following function to the **Graph** class.
 
-    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/Graph.java" id="SendMailSnippet":::
+    :::code language="java" source="./src/user-auth/graphtutorial/app/src/main/java/graphtutorial/Graph.java" id="SendMailSnippet":::
 
 1. Replace the empty `sendMail` function in **App.java** with the following.
 
-    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/App.java" id="SendMailSnippet":::
+    :::code language="java" source="./src/user-auth/graphtutorial/app/src/main/java/graphtutorial/App.java" id="SendMailSnippet":::
 
 1. Run the app, sign in, and choose option 3 to send an email to yourself.
 
@@ -22,14 +22,15 @@ In this section you will add the ability to send an email message as the authent
     1. Display access token
     2. List my inbox
     3. Send mail
-    4. List users (requires app-only)
-    5. Make a Graph call
+    4. Make a Graph call
     3
 
     Mail sent.
     ```
 
     [!INCLUDE [dev-tenant-send-mail](../shared/dev-tenant-send-mail.md)]
+
+1. To verify the message was received, choose option 2 to list your inbox.
 
 ## Code explained
 

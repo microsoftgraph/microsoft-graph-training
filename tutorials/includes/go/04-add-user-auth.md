@@ -8,10 +8,7 @@ In this section you will extend the application from the previous exercise to su
 
 [!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
 
-The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph client library uses those classes to authenticate calls to Microsoft Graph. In this example, we'll use the following `TokenCredential` classes.
-
-- `DeviceCodeCredential` implements the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) for user authentication.
-- `ClientSecretCredential` implements the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow) for app-only authentication. You will use this class in the optional app-only sections.
+The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph client library uses those classes to authenticate calls to Microsoft Graph.
 
 ## Configure Graph client for user authentication
 
@@ -19,11 +16,11 @@ In this section you will use the `DeviceCodeCredential` class to request an acce
 
 1. Add the following function to **./graphhelper/graphhelper.go**.
 
-    :::code language="go" source="./src/demo/graphtutorial/graphhelper/graphhelper.go" id="UserAuthConfigSnippet":::
+    :::code language="go" source="./src/user-auth/graphtutorial/graphhelper/graphhelper.go" id="UserAuthConfigSnippet":::
 
 1. Replace the empty `initializeGraph` function in **graphtutorial.go** with the following.
 
-    :::code language="go" source="./src/demo/graphtutorial/graphtutorial.go" id="InitializeGraphSnippet":::
+    :::code language="go" source="./src/user-auth/graphtutorial/graphtutorial.go" id="InitializeGraphSnippet":::
 
 This code initializes two properties, a `DeviceCodeCredential` object and a `GraphServiceClient` object. The `InitializeGraphForUserAuth` function creates a new instance of `DeviceCodeCredential`, then uses that instance to create a new instance of `GraphServiceClient`. Every time an API call is made to Microsoft Graph through the `userClient`, it will use the provided credential to get an access token.
 
@@ -33,11 +30,11 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
 
 1. Add the following function to **./graphhelper/graphhelper.go**.
 
-    :::code language="go" source="./src/demo/graphtutorial/graphhelper/graphhelper.go" id="GetUserTokenSnippet":::
+    :::code language="go" source="./src/user-auth/graphtutorial/graphhelper/graphhelper.go" id="GetUserTokenSnippet":::
 
 1. Replace the empty `displayAccessToken` function in **graphtutorial.go** with the following.
 
-    :::code language="go" source="./src/demo/graphtutorial/graphtutorial.go" id="DisplayAccessTokenSnippet":::
+    :::code language="go" source="./src/user-auth/graphtutorial/graphtutorial.go" id="DisplayAccessTokenSnippet":::
 
 1. Build and run the app by running `go run graphtutorial`. Enter `1` when prompted for an option. The application displays a URL and device code.
 
@@ -49,8 +46,7 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
     1. Display access token
     2. List my inbox
     3. Send mail
-    4. List users (requires app-only)
-    5. Make a Graph call
+    4. Make a Graph call
     1
     To sign in, use a web browser to open the page https://microsoft.com/devicelogin and
     enter the code RB2RUD56D to authenticate.

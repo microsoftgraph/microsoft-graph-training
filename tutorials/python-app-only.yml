@@ -1,0 +1,39 @@
+### YamlMime:Tutorial
+title: Build Python apps with Microsoft Graph and app-only authentication
+metadata:
+  title: Build Python apps with Microsoft Graph and app-only authentication
+  description: In this tutorial, you'll build a Python app that uses the Microsoft Graph API to access data using app-only authentication.
+  audience: Developer
+  level: Beginner
+  displayType: one-column
+  ms.date: 11/30/2022
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: tutorial
+  ms.custom: scenarios:getting-started, languages:Python
+items:
+- durationInMinutes: 1
+  content: |
+    [!INCLUDE [](./includes/python/app-only/01-intro.md)]
+- title: Register the app in the portal
+  durationInMinutes: 3
+  content: |
+    [!INCLUDE [](./includes/python/app-only/02-register-app.md)]
+- title: Create a Python console app
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/python/app-only/03-create-app.md)]
+- title: Add app-only authentication
+  durationInMinutes: 3
+  content: |
+    [!INCLUDE [](./includes/python/app-only/04-add-app-only-auth.md)]
+- title: List users
+  durationInMinutes: 2
+  content: |
+    [!INCLUDE [](./includes/python/app-only/05-get-all-users.md)]
+- title: "Optional: add your own code"
+  durationInMinutes: 5
+  content: |
+    [!INCLUDE [](./includes/python/app-only/06-extend-app.md)]
+- content: |
+    [!INCLUDE [](./includes/python/app-only/07-completed.md)]

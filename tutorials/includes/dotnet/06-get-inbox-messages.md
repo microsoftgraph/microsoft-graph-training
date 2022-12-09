@@ -8,11 +8,11 @@ In this section you will add the ability to list messages in the user's email in
 
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="GetInboxSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/GraphHelper.cs" id="GetInboxSnippet":::
 
 1. Replace the empty `ListInboxAsync` function in **Program.cs** with the following.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/Program.cs" id="ListInboxSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/Program.cs" id="ListInboxSnippet":::
 
 1. Run the app, sign in, and choose option 2 to list your inbox.
 
@@ -22,8 +22,7 @@ In this section you will add the ability to list messages in the user's email in
     1. Display access token
     2. List my inbox
     3. Send mail
-    4. List users (requires app-only)
-    5. Make a Graph call
+    4. Make a Graph call
     2
     Message: Updates from Ask HR and other communities
       From: Contoso Demo on Yammer
@@ -61,7 +60,7 @@ Consider the code in the `GetInboxAsync` function.
 
 ### Accessing well-known mail folders
 
-The function uses the `_userClient.Me.MailFolders["Inbox"].Messages` request builder, which builds a request to the [List messages](/graph/api/user-list-messages) API. Because it includes the `MailFolders["Inbox"]` request builder, the API will only return messages in the requested mail folder. In this case, because the inbox is a default, well-known folder inside a user's mailbox, it's accessible via its well-known name. Non-default folders are accessed the same way, by replacing the well-known name with the mail folder's ID property. For details on the available well-known folder names, see [mailFolder resource type](/graph/api/resources/mailfolder).
+The function uses the `_userClient.Me.MailFolders["Inbox"].Messages` request builder, which builds a request to the [List messages](/graph/api/user-list-messages) API. Because it includes the `MailFolders["Inbox"]` request builder, the API only returns messages in the requested mail folder. In this case, because the inbox is a default, well-known folder inside a user's mailbox, it's accessible via its well-known name. Non-default folders are accessed the same way, by replacing the well-known name with the mail folder's ID property. For details on the available well-known folder names, see [mailFolder resource type](/graph/api/resources/mailfolder).
 
 ### Accessing a collection
 

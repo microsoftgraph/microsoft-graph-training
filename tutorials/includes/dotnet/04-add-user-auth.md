@@ -6,10 +6,7 @@ ms.localizationpriority: medium
 
 In this section you will extend the application from the previous exercise to support authentication with Azure AD. This is required to obtain the necessary OAuth access token to call the Microsoft Graph. In this step you will integrate the [Azure Identity client library for .NET](https://www.nuget.org/packages/Azure.Identity) into the application and configure authentication for the [Microsoft Graph .NET client library](https://github.com/microsoftgraph/msgraph-sdk-dotnet).
 
-The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph client library uses those classes to authenticate calls to Microsoft Graph. In this example, we'll use the following `TokenCredential` classes.
-
-- `DeviceCodeCredential` implements the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) for user authentication.
-- `ClientSecretCredential` implements the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow) for app-only authentication. You will use this class in the optional app-only sections.
+The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph client library uses those classes to authenticate calls to Microsoft Graph.
 
 ## Configure Graph client for user authentication
 
@@ -29,13 +26,13 @@ In this section you will use the `DeviceCodeCredential` class to request an acce
 
 1. Add the following code to the `GraphHelper` class.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="UserAuthConfigSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/GraphHelper.cs" id="UserAuthConfigSnippet":::
 
 1. Replace the empty `InitializeGraph` function in **Program.cs** with the following.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/Program.cs" id="InitializeGraphSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/Program.cs" id="InitializeGraphSnippet":::
 
-This code declares two private properties, a `DeviceCodeCredential` object and a `GraphServiceClient` object. The `InitializeGraphForUserAuth` function creates a new instance of `DeviceCodeCredential`, then uses that instance to create a new instance of `GraphServiceClient`. Every time an API call is made to Microsoft Graph through the `_userClient`, it will use the provided credential to get an access token.
+This code declares two private properties, a `DeviceCodeCredential` object and a `GraphServiceClient` object. The `InitializeGraphForUserAuth` function creates a new instance of `DeviceCodeCredential`, then uses that instance to create a new instance of `GraphServiceClient`. Every time an API call is made to Microsoft Graph through the `_userClient`, it uses the provided credential to get an access token.
 
 ## Test the DeviceCodeCredential
 
@@ -43,11 +40,11 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
 
 1. Add the following function to the `GraphHelper` class.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/GraphHelper.cs" id="GetUserTokenSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/GraphHelper.cs" id="GetUserTokenSnippet":::
 
 1. Replace the empty `DisplayAccessTokenAsync` function in **Program.cs** with the following.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/Program.cs" id="DisplayAccessTokenSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/Program.cs" id="DisplayAccessTokenSnippet":::
 
 1. Build and run the app. Enter `1` when prompted for an option. The application displays a URL and device code.
 
@@ -59,7 +56,7 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
     1. Display access token
     2. List my inbox
     3. Send mail
-    4. List users (requires app-only)
+    4. Make a Graph call
     1
     To sign in, use a web browser to open the page https://microsoft.com/devicelogin and
     enter the code RB2RUD56D to authenticate.

@@ -10,11 +10,11 @@ In this section you will incorporate the Microsoft Graph into the application. F
 
 1. Add the following function to **./graphhelper/graphhelper.go**.
 
-    :::code language="go" source="./src/demo/graphtutorial/graphhelper/graphhelper.go" id="GetUserSnippet":::
+    :::code language="go" source="./src/user-auth/graphtutorial/graphhelper/graphhelper.go" id="GetUserSnippet":::
 
 1. Replace the empty `greetUser` function in **graphtutorial.go** with the following.
 
-    :::code language="go" source="./src/demo/graphtutorial/graphtutorial.go" id="GreetUserSnippet":::
+    :::code language="go" source="./src/user-auth/graphtutorial/graphtutorial.go" id="GreetUserSnippet":::
 
 If you run the app now, after you log in the app welcomes you by name.
 

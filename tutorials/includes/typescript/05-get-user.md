@@ -8,11 +8,11 @@ In this section you will incorporate the Microsoft Graph into the application. Y
 
 1. Open **graphHelper.ts** and add the following function.
 
-    :::code language="typescript" source="./src/demo/graphtutorial/graphHelper.ts" id="GetUserSnippet":::
+    :::code language="typescript" source="./src/user-auth/graphtutorial/graphHelper.ts" id="GetUserSnippet":::
 
 1. Replace the empty `greetUserAsync` function in **index.ts** with the following.
 
-    :::code language="typescript" source="./src/demo/graphtutorial/index.ts" id="GreetUserSnippet":::
+    :::code language="typescript" source="./src/user-auth/graphtutorial/index.ts" id="GreetUserSnippet":::
 
 If you run the app now, after you log in the app welcomes you by name.
 

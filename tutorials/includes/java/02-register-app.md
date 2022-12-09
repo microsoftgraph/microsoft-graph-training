@@ -2,7 +2,7 @@
 ms.localizationpriority: medium
 ---
 
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD041 MD051 -->
 
 In this exercise you will register a new application in Azure Active Directory to enable [user authentication](/graph/auth-v2-user). You can register an application using the Azure Active Directory admin center, or by using the [Microsoft Graph PowerShell SDK](/graph/powershell/get-started).
 
@@ -47,7 +47,7 @@ To use PowerShell, you'll need the Microsoft Graph PowerShell SDK. If you do not
 
 1. Create a new file named **RegisterAppForUserAuth.ps1** and add the following code.
 
-    :::code language="powershell" source="./src/demo/RegisterAppForUserAuth.ps1" id="ScriptBody":::
+    :::code language="powershell" source="./src/user-auth/RegisterAppForUserAuth.ps1" id="ScriptBody":::
 
 1. Save the file.
 

@@ -48,14 +48,14 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the root of your project named **appSettings.ts** and add the following code.
 
-    :::code language="typescript" source="./src/demo/graphtutorial/appSettings.example.ts":::
+    :::code language="typescript" source="./src/user-auth/graphtutorial/appSettings.example.ts" id="SettingsSnippet":::
 
 1. Update the values in `settings` according to the following table.
 
     | Setting | Value |
     |---------|-------|
     | `clientId` | The client ID of your app registration |
-    | `authTenant` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+    | `tenantId` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
 
 ## Design the app
 
@@ -69,7 +69,7 @@ In this section you will create a simple console-based menu.
 
 1. Create a file in the root of your project named **index.ts** and add the following code.
 
-    :::code language="typescript" source="./src/demo/graphtutorial/index.ts" id="ProgramSnippet":::
+    :::code language="typescript" source="./src/user-auth/graphtutorial/index.ts" id="ProgramSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
@@ -91,10 +91,6 @@ In this section you will create a simple console-based menu.
     }
 
     async function sendMailAsync() {
-      // TODO
-    }
-
-    async function listUsersAsync() {
       // TODO
     }
 

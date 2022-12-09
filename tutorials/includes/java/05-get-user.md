@@ -8,11 +8,11 @@ In this section you will incorporate the Microsoft Graph into the application. F
 
 1. Open **Graph.java** and add the following function to the **Graph** class.
 
-    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/Graph.java" id="GetUserSnippet":::
+    :::code language="java" source="./src/user-auth/graphtutorial/app/src/main/java/graphtutorial/Graph.java" id="GetUserSnippet":::
 
 1. Replace the empty `greetUser` function in **App.java** with the following.
 
-    :::code language="java" source="./src/demo/graphtutorial/app/src/main/java/graphtutorial/App.java" id="GreetUserSnippet":::
+    :::code language="java" source="./src/user-auth/graphtutorial/app/src/main/java/graphtutorial/App.java" id="GreetUserSnippet":::
 
 If you run the app now, after you log in the app welcomes you by name.
 

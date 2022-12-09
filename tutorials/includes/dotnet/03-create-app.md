@@ -44,14 +44,14 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the **GraphTutorial** directory named **appsettings.json** and add the following code.
 
-    :::code language="json" source="./src/demo/GraphTutorial/appsettings.json":::
+    :::code language="json" source="./src/user-auth/GraphTutorial/appsettings.json":::
 
 1. Update the values according to the following table.
 
     | Setting | Value |
     |---------|-------|
     | `clientId` | The client ID of your app registration |
-    | `authTenant` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
+    | `tenantId` | If you chose the option to only allow users in your organization to sign in, change this value to your tenant ID. Otherwise leave as `common`. |
 
     > [!TIP]
     > Optionally, you can set these values in a separate file named **appsettings.Development.json**, or in the [.NET Secret Manager](/aspnet/core/security/app-secrets).
@@ -68,7 +68,7 @@ In this section you'll add the details of your app registration to the project.
 
 1. Create a file in the **GraphTutorial** directory named **Settings.cs** and add the following code.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/Settings.cs" id="SettingsSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/Settings.cs" id="SettingsSnippet":::
 
 ## Design the app
 
@@ -76,7 +76,7 @@ In this section you will create a simple console-based menu.
 
 1. Open **./Program.cs** and replace its entire contents with the following code.
 
-    :::code language="csharp" source="./src/demo/GraphTutorial/Program.cs" id="ProgramSnippet":::
+    :::code language="csharp" source="./src/user-auth/GraphTutorial/Program.cs" id="ProgramSnippet":::
 
 1. Add the following placeholder methods at the end of the file. You'll implement them in later steps.
 
@@ -102,11 +102,6 @@ In this section you will create a simple console-based menu.
     }
 
     async Task SendMailAsync()
-    {
-        // TODO
-    }
-
-    async Task ListUsersAsync()
     {
         // TODO
     }

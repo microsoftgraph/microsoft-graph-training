@@ -8,11 +8,11 @@ In this section you will incorporate the Microsoft Graph into the application. Y
 
 1. Open **graphHelper.js** and add the following function.
 
-    :::code language="javascript" source="./src/demo/graphtutorial/graphHelper.js" id="GetUserSnippet":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/graphHelper.js" id="GetUserSnippet":::
 
 1. Replace the empty `greetUserAsync` function in **index.js** with the following.
 
-    :::code language="javascript" source="./src/demo/graphtutorial/index.js" id="GreetUserSnippet":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/index.js" id="GreetUserSnippet":::
 
 If you run the app now, after you log in the app welcomes you by name.
 

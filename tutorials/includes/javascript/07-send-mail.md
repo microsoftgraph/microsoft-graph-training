@@ -8,11 +8,11 @@ In this section you will add the ability to send an email message as the authent
 
 1. Open **graphHelper.js** and add the following function.
 
-    :::code language="javascript" source="./src/demo/graphtutorial/graphHelper.js" id="SendMailSnippet":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/graphHelper.js" id="SendMailSnippet":::
 
 1. Replace the empty `sendMailAsync` function in **index.js** with the following.
 
-    :::code language="javascript" source="./src/demo/graphtutorial/index.js" id="SendMailSnippet":::
+    :::code language="javascript" source="./src/user-auth/graphtutorial/index.js" id="SendMailSnippet":::
 
 1. Run the app, sign in, and choose option 3 to send an email to yourself.
 
@@ -20,15 +20,16 @@ In this section you will add the ability to send an email message as the authent
     [1] Display access token
     [2] List my inbox
     [3] Send mail
-    [4] List users (requires app-only)
-    [5] Make a Graph call
+    [4] Make a Graph call
     [0] Exit
 
-    Select an option [1...5 / 0]: 3
+    Select an option [1...4 / 0]: 3
     Mail sent.
     ```
 
     [!INCLUDE [dev-tenant-send-mail](../shared/dev-tenant-send-mail.md)]
+
+1. To verify the message was received, choose option 2 to list your inbox.
 
 ## Code explained
 
