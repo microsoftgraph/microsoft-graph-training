@@ -14,7 +14,7 @@ The Azure Identity library provides a number of `TokenCredential` classes that i
 
 In this section you will use the `ClientSecretCredential` class to request an access token by using the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
-1. Create a new file named **graph.py** and add the following code to that file.
+1. Open **graph.py** and replace its entire contents with the following code.
 
     :::code language="python" source="../src/app-auth/graphapponlytutorial/graph.py" id="AppAuthConfigSnippet":::
 
