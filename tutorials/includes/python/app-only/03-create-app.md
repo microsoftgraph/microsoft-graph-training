@@ -59,6 +59,17 @@ In this section you'll add the details of your app registration to the project.
 
 In this section you will create a simple console-based menu.
 
+1. Create a new file named **graph.py** and add the following code to that file.
+
+    ```python
+    # Temporary placeholder
+    class Graph:
+        def __init__(self, config):
+            self.settings = config
+    ```
+
+    This code is a placeholder. You will implement the `Graph` class in the next section.
+
 1. Open **main.py** and replace its entire contents with the following code.
 
     :::code language="python" source="../src/app-auth/graphapponlytutorial/main.py" id="ProgramSnippet":::

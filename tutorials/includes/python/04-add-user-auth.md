@@ -18,7 +18,7 @@ In this section you will use the `DeviceCodeCredential` class to request an acce
 
     :::code language="python" source="./src/user-auth/graphtutorial/async_auth.py" id="AsyncAuthSnippet":::
 
-1. Create a new file named **graph.py** and add the following code to that file.
+1. Open **graph.py** and replace its entire contents with the following code.
 
     :::code language="python" source="./src/user-auth/graphtutorial/graph.py" id="UserAuthConfigSnippet":::
 
