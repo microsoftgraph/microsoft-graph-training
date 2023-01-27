@@ -77,7 +77,7 @@ APIs that use paging implement a default page size. For messages, the default va
 
 #### Getting subsequent pages
 
-If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The Python SDK exposes this as teh The `odata_next_link` property on collection page objects. If this property is present, there are more results available.
+If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The Python SDK exposes this as the `odata_next_link` property on collection page objects. If this property is present, there are more results available.
 
 ### Sorting collections
 
