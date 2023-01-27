@@ -23,4 +23,4 @@ Before you start this tutorial, you should have the [.NET SDK](https://dotnet.mi
 You should also have a Microsoft work or school account with the Global administrator role. If you don't have a Microsoft account, you can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
 
 > [!NOTE]
-> This tutorial was written with .NET SDK version 6.0.102. The steps in this guide may work with other versions, but that has not been tested.
+> This tutorial was written with .NET SDK version 7.0.102. The steps in this guide may work with other versions, but that has not been tested.
