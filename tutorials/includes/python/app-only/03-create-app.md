@@ -27,13 +27,13 @@ Begin by creating a new Python file.
 Before moving on, add some additional dependencies that you will use later.
 
 - [Azure Identity client library for Python](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity) to authenticate the user and acquire access tokens.
-- [Microsoft Graph Core Python Client Library (preview)](https://github.com/microsoftgraph/msgraph-sdk-python-core) to make calls to the Microsoft Graph.
+- [Microsoft Graph SDK for Python (preview)](https://github.com/microsoftgraph/msgraph-sdk-python) to make calls to the Microsoft Graph.
 
 Run the following commands in your CLI to install the dependencies.
 
 ```bash
 python3 -m pip install azure-identity
-python3 -m pip install msgraph-core
+python3 -m pip install msgraph-sdk
 ```
 
 ## Load application settings
