@@ -26,7 +26,7 @@ In the **Request API permissions** blade, choose the **Microsoft Graph**, then c
 
  ![A screen shot of the Request API permissions blade](../../images/power-automate/select-permissions.png)
 
-Choose the **Certificates and secrets** entry in the **Manage** section of the **MS Graph Batch App** blade, then choose **New client secret**. Enter `forever` in the **Description** and select **Never** under **Expires**. Choose **Add**.
+Choose the **Certificates and secrets** entry in the **Manage** section of the **MS Graph Batch App** blade, then choose **New client secret**. Enter a description, choose a duration, and select **Add**.
 
 ![A screen shot of the Certificate and secrets blade](../../images/power-automate/create-client-secret.png)
 
