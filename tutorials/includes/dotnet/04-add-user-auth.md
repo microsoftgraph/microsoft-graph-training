@@ -18,6 +18,8 @@ In this section you will use the `DeviceCodeCredential` class to request an acce
     using Azure.Core;
     using Azure.Identity;
     using Microsoft.Graph;
+    using Microsoft.Graph.Models;
+    using Microsoft.Graph.Me.SendMail;
 
     class GraphHelper
     {
