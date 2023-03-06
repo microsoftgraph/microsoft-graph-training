@@ -18,6 +18,7 @@ In this section you will use the `ClientSecretCredential` class to request an ac
     using Azure.Core;
     using Azure.Identity;
     using Microsoft.Graph;
+    using Microsoft.Graph.Models;
 
     class GraphHelper
     {
