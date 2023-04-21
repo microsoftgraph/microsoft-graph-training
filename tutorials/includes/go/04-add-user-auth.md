@@ -18,6 +18,9 @@ In this section you will use the `DeviceCodeCredential` class to request an acce
 
     :::code language="go" source="./src/user-auth/graphtutorial/graphhelper/graphhelper.go" id="UserAuthConfigSnippet":::
 
+    > [!TIP]
+    > If you are using **goimports**, some modules may have been auto-removed from your `import` statement in **graphhelper.go** on save. You may need to re-add the modules to build.
+
 1. Replace the empty `initializeGraph` function in **graphtutorial.go** with the following.
 
     :::code language="go" source="./src/user-auth/graphtutorial/graphtutorial.go" id="InitializeGraphSnippet":::
