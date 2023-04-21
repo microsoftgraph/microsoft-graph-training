@@ -18,6 +18,9 @@ In this section you will use the `ClientSecretCredential` class to request an ac
 
     :::code language="go" source="../src/app-auth/graphapponlytutorial/graphhelper/graphhelper.go" id="AppAuthConfigSnippet":::
 
+    > [!TIP]
+    > If you are using **goimports**, some modules may have been auto-removed from your `import` statement in **graphhelper.go** on save. You may need to re-add the modules to build.
+
 1. Replace the empty `initializeGraph` function in **graphapponlytutorial.go** with the following.
 
     :::code language="go" source="../src/app-auth/graphapponlytutorial/graphapponlytutorial.go" id="InitializeGraphSnippet":::
