@@ -39,7 +39,7 @@ Consider the code in the `send_mail` function.
 
 ### Sending mail
 
-The function uses the `user_client.me().send_mail()` request builder, which builds a request to the [Send mail](/graph/api/user-sendmail) API.
+The function uses the `user_client.me.send_mail` request builder, which builds a request to the [Send mail](/graph/api/user-sendmail) API.
 
 ### Creating objects
 
