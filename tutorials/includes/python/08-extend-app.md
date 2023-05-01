@@ -14,7 +14,7 @@ In this section you will add your own Microsoft Graph capabilities to the applic
 
     :::code language="python" source="./src/user-auth/graphtutorial/graph.py" id="MakeGraphCallSnippet":::
 
-1. Replace the empty `list_inbox` function in **main.py** with the following.
+1. Replace the empty `make_graph_call` function in **main.py** with the following.
 
     :::code language="python" source="./src/user-auth/graphtutorial/main.py" id="MakeGraphCallSnippet":::
 
