@@ -6,6 +6,14 @@ ms.localizationpriority: medium
 
 In this section you will extend the application from the previous exercise to support authentication with Azure AD. This is required to obtain the necessary OAuth access token to call the Microsoft Graph.
 
+## Create access token provider
+
+The Microsoft Graph SDK includes authentication providers based on the [PHP League OAuth2 client](https://github.com/thephpleague/oauth2-client). However for this tutorial, you will use the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) to obtain access tokens. The included authentication providers do not implement this flow, so you will implement a custom access token provider.
+
+1. Create a new file in the root directory of your project named **DeviceCodeTokenProvider.php**. Add the following code.
+
+    :::code language="php" source="./src/user-auth/graphtutorial/DeviceCodeTokenProvider.php":::
+
 ## Configure Graph client for user authentication
 
 In this section you will use the `GuzzleHttp\Client` class to request an access token by using the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code).
@@ -14,15 +22,14 @@ In this section you will use the `GuzzleHttp\Client` class to request an access 
 
     ```php
     <?php
-    use Microsoft\Graph\Graph;
-    use Microsoft\Graph\Http;
-    use Microsoft\Graph\Model;
-    use GuzzleHttp\Client;
-
     class GraphHelper {
     }
     ?>
     ```
+
+1. Add the following `using` statements inside the PHP tags.
+
+    :::code language="php" source="./src/user-auth/graphtutorial/GraphHelper.php" id="UseSnippet":::
 
 1. Add the following code to the `GraphHelper` class.
 

@@ -73,7 +73,8 @@
       "branch": "main",
       "branch_mapping": {
         "master": "main",
-        "live": "live"
+        "live": "live",
+        "php-sdk-2x": "php-sdk-2x"
       }
     },
     {
