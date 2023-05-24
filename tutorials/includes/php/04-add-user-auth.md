@@ -39,7 +39,7 @@ In this section you will use the `GuzzleHttp\Client` class to request an access 
 
     :::code language="php" source="./src/user-auth/graphtutorial/main.php" id="InitializeGraphSnippet":::
 
-This code loads information from the .env file, and initializes two properties, a `Client` object and a `Graph` object. The `Client` object will be used to request an access token, and the `Graph` object will be used to make calls to Microsoft Graph.
+This code loads information from the .env file, and initializes two properties, a `DeviceCodeTokenProvider` object and a `GraphServiceClient` object. The `DeviceCodeTokenProvider` object will be used to request an access token, and the `GraphServiceClient` object will be used to make calls to Microsoft Graph.
 
 ## Test the device code flow
 
