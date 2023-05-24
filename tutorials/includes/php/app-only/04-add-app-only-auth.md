@@ -14,15 +14,14 @@ In this section you will use the `GuzzleHttp\Client` class to request an access 
 
     ```php
     <?php
-    use Microsoft\Graph\Graph;
-    use Microsoft\Graph\Http;
-    use Microsoft\Graph\Model;
-    use GuzzleHttp\Client;
-
     class GraphHelper {
     }
     ?>
     ```
+
+1. Add the following `using` statements inside the PHP tags.
+
+    :::code language="php" source="./src/app-auth/graphapponlytutorial/GraphHelper.php" id="UseSnippet":::
 
 1. Add the following code to the `GraphHelper` class.
 
