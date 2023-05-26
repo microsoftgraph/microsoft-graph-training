@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will add the ability to list all users in your Azure Active Directory using app-only authentication.
 
-[!INCLUDE [preview-disclaimer](../preview-disclaimer.md)]
-
 1. Add the following function to **./graphhelper/graphhelper.go**.
 
     :::code language="go" source="../src/app-auth/graphapponlytutorial/graphhelper/graphhelper.go" id="GetUsersSnippet":::

@@ -10,8 +10,6 @@ Begin by initializing a new Go module using the [Go CLI](https://pkg.go.dev/cmd/
 go mod init graphtutorial
 ```
 
-[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
-
 ## Install dependencies
 
 Before moving on, add some additional dependencies that you will use later.
