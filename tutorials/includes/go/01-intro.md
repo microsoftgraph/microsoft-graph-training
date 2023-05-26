@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 This tutorial teaches you how to build a Go console app that uses the Microsoft Graph API to access data on behalf of a user.
 
-[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
-
 > [!NOTE]
 > To learn how to use Microsoft Graph to access data using app-only authentication, see this [app-only authentication tutorial](/graph/tutorials/go-app-only).
 
