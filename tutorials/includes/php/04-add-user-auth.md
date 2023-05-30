@@ -16,7 +16,7 @@ The Microsoft Graph SDK includes authentication providers based on the [PHP Leag
 
 ## Configure Graph client for user authentication
 
-In this section you will use the `GuzzleHttp\Client` class to request an access token by using the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code).
+In this section you will use the `DeviceCodeTokenProvider` class to request an access token by using the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code).
 
 1. Create a new file in the root directory of your project named **GraphHelper.php**. Add the following code.
 

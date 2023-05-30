@@ -8,7 +8,7 @@ In this section you will add app-only authentication to the application. This is
 
 ## Configure Graph client for app-only authentication
 
-In this section you will use the `GuzzleHttp\Client` class to request an access token by using the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+In this section you will use the `PhpLeagueAuthenticationProvider` class to request an access token by using the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
 1. Create a new file in the root directory of your project named **GraphHelper.php**. Add the following code.
 
