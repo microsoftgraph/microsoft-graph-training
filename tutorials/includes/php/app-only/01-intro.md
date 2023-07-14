@@ -20,7 +20,7 @@ In this tutorial, you will:
 
 Before you start this tutorial, you should have [PHP](https://www.php.net/) and [Composer](https://getcomposer.org/) installed on your development machine.
 
-You should also have a Microsoft work or school account with the Global administrator role. If you don't have a Microsoft account, you can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
+[!INCLUDE [account-requirements-app-only](../../shared/account-requirements-app-only.md)]
 
 > [!NOTE]
 > This tutorial was written with PHP version 8.1.5 and Composer version 2.3.5. The steps in this guide may work with other versions, but that has not been tested.
