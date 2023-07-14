@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
 
-    ![A screenshot of the App registrations ](../../images/aad-portal-app-registrations.png)
+    :::image type="content" source="../../images/aad-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
 
 1. Select **New registration**. Enter a name for your application, for example, `Graph User Auth Tutorial`.
 
@@ -26,11 +26,11 @@ ms.localizationpriority: medium
 
 1. Select **Register**. On the application's **Overview** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step. If you chose **Accounts in this organizational directory only** for **Supported account types**, also copy the **Directory (tenant) ID** and save it.
 
-    ![A screenshot of the application ID of the new app registration](../../images/dotnet/aad-application-id.png)
+    :::image type="content" source="../../images/aad-application-id.png" alt-text="A screenshot of the application ID of the new app registration":::
 
 1. Select **Authentication** under **Manage**. Locate the **Advanced settings** section and change the **Allow public client flows** toggle to **Yes**, then choose **Save**.
 
-    ![A screenshot of the Allow public client flows toggle](../../images/aad-default-client-type.png)
+    :::image type="content" source="../../images/aad-default-client-type.png" alt-text="A screenshot of the Allow public client flows toggle":::
 
 ### [PowerShell](#tab/powershell)
 
