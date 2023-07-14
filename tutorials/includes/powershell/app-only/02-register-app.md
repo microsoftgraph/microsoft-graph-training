@@ -63,9 +63,9 @@ In this section you will register an application that will support app-only auth
 
 1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
 
-    ![A screenshot of the App registrations ](../../../images/aad-portal-app-registrations.png)
+    :::image type="content" source="../../../images/aad-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
 
-1. Select **New registration**. Enter a name for your application, for example, `PowerShell Graph Tutorial`.
+1. Select **New registration**. Enter a name for your application, for example, `Graph App-Only Auth Tutorial`.
 
 1. Set **Supported account types** to **Accounts in this organizational directory only**.
 
@@ -73,7 +73,7 @@ In this section you will register an application that will support app-only auth
 
 1. Select **Register**. On the application's **Overview** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID** and save them, you will need these values in the next step.
 
-    ![A screenshot of the application ID of the new app registration](../../../images/dotnet/aad-application-id.png)
+    :::image type="content" source="../../../images/aad-app-only-application-id.png" alt-text="A screenshot of the application ID of the new app registration":::
 
 1. Select **API permissions** under **Manage**.
 
@@ -87,7 +87,7 @@ In this section you will register an application that will support app-only auth
 
 1. Select **Grant admin consent for...**, then select **Yes** to provide admin consent for the selected permission.
 
-    ![A screenshot of the Configured permissions table after granting admin consent](../../../images/aad-configured-permissions.png)
+    :::image type="content" source="../../../images/aad-configured-permissions.png" alt-text="A screenshot of the Configured permissions table after granting admin consent":::
 
 1. Select **Certificates and secrets** under **Manage**, then select **Certificates**.
 
