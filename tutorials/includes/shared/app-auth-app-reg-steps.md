@@ -51,7 +51,7 @@ To use PowerShell, you'll need the Microsoft Graph PowerShell SDK. If you do not
 
 1. Create a new file named **RegisterAppForAppOnlyAuth.ps1** and add the following code.
 
-    :::code language="powershell" source="../src/app-auth/RegisterAppForAppOnlyAuth.ps1" id="ScriptBody":::
+    :::code language="powershell" source="../dotnet/src/app-auth/RegisterAppForAppOnlyAuth.ps1" id="ScriptBody":::
 
 1. Save the file.
 
