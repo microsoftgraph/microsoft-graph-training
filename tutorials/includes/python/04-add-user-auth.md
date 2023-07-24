@@ -18,7 +18,7 @@ In this section you will use the `DeviceCodeCredential` class to request an acce
 
     :::code language="python" source="./src/user-auth/graphtutorial/graph.py" id="UserAuthConfigSnippet":::
 
-    This code declares two private properties, an `AsyncDeviceCodeCredential` object and a `GraphServiceClient` object. The `__init__` function creates a new instance of `AsyncDeviceCodeCredential`, then uses that instance to create a new instance of `GraphServiceClient`. Every time an API call is made to Microsoft Graph through the `user_client`, it will use the provided credential to get an access token.
+    This code declares two private properties, a `DeviceCodeCredential` object and a `GraphServiceClient` object. The `__init__` function creates a new instance of `DeviceCodeCredential`, then uses that instance to create a new instance of `GraphServiceClient`. Every time an API call is made to Microsoft Graph through the `user_client`, it will use the provided credential to get an access token.
 
 1. Add the following function to **graph.py**.
 
