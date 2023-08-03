@@ -2,7 +2,7 @@
 ms.localizationpriority: medium
 ---
 
-<!-- markdownlint-disable MD002 MD041 -->
+<!-- markdownlint-disable MD041 -->
 
 Begin by creating a new .NET console project using the [.NET CLI](/dotnet/core/tools/).
 
