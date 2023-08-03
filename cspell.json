@@ -8,7 +8,30 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [
-        "MSRC"
+        "appsettings",
+        "autoload",
+        "azidentity",
+        "Blazor",
+        "Contoso",
+        "Deyoung",
+        "dotnetcli",
+        "godotenv",
+        "goimports",
+        "gradlew",
+        "graphapponlytutorial",
+        "graphhelper",
+        "graphtutorial",
+        "jasonjoh",
+        "joho",
+        "localizationpriority",
+        "microsoftgraph",
+        "MSRC",
+        "odata",
+        "phpdotenv",
+        "Pisani",
+        "readline",
+        "Userable",
+        "vlucas"
     ],
     "flagWords": [
       "teh"
