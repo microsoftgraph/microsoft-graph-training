@@ -1,0 +1,18 @@
+{
+    "version": "0.2",
+    "ignorePaths": [
+        "cspell.json",
+        "LICENSE",
+        "LICENSE-CODE"
+    ],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "MSRC"
+    ],
+    "flagWords": [
+      "teh"
+    ],
+    "ignoreWords": [],
+    "import": []
+}
