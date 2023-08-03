@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD002 MD041 -->
+<!-- markdownlint-disable MD041 MD051 -->
 
 In this exercise, you will create a new custom connector which can be used in Microsoft Power Automate or in Azure Logic Apps. The OpenAPI definition file is prebuilt with the correct path for the Microsoft Graph `$batch` endpoint and additional settings to enable simple import.
 
