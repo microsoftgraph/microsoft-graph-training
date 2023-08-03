@@ -5,6 +5,7 @@ on:
     branches: [ main, live ]
   push:
     branches: [ main, live ]
+  workflow_dispatch:
 
 jobs:
   lint:
