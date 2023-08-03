@@ -9,6 +9,7 @@
     "dictionaries": [],
     "words": [
         "appsettings",
+        "asyncio",
         "autoload",
         "azidentity",
         "Blazor",
@@ -22,6 +23,7 @@
         "graphapponlytutorial",
         "graphhelper",
         "graphtutorial",
+        "inkey",
         "jasonjoh",
         "joho",
         "keyout",
@@ -35,6 +37,7 @@
         "onenote",
         "phpdotenv",
         "Pisani",
+        "pkcs",
         "readline",
         "Userable",
         "vlucas"
