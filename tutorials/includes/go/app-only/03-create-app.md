@@ -57,7 +57,7 @@ In this section you will create a simple console-based menu.
 
     This creates a basic **GraphHelper** type that you will extend in later sections to use Microsoft Graph.
 
-1. Create a file in the same directory as **go.mod** named **graphtutorial.go**. Add the following code.
+1. Create a file in the same directory as **go.mod** named **graphapponlytutorial.go**. Add the following code.
 
     :::code language="go" source="../src/app-auth/graphapponlytutorial/graphapponlytutorial.go" id="ProgramSnippet":::
 
