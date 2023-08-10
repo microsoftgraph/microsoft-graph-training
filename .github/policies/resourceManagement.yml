@@ -12,8 +12,9 @@ configuration:
           - payloadType: Issues
           - not:
               bodyContains:
-                pattern: "Content Source:"
+                pattern: "Content"
                 isRegex: False
+          - not:
               activitySenderHasAssociation:
                 association: MEMBER
           - isAction:
