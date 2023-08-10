@@ -1,0 +1,82 @@
+id:
+name: GitOps.PullRequestIssueManagement
+description: GitOps.PullRequestIssueManagement primitive
+owner:
+resource: repository
+disabled: false
+where:
+configuration:
+  resourceManagementConfiguration:
+    eventResponderTasks:
+      - if:
+          - payloadType: Issues
+          - activitySenderHasAssociation:
+              association: MEMBER
+          - isAction:
+              action: Opened
+        then:
+          - addReply: You are a member
+        description: Member
+      - if:
+          - payloadType: Issues
+          - activitySenderHasAssociation:
+              association: COLLABORATOR
+          - isAction:
+              action: Opened
+        then:
+          - addReply: You are a collaborator
+        description: Collaborator
+      - if:
+          - payloadType: Issues
+          - activitySenderHasAssociation:
+              association: CONTRIBUTOR
+          - isAction:
+              action: Opened
+        then:
+          - addReply: You are a contributor
+        description: Contributor
+      - if:
+          - payloadType: Issues
+          - activitySenderHasAssociation:
+              association: FIRST_TIMER
+          - isAction:
+              action: Opened
+        then:
+          - addReply: You are a first timer
+        description: First timer
+      - if:
+          - payloadType: Issues
+          - activitySenderHasAssociation:
+              association: FIRST_TIME_CONTRIBUTOR
+          - isAction:
+              action: Opened
+        then:
+          - addReply: You are a first time contributor
+        description: First time contributor
+      - if:
+          - payloadType: Issues
+          - activitySenderHasAssociation:
+              association: MANNEQUIN
+          - isAction:
+              action: Opened
+        then:
+          - addReply: You are a mannequin
+        description: Mannequin
+      - if:
+          - payloadType: Issues
+          - activitySenderHasAssociation:
+              association: NONE
+          - isAction:
+              action: Opened
+        then:
+          - addReply: You have no association
+        description: None
+      - if:
+          - payloadType: Issues
+          - activitySenderHasAssociation:
+              association: OWNER
+          - isAction:
+              action: Opened
+        then:
+          - addReply: You are an owner
+        description: Owner
