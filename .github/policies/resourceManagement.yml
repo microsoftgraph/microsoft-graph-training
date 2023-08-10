@@ -11,10 +11,11 @@ configuration:
       - if:
           - payloadType: Issues
           - not:
-              - bodyContains:
+              bodyContains:
                 pattern: "Content"
                 isRegex: False
-              - activitySenderHasAssociation:
+          - not:
+              activitySenderHasAssociation:
                 association: MEMBER
           - isAction:
               action: Opened
