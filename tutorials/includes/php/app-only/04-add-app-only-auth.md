@@ -45,7 +45,7 @@ Next, add code to get an access token from the `GraphHelper`.
 
     :::code language="php" source="../src/app-auth/graphapponlytutorial/main.php" id="DisplayAccessTokenSnippet":::
 
-1. Build and run the app. Enter `1` when prompted for an option. The application displays a URL and device code.
+1. Build and run the app. Enter `1` when prompted for an option. The application displays the access token it has fetched using the authentication information configured previously in the environment variables.
 
     ```bash
     $ php main.php

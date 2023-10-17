@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will extend the application from the previous exercise to support authentication with Azure AD. This is required to obtain the necessary OAuth access token to call the Microsoft Graph. In this step you will integrate the [Azure Identity Client Module for Go](https://github.com/Azure/azure-sdk-for-go/tree/main/sdk/azidentity) into the application and configure authentication for the [Microsoft Graph SDK for Go](https://github.com/microsoftgraph/msgraph-sdk-go).
 
-[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
-
 The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph client library uses those classes to authenticate calls to Microsoft Graph.
 
 ## Configure Graph client for user authentication

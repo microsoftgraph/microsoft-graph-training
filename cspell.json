@@ -1,0 +1,50 @@
+{
+    "version": "0.2",
+    "ignorePaths": [
+        "cspell.json",
+        "LICENSE",
+        "LICENSE-CODE"
+    ],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "appsettings",
+        "asyncio",
+        "autoload",
+        "azidentity",
+        "Blazor",
+        "Contoso",
+        "Deyoung",
+        "dotnetcli",
+        "giphy",
+        "godotenv",
+        "goimports",
+        "gradlew",
+        "graphapponlytutorial",
+        "graphhelper",
+        "graphtutorial",
+        "inkey",
+        "jasonjoh",
+        "joho",
+        "keyout",
+        "Laravel",
+        "localizationpriority",
+        "microsoftgraph",
+        "msgraph",
+        "MSRC",
+        "newkey",
+        "odata",
+        "onenote",
+        "phpdotenv",
+        "Pisani",
+        "pkcs",
+        "readline",
+        "Userable",
+        "vlucas"
+    ],
+    "flagWords": [
+      "teh"
+    ],
+    "ignoreWords": [],
+    "import": []
+}

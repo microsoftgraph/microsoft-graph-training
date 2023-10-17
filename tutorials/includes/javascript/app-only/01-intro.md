@@ -20,7 +20,7 @@ In this tutorial, you will:
 
 Before you start this tutorial, you should have [Node.js](https://nodejs.org) installed on your development machine.
 
-You should also have a Microsoft work or school account with the Global administrator role. If you don't have a Microsoft account, you can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
+[!INCLUDE [account-requirements-app-only](../../shared/account-requirements-app-only.md)]
 
 > [!NOTE]
 > This tutorial was written with Node.js version 16.14.2. The steps in this guide may work with other versions, but that has not been tested.

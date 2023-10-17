@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 This tutorial teaches you how to build a Go console app that uses the Microsoft Graph API to access data using app-only authentication. App-only authentication is a good choice for background services or applications that need to access data for all users in an organization.
 
-[!INCLUDE [preview-disclaimer](../preview-disclaimer.md)]
-
 > [!NOTE]
 > To learn how to use Microsoft Graph to access data on behalf of a user, see this [user (delegated) authentication tutorial](/graph/tutorials/go).
 
@@ -22,7 +20,7 @@ In this tutorial, you will:
 
 Before you start this tutorial, you should have [Go](https://go.dev/) installed on your development machine.
 
-You should also have a Microsoft work or school account with the Global administrator role. If you don't have a Microsoft account, you can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
+[!INCLUDE [account-requirements-app-only](../../shared/account-requirements-app-only.md)]
 
 > [!NOTE]
 > This tutorial was written with Go version 1.19.3. The steps in this guide may work with other versions, but that has not been tested.

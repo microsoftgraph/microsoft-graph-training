@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will add the ability to send an email message as the authenticated user.
 
-[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
-
 1. Add the following function to **./graphhelper/graphhelper.go**.
 
     :::code language="go" source="./src/user-auth/graphtutorial/graphhelper/graphhelper.go" id="SendMailSnippet":::
