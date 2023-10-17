@@ -31,7 +31,7 @@ In this section you will use the `PhpLeagueAuthenticationProvider` class to requ
 
     :::code language="php" source="../src/app-auth/graphapponlytutorial/main.php" id="InitializeGraphSnippet":::
 
-This code loads information from the .env file, and initializes two properties, a `PhpLeagueAuthenticationProvider` object and a `GraphServiceClient` object. The `PhpLeagueAuthenticationProvider` object will be used to authenticate requests, and the `GraphServiceClient` object will be used to make calls to Microsoft Graph.
+This code loads information from the .env file, and initializes two properties, a `ClientCredentialContext` object and a `GraphServiceClient` object. The `ClientCredentialContext` object will be used to authenticate requests, and the `GraphServiceClient` object will be used to make calls to Microsoft Graph.
 
 ## Test the client credentials flow
 
