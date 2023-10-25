@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will add the ability to list messages in the user's email inbox.
 
-[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
-
 1. Add the following function to **graph.py**.
 
     :::code language="python" source="./src/user-auth/graphtutorial/graph.py" id="GetInboxSnippet":::

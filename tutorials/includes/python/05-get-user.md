@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will incorporate the Microsoft Graph into the application. For this application, you will use the [Microsoft Graph SDK for Python (preview)](https://github.com/microsoftgraph/msgraph-sdk-python) to make calls to Microsoft Graph.
 
-[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
-
 1. Add the following function to **graph.py**.
 
     :::code language="python" source="./src/user-auth/graphtutorial/graph.py" id="GetUserSnippet":::
