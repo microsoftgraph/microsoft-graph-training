@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 In this section you will extend the application from the previous exercise to support authentication with Azure AD. This is required to obtain the necessary OAuth access token to call the Microsoft Graph. In this step you will integrate the [Azure Identity client library for Python](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity) into the application and configure authentication for the [Microsoft Graph SDK for Python (preview)](https://github.com/microsoftgraph/msgraph-sdk-python).
 
-[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
-
 The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph SDK uses those classes to authenticate calls to Microsoft Graph.
 
 ## Configure Graph client for user authentication
