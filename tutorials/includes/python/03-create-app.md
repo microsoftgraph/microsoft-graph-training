@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 
 Begin by creating a new Python file.
 
-[!INCLUDE [preview-disclaimer](preview-disclaimer.md)]
-
 1. Create a new file named **main.py** and add the following code.
 
     ```python
