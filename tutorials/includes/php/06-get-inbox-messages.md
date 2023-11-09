@@ -75,7 +75,7 @@ APIs that use paging implement a default page size. For messages, the default va
 
 #### Getting subsequent pages
 
-If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The PHP SDK exposes this as the `getOdataNextLink` method on collection request objects. If this method returns a non-empty string, there are more results available.
+If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The PHP SDK exposes this as the `getOdataNextLink` method on collection request objects. If this method returns a non-empty string, there are more results available.  For more information, see [Page through a collection using the Microsoft Graph SDKs](/graph/sdks/paging?tabs=PHP).
 
 ### Sorting collections
 
