@@ -68,14 +68,14 @@ Unlike the `getUser` function from the previous section, which returns a single 
 
 #### Default page sizes
 
-APIs that use paging implement a default page size. For messages, the default value is 10. Clients can request more (or less) by using the [$top](/graph/query-parameters#top-parameter) query parameter. In `getInbox`, this is accomplished with the `setPageSize` method on the request builder.
+APIs that use paging implement a default page size. For messages, the default value is 10. Clients can request more (or less) by using the [$top](/graph/query-parameters#top-parameter) query parameter. In `getInbox`, this is accomplished with the `queryParameters->top` property in the query parameters.
 
 > [!NOTE]
-> The value passed in `setPageSize` is an upper-bound, not an explicit number. The API returns a number of messages *up to* the specified value.
+> The value passed in `queryParameters->top` is an upper-bound, not an explicit number. The API returns a number of messages *up to* the specified value.
 
 #### Getting subsequent pages
 
-If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The PHP SDK exposes this as the `isEnd` method on collection request objects. If this method returns false, there are more results available. The next page can be accessed by the `getPage` method.
+If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The PHP SDK exposes this as the `getOdataNextLink` method on collection request objects. If this method returns a non-empty string, there are more results available.
 
 ### Sorting collections
 

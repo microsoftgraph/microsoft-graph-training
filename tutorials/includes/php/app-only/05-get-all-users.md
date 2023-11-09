@@ -48,7 +48,7 @@ In this section you will add the ability to list all users in your Azure Active 
 
 Consider the code in the `getUsers` function.
 
-- It gets a collection of users
-- It uses `$select` to request specific properties
-- It uses `setPageSize` to limit the number of users returned
-- It uses `$orderBy` to sort the response
+- It gets a collection of users.
+- It uses `queryParameters->select` to request specific properties
+- It uses `queryParameters->top` to limit the number of users returned
+- It uses `queryParameters->orderby` to sort the response
