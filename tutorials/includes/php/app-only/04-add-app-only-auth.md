@@ -8,21 +8,20 @@ In this section you will add app-only authentication to the application. This is
 
 ## Configure Graph client for app-only authentication
 
-In this section you will use the `GuzzleHttp\Client` class to request an access token by using the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+In this section you will use the `PhpLeagueAuthenticationProvider` class to request an access token by using the [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
 1. Create a new file in the root directory of your project named **GraphHelper.php**. Add the following code.
 
     ```php
     <?php
-    use Microsoft\Graph\Graph;
-    use Microsoft\Graph\Http;
-    use Microsoft\Graph\Model;
-    use GuzzleHttp\Client;
-
     class GraphHelper {
     }
     ?>
     ```
+
+1. Add the following `using` statements inside the PHP tags.
+
+    :::code language="php" source="../src/app-auth/graphapponlytutorial/GraphHelper.php" id="UseSnippet":::
 
 1. Add the following code to the `GraphHelper` class.
 
@@ -32,7 +31,7 @@ In this section you will use the `GuzzleHttp\Client` class to request an access 
 
     :::code language="php" source="../src/app-auth/graphapponlytutorial/main.php" id="InitializeGraphSnippet":::
 
-This code loads information from the .env file, and initializes two properties, a `Client` object and a `Graph` object. The `Client` object will be used to request an access token, and the `Graph` object will be used to make calls to Microsoft Graph.
+This code loads information from the .env file, and initializes two properties, a `ClientCredentialContext` object and a `GraphServiceClient` object. The `ClientCredentialContext` object will be used to authenticate requests, and the `GraphServiceClient` object will be used to make calls to Microsoft Graph.
 
 ## Test the client credentials flow
 

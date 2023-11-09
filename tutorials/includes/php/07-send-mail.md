@@ -38,7 +38,7 @@ Consider the code in the `sendMail` function.
 
 ### Sending mail
 
-The function passes `/me/sendMail` to the request builder, which builds a request to the [Send mail](/graph/api/user-sendmail) API. The request builder takes a request body that contains the message to send.
+The function uses the `$userClient->me()->sendMail()` request builder, which builds a request to the [Send mail](/graph/api/user-sendmail) API. The request builder takes a request body that contains the message to send.
 
 ### Creating objects
 

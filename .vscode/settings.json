@@ -1,2 +1,34 @@
 {
+    "cSpell.words": [
+        "asyncio",
+        "autoload",
+        "GetOdatanextLink",
+        "goimports",
+        "graphapponlytutorial",
+        "graphhelper",
+        "Laravel",
+        "phpdotenv",
+        "Pisani",
+        "readline",
+        "Userable",
+        "vlucas"
+    ],
+    "cSpell.ignoreWords": [
+        "Contoso",
+        "appsettings",
+        "aspnet",
+        "dotnetcli",
+        "godotenv",
+        "graphtutorial",
+        "inkey",
+        "joho",
+        "keyout",
+        "localizationpriority",
+        "mailfolder",
+        "newkey",
+        "nextstepaction",
+        "odata",
+        "pkcs12",
+        "v2-oauth2-client-creds-grant-flow"
+    ]
 }
