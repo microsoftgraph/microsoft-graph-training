@@ -38,7 +38,7 @@ Consider the code in the `sendMail` function.
 
 ### Sending mail
 
-The function uses the `_userClient.me().sendMail()` request builder, which builds a request to the [Send mail](/graph/api/user-sendmail) API. The request builder takes a `UserSendMailParameterSet` object containing the message to send.
+The function uses the `_userClient.me().sendMail()` request builder, which builds a request to the [Send mail](/graph/api/user-sendmail) API. The request builder takes a `SendMailPostRequestBody` object containing the message to send.
 
 ### Creating objects
 
