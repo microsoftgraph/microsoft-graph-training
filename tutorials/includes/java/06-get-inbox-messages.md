@@ -60,7 +60,7 @@ Consider the code in the `getInbox` function.
 
 ### Accessing well-known mail folders
 
-The function uses the `_userClient.me().mailFolders("inbox").messages()` request builder, which builds a request to the [List messages](/graph/api/user-list-messages) API. Because it includes the `mailFolders("inbox")` request builder, the API will only return messages in the requested mail folder. In this case, because the inbox is a default, well-known folder inside a user's mailbox, it's accessible via its well-known name. Non-default folders are accessed the same way, by replacing the well-known name with the mail folder's ID property. For details on the available well-known folder names, see [mailFolder resource type](/graph/api/resources/mailfolder).
+The function uses the `_userClient.me().mailFolders().byMailFolderId("inbox").messages()` request builder, which builds a request to the [List messages](/graph/api/user-list-messages) API. Because it includes the `byMailFolderId("inbox")` request builder, the API will only return messages in the requested mail folder. In this case, because the inbox is a default, well-known folder inside a user's mailbox, it's accessible via its well-known name. Non-default folders are accessed the same way, by replacing the well-known name with the mail folder's ID property. For details on the available well-known folder names, see [mailFolder resource type](/graph/api/resources/mailfolder).
 
 ### Accessing a collection
 
@@ -68,15 +68,15 @@ Unlike the `getUser` function from the previous section, which returns a single 
 
 #### Default page sizes
 
-APIs that use paging implement a default page size. For messages, the default value is 10. Clients can request more (or less) by using the [$top](/graph/query-parameters#top-parameter) query parameter. In `getInbox`, this is accomplished with the `.top(25)` method.
+APIs that use paging implement a default page size. For messages, the default value is 10. Clients can request more (or less) by using the [$top](/graph/query-parameters#top-parameter) query parameter. In `getInbox`, this is accomplished with the `top` property in the request configuration.
 
 > [!NOTE]
-> The value passed to `.top()` is an upper-bound, not an explicit number. The API returns a number of messages *up to* the specified value.
+> The value set in `top` is an upper-bound, not an explicit number. The API returns a number of messages *up to* the specified value.
 
 #### Getting subsequent pages
 
-If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The Java client library exposes this as the `getNextPage` method on collection page objects. If this method returns non-null, there are more results available.
+If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The Java client library exposes this as the `getOdataNextLink` method on collection response objects. If this method returns non-null, there are more results available.
 
 ### Sorting collections
 
-The function uses the `orderBy` method on the request to request results sorted by the time the message is received (`receivedDateTime` property). It includes the `DESC` keyword so that messages received more recently are listed first. This adds the [$orderby query parameter](/graph/query-parameters#orderby-parameter) to the API call.
+The function uses the `orderBy` property on the request configuration to request results sorted by the time the message is received (`receivedDateTime` property). It includes the `DESC` keyword so that messages received more recently are listed first. This adds the [$orderby query parameter](/graph/query-parameters#orderby-parameter) to the API call.

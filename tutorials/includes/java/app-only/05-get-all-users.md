@@ -46,9 +46,23 @@ In this section you will add the ability to list all users in your Azure Active 
 
 ## Code explained
 
-Consider the code in the `getUsers` function. It is very similar to the code in `getInbox`:
+Consider the code in the `getUsers` function.
 
-- It gets a collection of users
-- It uses `select` to request specific properties
-- It uses `top` to limit the number of users returned
-- It uses `orderBy` to sort the response
+### Accessing a collection
+
+This method returns a collection of users. Most APIs in Microsoft Graph that return a collection do not return all available results in a single response. Instead, they use [paging](/graph/paging) to return a portion of the results while providing a method for clients to request the next "page".
+
+#### Default page sizes
+
+APIs that use paging implement a default page size. For users, the default value is 10. Clients can request more (or less) by using the [$top](/graph/query-parameters#top-parameter) query parameter. In `getUsers`, this is accomplished with the `top` property in the request configuration.
+
+> [!NOTE]
+> The value set in `top` is an upper-bound, not an explicit number. The API returns a number of users *up to* the specified value.
+
+#### Getting subsequent pages
+
+If there are more results available on the server, collection responses include an `@odata.nextLink` property with an API URL to access the next page. The Java client library exposes this as the `getOdataNextLink` method on collection response objects. If this method returns non-null, there are more results available.
+
+### Sorting collections
+
+The function uses the `orderBy` property on the request configuration to request results sorted by the users' display names. This adds the [$orderby query parameter](/graph/query-parameters#orderby-parameter) to the API call.

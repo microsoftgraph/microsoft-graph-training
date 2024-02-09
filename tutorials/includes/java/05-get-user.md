@@ -41,7 +41,7 @@ In this case, the code will call the `GET /me` API endpoint. This is a shortcut 
 
 ### Requesting specific properties
 
-The function uses the `select` method on the request to specify the set of properties it needs. This adds the [$select query parameter](/graph/query-parameters#select-parameter) to the API call.
+The function uses the `select` property on the request configuration to specify the set of properties it needs. This adds the [$select query parameter](/graph/query-parameters#select-parameter) to the API call.
 
 ### Strongly-typed return type
 
