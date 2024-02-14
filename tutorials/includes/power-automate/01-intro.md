@@ -13,7 +13,7 @@ This lab covers both of the scenarios above. First, you will create a custom con
 
 To complete this exercise in this post you will need the following:
 
-- Administrator access to a Microsoft 365 tenancy. If you do not have one, visit the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to sign up of a FREE developer tenant.
+- Administrator access to a Microsoft 365 tenancy. If you don't have a Microsoft 365 tenant, you might qualify for one through the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program); for details, see the [FAQ](/office/developer-program/microsoft-365-developer-program-faq#who-qualifies-for-a-microsoft-365-e5-developer-subscription-). Alternatively, you can [sign up for a 1-month free trial or purchase a Microsoft 365 plan](https://www.microsoft.com/en-us/microsoft-365/try).
 - Access to [Microsoft Power Automate](https://powerautomate.microsoft.com/).
 
 ## Feedback
