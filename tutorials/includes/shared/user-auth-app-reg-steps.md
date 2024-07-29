@@ -4,11 +4,11 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 MD051 -->
 
-### [Azure AD admin center](#tab/aad)
+### [Microsoft Entra admin center](#tab/aad)
 
-1. Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com) and login using a **Work or School Account**.
+1. Open a browser and navigate to the [Azure Portal](https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview) or [Microsoft Entra admin center](https://aad.portal.azure.com) and login using a **Work or School Account**.
 
-1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
+1. Select **Microsoft Entra ID** in the left-hand navigation, then select **App registrations** under **Manage**.
 
     :::image type="content" source="../../images/aad-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
 
@@ -37,7 +37,7 @@ ms.localizationpriority: medium
 To use PowerShell, you'll need the Microsoft Graph PowerShell SDK. If you do not have it, see [Install the Microsoft Graph PowerShell SDK](/graph/powershell/installation) for installation instructions.
 
 > [!IMPORTANT]
-> The PowerShell script requires a work/school account with the Application administrator, Cloud application administrator, or Global administrator role. If your account has the Application developer role, you can register in the Azure AD admin center.
+> The PowerShell script requires a work/school account with the Application administrator, Cloud application administrator, or Global administrator role. If your account has the Application developer role, you can register in the Microsoft Entra admin center.
 
 1. Create a new file named **RegisterAppForUserAuth.ps1** and add the following code.
 
