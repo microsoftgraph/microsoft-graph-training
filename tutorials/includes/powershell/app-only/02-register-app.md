@@ -63,7 +63,7 @@ In this section you will register an application that will support app-only auth
 
 1. Select **Microsoft Entra ID** in the left-hand navigation, expand **Identity**, expand **Applications**, then select **App registrations**.
 
-    :::image type="content" source="../../images/entra-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
+    :::image type="content" source="../../../images/entra-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
 
 1. Select **New registration**. Enter a name for your application, for example, `Graph App-Only Auth Tutorial`.
 
