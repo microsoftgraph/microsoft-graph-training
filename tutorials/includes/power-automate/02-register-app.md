@@ -2,9 +2,11 @@
 
 In this exercise, you will create a new Azure Active Directory Application which will be used to provide the delegated permissions for the custom connector.
 
-Open a browser and navigate to [Azure Active Directory admin center](https://aad.portal.azure.com). Choose the **Azure Active Directory** link in the left navigation menu, then choose the **App registrations** entry in the **Manage** section of the **Azure Active Directory** blade.
+Open a browser and navigate to the [Microsoft Entra admin center](https://entra.microsoft.com) and login using a Global administrator account.
 
-![A screen shot of the Azure Active Directory blade in the Azure Active Directory admin center](../../images/aad-portal-app-registrations.png)
+Select **Microsoft Entra ID** in the left-hand navigation, expand **Identity**, expand **Applications**, then select **App registrations**.
+
+:::image type="content" source="../../images/entra-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
 
 Choose the **New registration** menu item at the top of the **App Registrations** blade.
 
