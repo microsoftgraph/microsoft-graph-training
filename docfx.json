@@ -15,6 +15,7 @@
           "LICENSE",
           "LICENSE-CODE",
           "SECURITY.md",
+          "CODE_OF_CONDUCT.md",
           "ThirdPartyNotices",
           "tutorials/includes/dotnet/src/**",
           "tutorials/includes/go/src/**",

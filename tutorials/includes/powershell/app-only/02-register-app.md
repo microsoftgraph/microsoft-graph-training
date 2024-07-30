@@ -4,7 +4,7 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 MD051 -->
 
-In this exercise you will register a new application in Azure Active Directory to enable [app-only authentication](/graph/auth-v2-service).
+In this exercise you will register a new application in Microsoft Entra to enable [app-only authentication](/graph/auth-v2-service).
 
 ## Create a self-signed certificate
 
@@ -59,11 +59,11 @@ On Linux or MacOS, you can use [OpenSSL](https://www.openssl.org/) to generate t
 
 In this section you will register an application that will support app-only authentication using [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
-1. Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com) and login using a Global administrator account.
+1. Open a browser and navigate to the [Microsoft Entra admin center](https://entra.microsoft.com) and login using a Global administrator account.
 
-1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
+1. Select **Microsoft Entra ID** in the left-hand navigation, expand **Identity**, expand **Applications**, then select **App registrations**.
 
-    :::image type="content" source="../../../images/aad-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
+    :::image type="content" source="../../../images/entra-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
 
 1. Select **New registration**. Enter a name for your application, for example, `Graph App-Only Auth Tutorial`.
 

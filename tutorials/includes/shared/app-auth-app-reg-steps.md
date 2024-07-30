@@ -4,13 +4,13 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 MD051 -->
 
-### [Azure AD admin center](#tab/aad)
+### [Microsoft Entra admin center](#tab/aad)
 
-1. Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com) and login using a Global administrator account.
+1. Open a browser and navigate to the [Microsoft Entra admin center](https://entra.microsoft.com) and login using a Global administrator account.
 
-1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
+1. Select **Microsoft Entra ID** in the left-hand navigation, expand **Identity**, expand **Applications**, then select **App registrations**.
 
-    :::image type="content" source="../../images/aad-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
+    :::image type="content" source="../../images/entra-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
 
 1. Select **New registration**. Enter a name for your application, for example, `Graph App-Only Auth Tutorial`.
 
