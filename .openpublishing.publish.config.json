@@ -61,11 +61,7 @@
     {
       "path_to_root": "tutorials/includes/javascript/src",
       "url": "https://github.com/microsoftgraph/msgraph-training-javascript",
-      "branch": "main",
-      "branch_mapping": {
-        "master": "main",
-        "live": "live"
-      }
+      "branch": "main"
     },
     {
       "path_to_root": "tutorials/includes/php/src",
@@ -106,11 +102,7 @@
     {
       "path_to_root": "tutorials/includes/typescript/src",
       "url": "https://github.com/microsoftgraph/msgraph-training-typescript",
-      "branch": "main",
-      "branch_mapping": {
-        "master": "main",
-        "live": "live"
-      }
+      "branch": "main"
     },
     {
       "path_to_root": "_themes.pdf",
