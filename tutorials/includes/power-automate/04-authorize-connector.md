@@ -5,9 +5,7 @@ The final configuration step to ensure the connector is ready for use is to auth
 > [!IMPORTANT]
 > The following steps requires that you are logged in with administrator privileges.
 
-In [Microsoft Power Automate](https://powerautomate.microsoft.com), go to the **Data** menu item on the left and choose the **Connections** page. Choose the **New Connection** link.
-
-![A screen shot of the New connection button](../../images/power-automate/new-connection.png)
+In [Microsoft Power Automate](https://powerautomate.microsoft.com), choose **Connections** on the left-hand side menu. If **Connections** isn't present in the menu, select **More**. Select the **New connection** link.
 
 Find your custom connector and complete the connection by selecting it, then choosing **Create**. Sign in with your Microsoft 365 tenant administrator's Azure Active Directory account.
 

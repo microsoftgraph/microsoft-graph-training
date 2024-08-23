@@ -2,9 +2,7 @@
 
 In this exercise, you will create a new custom connector which can be used in Microsoft Power Automate or in Azure Logic Apps. The OpenAPI definition file is prebuilt with the correct path for the Microsoft Graph `$batch` endpoint and additional settings to enable simple import.
 
-Open a browser and navigate to [Microsoft Power Automate](https://powerautomate.microsoft.com/). Sign in with your Microsoft 365 tenant administrator account. Choose **Data** on the left-hand side menu, and select the **Custom Connectors** item in the drop-down menu.
-
-![A screen shot of the drop-down menu in Microsoft Power Automate](../../images/power-automate/custom-connectors.png)
+Open a browser and navigate to [Microsoft Power Automate](https://powerautomate.microsoft.com/). Sign in with your Microsoft 365 tenant administrator account. Choose **Custom connectors** on the left-hand side menu. If **Custom connectors** isn't present in the menu, select **More**, then **Discover all**.
 
 There are two options to create a custom connector for Microsoft Graph:
 
@@ -91,10 +89,10 @@ Choose **Create Connector** on the top-right.
 
 ---
 
-After the connector has been created, copy the generated **Redirect URL**.
+After the connector has been created, copy the generated **Redirect URL** from the **Security** tab.
 
 ![A screen shot of the generated Redirect URL](../../images/power-automate/redirect-url.png)
 
-Go back to the registered application in the [Azure Portal](https://aad.portal.azure.com) you created in the previous exercise. Select **Authentication** on the left-hand side menu. Select **Add a platform**, then select **Web**. Enter the redirect URL copied from the previous step in the **Redirect URIs**, then select **Configure**.
+Go back to the registered application in the Microsoft Entra Portal you created in the previous exercise. Select **Authentication** on the left-hand side menu. Select **Add a platform**, then select **Web**. Enter the redirect URL copied from the previous step in the **Redirect URIs**, then select **Configure**.
 
 ![A screen shot of the Reply URLs blade in the Azure portal](../../images/power-automate/update-app-reg.png)
