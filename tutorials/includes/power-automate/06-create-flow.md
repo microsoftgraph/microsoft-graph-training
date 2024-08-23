@@ -6,15 +6,15 @@ In the end your flow will look similar to the following image:
 
 ![A screen shot of the completed flow](../../images/power-automate/completed-flow.png)
 
-Open [Microsoft Power Automate](https://flow.microsoft.com) in your browser and sign in with your Office 365 tenant administrator account. Choose **My flows** in the left-hand navigation. Choose **New**, then **Instant--from blank**. Enter `Create Team` for **Flow name**, then select **Manually trigger a flow** under **Choose how to trigger this flow**. Choose **Create**.
+Open [Microsoft Power Automate](https://flow.microsoft.com) in your browser and sign in with your Office 365 tenant administrator account. Choose **My flows** in the left-hand navigation. Choose **New flow**, then **Instant cloud flow**. Enter `Create Team` for **Flow name**, then select **Manually trigger a flow** under **Choose how to trigger this flow**. Choose **Create**.
 
 Select the **Manually trigger a flow** item, then choose **Add an input**, select **Text** and enter `Name` as the title.
 
 ![A screen shot of the Manually trigger a flow trigger](../../images/power-automate/manually-trigger.png)
 
-Choose **New step** and type `Batch` in the search box. Add the **MS Graph Batch Connector** action. Choose the ellipsis and rename this action to `Batch POST-groups`.
+Choose **+** under the **Manually trigger a flow** item, then select **Add an action**. Type `Batch` in the search box, and set the **Runtime** dropdown to **Custom**. Add the **MS Graph Batch Connector** action. Choose the ellipsis and rename this action to `Batch POST-groups`.
 
-Add the following code into the **body** text box of the action.
+In the **Advanced parameters** dropdown, select **body**. Add the following code into the **Body** text box of the action.
 
 ```json
 {
@@ -41,11 +41,11 @@ Replace each `REPLACE` placeholder by selecting the `Name` value from the manual
 
 ![A screen shot of the dynamic content menu in Microsoft Flow](../../images/power-automate/dynamic-content.png)
 
-Choose **New step**, search for `delay` and add a **Delay** action and configure for 1 minute.
+Choose **+** under the **Batch POST-groups** item, then select **Add an action**. Search for `delay` and add a **Delay** action and configure for 1 minute.
 
-Choose **New step** and type `Batch` in the search box. Add the **MS Graph Batch Connector** action. Choose the ellipsis and rename this action to `Batch PUT-team`.
+Choose **+** under the **Delay** item, then select **Add an action**. Add the **MS Graph Batch Connector** action. Choose the ellipsis and rename this action to `Batch PUT-team`.
 
-Add the following code into the **body** text box of the action.
+In the **Advanced parameters** dropdown, select **body**. Add the following code into the **Body** text box of the action.
 
 ```json
 {
@@ -92,7 +92,7 @@ Choose **Save**, then choose **Test** to execute the flow.
 > [!TIP]
 > If you receive an error like `The template validation failed: 'The action(s) 'Batch_POST-groups' referenced by 'inputs' in action 'Batch_2' are not defined in the template'`, the expression is incorrect and likely references a flow action it cannot find. Ensure that the action name you are referencing matches exactly.
 
-Choose the **I'll perform the trigger** action radio button and choose **Save & Test**. Choose **Continue** in the dialog. Provide a name without spaces, and choose **Run flow** to create a Team.
+Choose the **Manually** action radio button and choose **Test**. Provide a name without spaces, and choose **Run flow** to create a Team.
 
 ![A screen shot of the Run flow dialog](../../images/power-automate/run-flow.png)
 
